@@ -1,6 +1,7 @@
 from decimal import Decimal
 from openai import OpenAI
 from translator.const import PERSONALITY
+from translator.enums import ModelName
 from translator.logger import log_messages_tokens, log_response_tokens
 from translator.models import Message, get_messages_dicts
 from translator.pricing import calculate_response_cost
@@ -11,7 +12,7 @@ class TranslateService:
     def __init__(self, client: OpenAI):
         self.client = client
         self.total_cost = Decimal("0.00")
-        self.model = "gpt-3.5-turbo-1106"
+        self.model = ModelName.GPT_4_1106_PREVIEW
         system_message_token_count = self.check_system_message_token_count()
         self.messages = [
             Message(
