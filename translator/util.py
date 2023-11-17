@@ -5,7 +5,7 @@ def sum_tokens(messages: list[Message]) -> int:
     return sum([message.token_count for message in messages])
 
 
-def get_latest_messages(messages: list[Message], threshold: int = 4000):
+def get_latest_messages(messages: list[Message], threshold: int = 1000):
     total_tokens = sum_tokens(messages)
     if total_tokens <= threshold:
         return messages

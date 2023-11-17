@@ -25,3 +25,7 @@ def format_log(input, log_type: str) -> str:
 
 def log_total_cost(total_cost: Decimal) -> None:
     logging.info(f"Total cost: {total_cost}")
+
+
+def log_grand_total_cost(grand_total_cost: Decimal) -> None:
+    logging.info(f"Grand total cost: {grand_total_cost}")

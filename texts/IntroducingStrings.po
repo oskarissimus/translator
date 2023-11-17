@@ -1,0 +1,23 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: futurecoder\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+
+#. https://futurecoder.io/course/#IntroducingStrings
+msgid "pages.IntroducingStrings.steps.hello_string.text"
+msgstr ""
+"Python pozwala na znacznie więcej niż tylko obliczenia. Tak naprawdę przez jakiś czas nie będziemy się zajmować liczbami ani matematyką. Zamiast tego przyjrzymy się *łańcuchom znaków*. Łańcuchy znaków to w zasadzie fragmenty tekstu. Na przykład, wprowadź do konsoli poniższe polecenie, razem z cudzysłowami (`'`):\n"
+"\n"
+"__program_indented__"
+
+#. https://futurecoder.io/course/#IntroducingStrings
+msgid "pages.IntroducingStrings.steps.final_text.text"
+msgstr ""
+"Konsola po prostu zwraca to samo, ponieważ nie ma nic więcej do obliczenia. `'hello'` jest po prostu równe `'hello'`.\n"
+"\n"
+"Łańcuch znaków to ciąg znaków. Znak to pojedynczy symbol, taki jak litera, cyfra, znak interpunkcyjny, spacja itp. W tym przypadku łańcuch zawiera 5 znaków `hello`. Cudzysłowy nie są częścią łańcucha - są one umieszczone, aby zarówno ludzie, jak i komputery wiedziały, że jest to łańcuch składający się z jakichkolwiek znaków znajdujących się między cudzysłowami."

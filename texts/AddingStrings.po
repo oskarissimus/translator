@@ -1,0 +1,41 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: futurecoder\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+
+
+#. https://futurecoder.io/course/#AddingStrings
+msgid "pages.AddingStrings.steps.hello_world_concat.text"
+msgstr ""
+"Łańcuchy znaków mogą być łączone razem za pomocą `+`, chociaż ma to bardzo odmienne znaczenie niż dodawanie liczb. Na przykład spróbuj:\n"
+"\n"
+"__program_indented__"
+
+#. https://futurecoder.io/course/#AddingStrings
+msgid "pages.AddingStrings.steps.hello_world_space.text"
+msgstr ""
+"Możesz zauważyć, że `+` łączy dwa łańcuchy znaków ze sobą jeden za drugim. Technicznie nazywa się to konkatenacją.\n"
+"\n"
+"Oto ćwiczenie: zmodyfikuj nieco poprzedni kod, tak aby wynikiem było łańcuch znaków `'hello world'`, czyli z odstępem między słowami.\n"
+"\n"
+"A tak przy okazji, jeśli utkniesz, możesz kliknąć ikonę żarówki w prawym dolnym rogu, aby uzyskać wskazówkę."
+
+#. https://futurecoder.io/course/#AddingStrings
+#.     # __code0__:
+#.     'hello ' + 'world'
+#.     'hello' + ' world'
+#.     'hello' + ' ' + 'world'
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.%27world%27
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.%27hello%27
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.%27hello+%27
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.%27+world%27
+msgid "pages.AddingStrings.steps.final_text.text"
+msgstr ""
+"Brawo! Wszystkie z poniższych są prawidłowymi rozwiązaniami:\n"
+"\n"
+"__code0__"

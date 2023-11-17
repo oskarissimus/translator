@@ -1,0 +1,42 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: futurecoder\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+
+
+#. https://futurecoder.io/course/#StoringCalculationsInVariables
+#.     # __code0__:
+#.     __program_indented__
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.__program_indented__
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.text"
+msgstr ""
+"Często będziesz używać zmiennych do przechowywania wyników obliczeń. To pomoże budować bardziej złożone programy. Na przykład, wypróbuj ten program:\n"
+"\n"
+"__code0__"
+
+#. https://futurecoder.io/course/#StoringCalculationsInVariables
+#.     # __code0__:
+#.     word = 'Goodbye'
+#.     print(sentence)
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.word
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.sentence
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.%27Goodbye%27
+msgid "pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.text"
+msgstr ""
+"Teraz `sentence` ma wartość `'Hello World'`, która może być używana wielokrotnie. Zwróć uwagę, że będzie ona miała tę wartość tak długo, aż nie zostanie jej bezpośrednio przypisana na nowo, np. za pomocą innego polecenia, takiego jak `sentence = <coś>`. Na przykład, dodaj te dwie linie na końcu programu:\n"
+"\n"
+"__code0__"
+
+#. https://futurecoder.io/course/#StoringCalculationsInVariables
+msgid "pages.StoringCalculationsInVariables.steps.final_text.text"
+msgstr ""
+"W przeciwieństwie do arkusza kalkulacyjnego, gdzie formuły aktualizują się "
+"automatycznie, zmienna taka jak `sentence` nie pamięta, jak została "
+"obliczona i nie zmieni się, jeżeli wartości bazowe `word` lub `name` zostaną"
+" zmienione."

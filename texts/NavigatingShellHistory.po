@@ -1,0 +1,22 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: futurecoder\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+
+
+#. https://futurecoder.io/course/#NavigatingShellHistory
+msgid "pages.NavigatingShellHistory.steps.final_text.text"
+msgstr ""
+"Oto wskazówka: często będziesz chciał ponownie uruchomić wcześniej "
+"wprowadzony fragment kodu lub jego nieco zmodyfikowaną wersję. Możesz "
+"skorzystać z kopiowania i wklejania, ale jest to żmudne i utrudnia "
+"eksperymentowanie. Lepszą metodą jest naciśnięcie klawisza ze strzałką w "
+"górę na klawiaturze. Spowoduje to wstawienie poprzedniej linii kodu do "
+"konsoli. Naciskaj go kolejno, aby cofnąć się dalej w historii i jeśli "
+"przejdziesz za daleko, naciśnij klawisz ze strzałką w dół, aby przejść w "
+"drugą stronę. Wypróbuj to teraz."

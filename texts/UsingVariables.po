@@ -1,0 +1,85 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: futurecoder\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+
+
+#. https://futurecoder.io/course/#UsingVariables
+#.     # __code0__:
+#.     word = 'Hello'
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.word
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.%27Hello%27
+msgid "pages.UsingVariables.steps.name_assign.text"
+msgstr ""
+"Wcześniej stworzyliśmy zmienną o nazwie `word` z wartością `'Hello'` za pomocą tego kodu:\n"
+"\n"
+"__code0__\n"
+"\n"
+"Teraz stwórz zmienną o nazwie `your_name`, której wartością będzie inny łańcuch znaków.\n"
+"\n"
+"(Znak `_` w `your_name` nazywany jest *podkreśleniem (underscore)*. Używaj go do oddzielania słów, kiedy chcesz stworzyć nazwę zmiennej składającą się z wielu słów. Można go wpisać na większości klawiatur, naciskając jednocześnie klawisz Shift i myślnik/kreskę/minus (`-`).)"
+
+#. https://futurecoder.io/course/#UsingVariables
+msgid "pages.UsingVariables.steps.hello_plus_name.text"
+msgstr ""
+"Możesz używać zmiennych w obliczeniach tak samo, jak używałbyś dosłownych wartości. Na przykład, spróbuj:\n"
+"\n"
+"__program_indented__"
+
+#. https://futurecoder.io/course/#UsingVariables
+#.     # __code0__:
+#.     __program_indented__
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.__program_indented__
+msgid "pages.UsingVariables.steps.word_plus_name.text"
+msgstr ""
+"Albo po prostu możesz dodawać do siebie zmienne. Spróbuj:\n"
+"\n"
+"__code0__"
+
+#. https://futurecoder.io/course/#UsingVariables
+msgid "pages.UsingVariables.steps.word_plus_name_with_space.text"
+msgstr ""
+"Ups... to nie wygląda ładnie. Czy możesz zmodyfikować powyższy kod, tak aby "
+"między słowem a twoim imieniem była spacja?"
+
+#. https://futurecoder.io/course/#UsingVariables
+#.     # __code0__:
+#.     __program_indented__
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.__program_indented__
+msgid "pages.UsingVariables.steps.word_assign_goodbye.text"
+msgstr ""
+"Doskonale!\n"
+"\n"
+"Zmienne mogą również zmieniać swoje wartości z czasem. Obecnie `word` ma wartość `'Hello'`. Możesz zmienić jej wartość w ten sam sposób, w jaki ustawiałeś ją po raz pierwszy. Uruchom to:\n"
+"\n"
+"__code0__"
+
+#. https://futurecoder.io/course/#UsingVariables
+msgid "pages.UsingVariables.steps.goodbye_plus_name.text"
+msgstr ""
+"Teraz zaobserwuj efekt tej zmiany, uruchamiając ponownie `__program__`."
+
+#. https://futurecoder.io/course/#UsingVariables
+#.     # __code0__:
+#.     __program_indented__
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.__program_indented__
+msgid "pages.UsingVariables.steps.first_print.text"
+msgstr ""
+"Te cudzysłowy wokół łańcuchów znaków zaczynają być irytujące. Spróbuj uruchomić to:\n"
+"\n"
+"__code0__"
+
+#. https://futurecoder.io/course/#UsingVariables
+msgid "pages.UsingVariables.steps.final_text.text"
+msgstr ""
+"Hura! Już więcej bez cudzysłowów! Wyjaśnimy, co dzieje się w tym kodzie "
+"później. Na razie wystarczy wiedzieć, że `print(<coś>)` wyświetla `<coś>` w "
+"konsoli. W szczególności pokazuje faktyczną zawartość łańcuchów znaków, na "
+"której zazwyczaj nam zależy, zamiast reprezentacji łańcuchów znaków "
+"odpowiednich dla kodu, gdzie występują takie rzeczy jak cudzysłowy. Słowo "
+"`print` tutaj nie ma nic wspólnego z drukowaniem tuszem na papierze."

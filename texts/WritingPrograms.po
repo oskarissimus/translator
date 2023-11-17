@@ -1,0 +1,39 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: futurecoder\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+
+
+
+
+#. https://futurecoder.io/course/#WritingPrograms
+#.     # __code0__:
+#.     __program_indented__
+#. https://poeditor.com/projects/view_terms?id=490053&search=code_bits.__program_indented__
+msgid "pages.WritingPrograms.steps.editor_hello_world.text"
+msgstr ""
+"Nadszedł czas, aby przestać robić wszystko w konsoli. W prawym górnym rogu widzisz *edytor*. To miejsce, gdzie możesz pisać i uruchamiać dłuższe programy. Konsola jest świetna i powinieneś nadal jej używać do eksploracji, ale to w edytorze mieszkają prawdziwe programy.\n"
+"\n"
+"Wpisz poniższy program do edytora, a następnie kliknij przycisk 'Uruchom':\n"
+"\n"
+"__code0__"
+
+#. https://futurecoder.io/course/#WritingPrograms
+msgid "pages.WritingPrograms.steps.final_text.text"
+msgstr ""
+"Gratulacje, uruchomiłeś swój pierwszy prawdziwy program!\n"
+"\n"
+"Poświęć trochę czasu, aby zrozumieć ten program. Python wykonuje każdą linię po kolei, od góry do dołu. Powinieneś spróbować symulować ten proces w swojej głowie - zastanów się, co robi każda linia. Zobacz, jak zmieniła się wartość `word` i jaki miało to wpływ. Zauważ, że kiedy używane jest kilka razy `print`, każda rzecz (w tym przypadku `Hello World` i `Goodbye World`) jest drukowana w osobnej linii.\n"
+"\n"
+"Kilka rzeczy, które warto zauważyć o programach w edytorze:\n"
+"\n"
+"1. Program wykonuje się w konsoli, co oznacza, że zmienne zdefiniowane w programie istnieją teraz w konsoli z ostatnimi wartościami, które miały w programie. Pozwala ci to na eksplorację w konsoli po zakończeniu programu. Na przykład `name` ma teraz wartość `'World'` w konsoli.\n"
+"2. Programy działają w izolacji – nie zależą od wcześniej zdefiniowanych zmiennych. Konsola jest resetowana i wszystkie poprzednie zmienne są usuwane. Więc chociaż `word` obecnie istnieje w konsoli, jeśli usuniesz pierwszą linię programu i uruchomisz go ponownie, otrzymasz błąd o niezdefiniowanym `word`.\n"
+"3. Jeśli wprowadzasz kod w konsoli i ma on wartość, ta wartość zostanie automatycznie wyświetlona. Dla programów w edytorze to się nie dzieje - musisz wydrukować wartości. Jeśli usuniesz `print()` z programu, zmieniając dwie linie na tylko `word + ' ' + name`, nic nie zostanie wyświetlone.\n"
+"\n"
+"Polecam sprawdzić to wszystko samodzielnie."
