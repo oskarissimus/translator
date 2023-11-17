@@ -1,4 +1,3 @@
-```plaintext
 #
 msgid ""
 msgstr ""
@@ -68,4 +67,3 @@ msgstr ""
 
 msgid "pages.BasicForLoopExercises.title"
 msgstr "Podstawowe Ćwiczenia z Pętlą For"
-```

@@ -123,7 +123,7 @@ msgstr ""
 
 msgid "pages.IntroducingLists.steps.strings_sum_bonus.hints.4.text"
 msgstr ""
-"Niestety nie ma "odejmowania" w ciągach znaków; nie możesz dodać "
+"Niestety nie ma \"odejmowania\" w ciągach znaków; nie możesz dodać "
 "ostatniego separatora, a następnie go usunąć."
 
 msgid "pages.IntroducingLists.steps.strings_sum_bonus.hints.5.text"

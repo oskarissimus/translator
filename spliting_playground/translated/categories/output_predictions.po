@@ -1,8 +1,2 @@
-```
-#
-msgid ""
-msgstr ""
-
 msgid "output_predictions.Error"
 msgstr "Błąd"
-```

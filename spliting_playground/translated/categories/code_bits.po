@@ -694,5 +694,3 @@ msgstr "wiek"
 msgid "code_bits.all_equal1"
 msgstr "wszystkie_są_równe1"
 
-msgid "code_bits.all_equal2"
-msgstr

@@ -1,4 +1,3 @@
-```
 #
 msgid ""
 msgstr ""
@@ -72,4 +71,3 @@ msgstr ""
 
 msgid "pages.UsingBreak.title"
 msgstr "Użycie `break` do wcześniejszego zakończenia pętli"
-```
