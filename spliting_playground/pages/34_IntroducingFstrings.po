@@ -1,0 +1,159 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingFstrings.steps.introduce_f_strings.text"
+msgstr ""
+"So far we have been combining strings by concatenating them using `+`, like:\n"
+"\n"
+"    __copyable__\n"
+"__code0__\n"
+"\n"
+"However this gets a bit cumbersome. We can write the same thing more elegantly using an *f-string*.\n"
+"Replace the last line of the program above with the line below and run it.\n"
+"Make sure you include the `f` before the string.\n"
+"\n"
+"__code1__"
+
+msgid "pages.IntroducingFstrings.steps.concatenate_string_number.text"
+msgstr ""
+"The syntax of an f-string starts with `f` followed by a string.\n"
+"The f-string can contain names of variables inside curly brackets `{}`.\n"
+"They will be replaced with the values of those variables converted to strings.\n"
+"The variables can be anything: strings, numbers, lists, etc.\n"
+"\n"
+"Therefore f-strings let you easily combine strings and numbers, which can't\n"
+"just be added together. For example run the following program:\n"
+"\n"
+"    __copyable__\n"
+"__code0__"
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.text"
+msgstr ""
+"This fails because we cannot use `+` between the string `\"Hello Alice. You are \"` and the number `age`.\n"
+"\n"
+"Fix this by replacing all the string concatenations (+) with a single f-string."
+
+msgid "pages.IntroducingFstrings.steps.eval_expr_inside_f_string.text"
+msgstr ""
+"In addition to variables, an f-string can actually contain any Python expression inside curly brackets.\n"
+"Try this in the shell:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.text"
+msgstr ""
+"As you can see we can define an f-string using double quotes too, like we can a normal string.\n"
+"And like quotes, f-strings are just notation. Once they are evaluated the computer forgets\n"
+"that an f-string was used, it just stores the final result as a normal string.\n"
+"\n"
+"Here is a very broken program:\n"
+"\n"
+"    __copyable__\n"
+"    people = [\"Alice\", \"Bob\", \"Charlie\"]\n"
+"    print('There are' + people.length() + 'people waiting, the first one's name is' + people.1 + '.')\n"
+"\n"
+"Fix it!\n"
+"Your solution should work for any list of strings named `people`.\n"
+"For example, in the above case it should print:\n"
+"\n"
+"    There are 3 people waiting, the first one's name is Alice."
+
+msgid "pages.IntroducingFstrings.steps.final_text.text"
+msgstr ""
+"Excellent!\n"
+"\n"
+"From now on, you are encouraged to use f-strings instead of `+` to build up your strings where possible."
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.0.text"
+msgstr "This is just like the given f-string example."
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.1.text"
+msgstr "Did you forget the `f`?"
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.2.text"
+msgstr "How many pairs of curly brackets do you need?"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.0.text"
+msgstr "There are four problems with the expression inside `print`."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.1.text"
+msgstr "There is a problem with the syntax that finds the number of people."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.2.text"
+msgstr "Then one of the strings has a problem with the quotes."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.3.text"
+msgstr ""
+"Also there is a problem with the syntax that finds the first person's name."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.4.text"
+msgstr "And you can't add strings and numbers together!"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.5.text"
+msgstr "Did you properly use curly brackets in your f-string?"
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.0"
+msgstr "\"Hello \" + name + \". You are \" + age + \" years old.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.1"
+msgstr "Hello name. You are age years old."
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.2"
+msgstr "Hello Alice. You are 20 years old."
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.3"
+msgstr "Hello 'Alice'. You are 20 years old."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.0"
+msgstr "f\"{name} went to {meal} with {friend}.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.1"
+msgstr "\"{name} went to {meal} with {friend}.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.2"
+msgstr "{name} went to {meal} with {friend}."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.3"
+msgstr "'name' went to 'meal' with 'friend'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.4"
+msgstr "name went to meal with friend."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.5"
+msgstr "\"Alice\" went to \"lunch\" with 'Bob'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.6"
+msgstr "'Alice' went to 'lunch' with 'Bob'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.7"
+msgstr "\"Alice went to lunch with Bob.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.8"
+msgstr "Alice went to lunch with Bob."
+
+msgid "pages.IntroducingFstrings.title"
+msgstr "f-strings"
+
+msgid "pages.IntroducingFstrings.steps.introduce_f_strings.requirements"
+msgstr ""
+"Run the program above, but replace this code inside the `print()`:\n"
+"\n"
+"__code0__\n"
+"\n"
+"with:\n"
+"\n"
+"__code1__"

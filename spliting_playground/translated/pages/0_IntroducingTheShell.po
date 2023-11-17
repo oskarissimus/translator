@@ -1,0 +1,43 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingTheShell.steps.first_expression.text"
+msgstr ""
+"Po prawej stronie znajduje się *shell*. To miejsce do uruchamiania niewielkich fragmentów kodu Python. Wystarczy wpisać jakiś kod, nacisnąć enter, i to wszystko działa! Spróbuj teraz:\n"
+"\n"
+"1. Kliknij gdziekolwiek na shellu (czarny obszar).\n"
+"2. Wpisz `__program__`\n"
+"3. Naciśnij klawisz Enter na klawiaturze."
+
+msgid "pages.IntroducingTheShell.steps.more_calculation.text"
+msgstr ""
+"Świetnie! Python ocenił `1+2` i otrzymał wynik `3`, więc shell wyświetla to.\n"
+"\n"
+"Shell to prawdopodobnie najważniejsze narzędzie do nauki Pythona i powinieneś spędzać dużo czasu na eksperymentowaniu i odkrywaniu go. Bądź ciekawy! Nieustannie zadawaj sobie pytanie \"Co by się stało, gdybym uruchomił X?\" i natychmiast odpowiadaj na to pytanie, uruchamiając to. Nigdy nie bój się próbować czegoś nowego - jeśli zrobisz coś nie tak, nic złego się nie stanie.\n"
+"\n"
+"Spróbuj teraz wykonać więcej obliczeń. Możesz mnożyć liczby używając `*`, dzielić za pomocą `/`, a odejmować z `-`. Możesz także użyć nawiasów, czyli `(` i `)`."
+
+msgid "pages.IntroducingTheShell.steps.final_text.text"
+msgstr ""
+"Doskonale! Kontynuuj eksperymentowanie. Gdy będziesz gotowy, kliknij 'Dalej', aby kontynuować."
+
+msgid "pages.IntroducingTheShell.steps.first_expression.messages.anything_else.text"
+msgstr ""
+"Wspaniale, próbujesz własnych eksperymentów!\n"
+"To dobry znak. Kontynuuj w tym duchu.\n"
+"Tylko informuję, że ostatecznie musisz wpisać `1+2`, aby książka mogła przejść dalej."
+
+msgid "pages.IntroducingTheShell.title"
+msgstr "Wprowadzenie do Shella"
+
+msgid "pages.IntroducingTheShell.steps.more_calculation.special_messages.multiply_with_x.text"
+msgstr ""
+"Widzę 'x'. Jeśli próbujesz mnożyć, użyj gwiazdki, np.:\n"
+"\n"
+"__code0__"
+
+msgid "pages.IntroducingTheShell.steps.more_calculation.requirements"
+msgstr ""
+"Uruchom kod w shellu podobny do `1 + 2`, ale zamiast `+` użyj `*`, `/`, "
+"lub `-`."

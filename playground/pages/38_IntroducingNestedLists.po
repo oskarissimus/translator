@@ -1,0 +1,190 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingNestedLists.steps.string_list_exercise.text"
+msgstr ""
+"Ćwiczenie: mając daną listę łańcuchów znaków, wypisz pierwszą literę drugiego łańcucha z listy. Na przykład, mając:\n"
+"\n"
+"    __copyable__\n"
+"__code0__\n"
+"\n"
+"powinieneś/powinnaś wypisać `d`."
+
+msgid "pages.IntroducingNestedLists.steps.double_subscripting.text"
+msgstr ""
+"Możesz to rozwiązać tak:\n"
+"\n"
+"__code0__\n"
+"\n"
+"Istnieje jednak krótszy sposób. `strings[1]` jest wyrażeniem tak samo jak każde inne i indeksowanie jak `[0]` może być użyte na dowolnym wyrażeniu, nie tylko na zmiennych.\n"
+"Więc możesz pominąć zmienną pośrednią i zrobić to jedną linią:\n"
+"\n"
+"__code1__\n"
+"\n"
+"Przyjrzyj się dobrze tej składni. Jeśli wydaje się nowa i wyszukana, nie jest.\n"
+"To po prostu zwykła składnia indeksowania, zastosowana dwukrotnie.\n"
+"Wypróbuj to w `birdseye`, aby zobaczyć, jak Python dzieli to na mniejsze części."
+
+msgid "pages.IntroducingNestedLists.steps.double_subscripting_exercise.text"
+msgstr ""
+"Używając tej składni, zmodyfikuj program, aby wypisać ostatnią literę przedostatniego łańcucha znaków w liście `strings`.\n"
+"Musisz użyć pojedynczego wyrażenia podobnego do powyższego, i nie wolno Ci używać `len`.\n"
+"Twoje rozwiązanie powinno działać dla dowolnej niepustej listy łańcuchów znaków.\n"
+"Dla wcześniej podanego przykładu wejściowego powinno wypisać `f`."
+
+msgid "pages.IntroducingNestedLists.steps.first_nested_list_example.text"
+msgstr ""
+"Dobra robota!\n"
+"\n"
+"Podwójne stosowanie indeksowania może być jeszcze bardziej potężne.\n"
+"Można je zastosować nie tylko do listy łańcuchów znaków, ale również do *listy list*.\n"
+"Na przykład, co wypisze poniższy program?\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.IntroducingNestedLists.steps.triple_subscripting.text"
+msgstr ""
+"Jak widzisz, Python pozwala na posiadanie *zagnieżdżonych list*: list, gdzie każdy element jest inną listą (nazywamy je *podlistami*).\n"
+"\n"
+"Możemy stosować indeksowanie nawet więcej niż dwa razy.\n"
+"Napisz program, który bierze zagnieżdżoną listę `strings` jak powyżej,\n"
+"i wypisuje **pierwszą literę trzeciego łańcucha znaków w drugiej podliście**.\n"
+"Użyj tylko pojedynczego wyrażenia, podobnie jak w poprzednim ćwiczeniu.\n"
+"Na przykład, dla listy powyżej, powinien wypisać `y`."
+
+msgid "pages.IntroducingNestedLists.steps.final_text.text"
+msgstr ""
+"Świetnie! Teraz bardzo dobrze rozumiesz zagnieżdżone indeksowanie.\n"
+"\n"
+"Wciąż możemy używać wszystkich metod list i funkcji, których się wcześniej nauczyliśmy.\n"
+"Na przykład możemy dodać nowe słowo do ostatniej podlisty `strings` za pomocą `append`,\n"
+"żeby znalazło się po `'you'`:\n"
+"\n"
+"__code0__\n"
+"\n"
+"Przecież podlista `strings[1]` jest nadal listą jak każda inna!\n"
+"\n"
+"Na następnej stronie nauczymy się jak iterować po zagnieżdżonych listach."
+
+msgid "pages.IntroducingNestedLists.steps.string_list_exercise.hints.0.text"
+msgstr "How can you access the second string in the list?"
+
+msgid "pages.IntroducingNestedLists.steps.string_list_exercise.hints.1.text"
+msgstr "Then how do you access a particular letter in a string?"
+
+msgid "pages.IntroducingNestedLists.steps.string_list_exercise.hints.2.text"
+msgstr "Remember that the indexing of lists and strings are very similar."
+
+msgid ""
+"pages.IntroducingNestedLists.steps.double_subscripting_exercise.hints.0.text"
+msgstr "This is very similar to the previous exercise."
+
+msgid ""
+"pages.IntroducingNestedLists.steps.double_subscripting_exercise.hints.1.text"
+msgstr ""
+"Do you remember how to access the last position of a list (without using "
+"`len`)?"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.double_subscripting_exercise.hints.2.text"
+msgstr "Similarly how do you access the second-to-last position in a list?"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.double_subscripting_exercise.hints.3.text"
+msgstr "If you can't remember, you can Google it!"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.double_subscripting_exercise.hints.4.text"
+msgstr "Indexing works similarly on lists and strings."
+
+msgid ""
+"pages.IntroducingNestedLists.steps.double_subscripting_exercise.hints.5.text"
+msgstr ""
+"Do you get an `index out of range` error? Is it for a string, or a list? "
+"Why?"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.double_subscripting_exercise.hints.6.text"
+msgstr ""
+"Make sure you are not confusing the order of the list index and the string "
+"index."
+
+msgid ""
+"pages.IntroducingNestedLists.steps.double_subscripting_exercise.hints.7.text"
+msgstr "Use `birdseye` if you're having trouble."
+
+msgid "pages.IntroducingNestedLists.steps.triple_subscripting.hints.0.text"
+msgstr "This is very similar to the previous exercises."
+
+msgid "pages.IntroducingNestedLists.steps.triple_subscripting.hints.1.text"
+msgstr "How many times do you need to use subscripting?"
+
+msgid "pages.IntroducingNestedLists.steps.triple_subscripting.hints.2.text"
+msgstr "First you need to access a sublist."
+
+msgid "pages.IntroducingNestedLists.steps.triple_subscripting.hints.3.text"
+msgstr "Then a string in that sublist."
+
+msgid "pages.IntroducingNestedLists.steps.triple_subscripting.hints.4.text"
+msgstr "Then a letter in that string."
+
+msgid "pages.IntroducingNestedLists.steps.triple_subscripting.hints.5.text"
+msgstr "Use `birdseye` if you're having trouble."
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.0"
+msgstr "hello"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.1"
+msgstr "there"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.10"
+msgstr "a"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.2"
+msgstr "how"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.3"
+msgstr "are"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.4"
+msgstr "you"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.5"
+msgstr "['hello', 'there']"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.6"
+msgstr "['how', 'are', 'you']"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.7"
+msgstr "h"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.8"
+msgstr "t"
+
+msgid ""
+"pages.IntroducingNestedLists.steps.first_nested_list_example.output_prediction_choices.9"
+msgstr "e"
+
+msgid "pages.IntroducingNestedLists.steps.first_nested_list_example.program"
+msgstr ""
+"strings = [['hello', 'there'], ['how', 'are', 'you']]\n"
+"print(strings[1][0])"
+
+msgid "pages.IntroducingNestedLists.title"
+msgstr "Introducing Nested Lists"
+
+msgid "pages.IntroducingNestedLists.steps.double_subscripting.requirements"
+msgstr ""
+"Run `print(strings[1][0])` or something similar using `birdseye` to see how "
+"it works."

@@ -1,0 +1,163 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.TestingFunctions.steps.introducing_assert_equal.text"
+msgstr ""
+"Ważnym elementem pisania programów jest sprawdzanie, czy działają poprawnie. Możesz to zrobić ręcznie, np. sprawdzając, czy\n"
+"`print(double(5))` wypisuje `10`, ale tego typu czynności mogą szybko stać się męczące.\n"
+"Przydatne jest pisanie programów, które testują twoje programy. To nazywa się *automatycznym testowaniem*,\n"
+"a programy to *testy*.\n"
+"\n"
+"Oto prosta funkcja `assert_equal`, która pomoże nam pisać testy:\n"
+"\n"
+"__code0__\n"
+"\n"
+"\n"
+"(Co to za funkcja `repr`? Spróbuj `print(f\"{'abc'} {repr('abc')}\")`, żeby zobaczyć jedną różnicę, ale nie martw się tym zbytnio.)\n"
+"\n"
+"To nie jest standardowa część Pythona (choć podobne funkcje istnieją), ale dodaliśmy ją do twojego środowiska programistycznego\n"
+"żebyś zawsze mógł z niej korzystać. Oto przykład użycia, który możesz wypróbować:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.TestingFunctions.steps.make_tests_fail.text"
+msgstr ""
+"Komunikaty OK mówią nam, że testy przeszły. Nasza funkcja `double` wydaje się działać poprawnie. Zmień ją tak, żeby zwracała\n"
+"`x * 3` i zobacz co się stanie."
+
+msgid "pages.TestingFunctions.steps.complete_quadruple_tests.text"
+msgstr ""
+"Świetnie! Nasze testy nie przeszły! Oczywiście to zazwyczaj nie jest dobra rzecz, ale mówi nam, że testy\n"
+"sprawdzają swoje zadanie. Upewnią się, że nasza implementacja `double` jest poprawna.\n"
+"\n"
+"Praktykujmy ten nowy koncept. Poniżej znajduje się funkcja `quadruple` z wcześniej z niektórymi niekompletnymi testami.\n"
+"Napraw program, dodając brakujące argumenty do wywołania `assert_equal`.\n"
+"\n"
+"__code0__"
+
+msgid "pages.TestingFunctions.steps.surround_exercise.text"
+msgstr ""
+"Kolejną przydatną rzeczą dotyczącą testów jest to, że każdy może je przeczytać i zobaczyć jasne, jednoznaczne przykłady\n"
+"tego, co funkcja robi. Jest to pomocne, gdy funkcja jest skomplikowana i trudna do opisania po angielsku.\n"
+"\n"
+"Na przykład, oto kilka testów:\n"
+"\n"
+"__code0__\n"
+"\n"
+"Nie muszę wyjaśniać, co robi `surround`, możesz zobaczyć sam.\n"
+"\n"
+"Napisz funkcję `surround`, która przejdzie te testy i zaczyna się tak:\n"
+"\n"
+"__code1__"
+
+msgid "pages.TestingFunctions.steps.alert_exercise.text"
+msgstr ""
+"Doskonale! Teraz napisz funkcję `alert`, która przejdzie te testy:\n"
+"\n"
+"__code0__\n"
+"\n"
+"Ciało funkcji `alert` nie może zawierać `+`. Użyj zamiast tego `surround`. Twoja funkcja powinna zaczynać się tak:\n"
+"\n"
+"__code1__"
+
+msgid "pages.TestingFunctions.steps.final_text.text"
+msgstr "Świetna robota! Te narzędzia będą bardzo przydatne w kolejnych rozdziałach."
+
+msgid "pages.TestingFunctions.steps.surround_exercise.hints.0.text"
+msgstr "Argument `sides` powinien być dodany przed i po `string`."
+
+msgid "pages.TestingFunctions.steps.surround_exercise.hints.1.text"
+msgstr "Użyj konkatenacji łańcuchów znaków, aby to osiągnąć."
+
+msgid "pages.TestingFunctions.steps.surround_exercise.hints.2.text"
+msgstr "Upewnij się, że treść jest z wcięciem."
+
+msgid "pages.TestingFunctions.steps.surround_exercise.hints.3.text"
+msgstr "Spraw, aby na końcu zwracać coś za pomocą `return`."
+
+msgid "pages.TestingFunctions.steps.surround_exercise.hints.4.text"
+msgstr ""
+"Upewnij się, że nie wywołujesz `surround` wewnątrz ciała funkcji "
+"`surround`. Sprawdź swoje wcięcia."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.0.text"
+msgstr ""
+"`string` powinien być otoczony jedną spacją i `level` wykrzyknikami "
+"(`!`) z obu stron."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.1.text"
+msgstr ""
+"Dołącz definicję `surround` z poprzedniej części do swojego programu i wywołaj ją"
+" w `alert`."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.2.text"
+msgstr "Użyj `surround` dla spacji."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.3.text"
+msgstr "Użyj `surround` dla wykrzykników."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.4.text"
+msgstr ""
+"Nie wolno łączyć kilku wykrzykników w jeden ciąg znaków, więc "
+"wywołaj `surround` kilka razy."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.5.text"
+msgstr "Czyli wywołaj `surround` raz dla każdej pary wykrzykników."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.6.text"
+msgstr "Więc wywołaj `surround(..., '!')` kilka razy."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.7.text"
+msgstr "Użyj pętli, aby wywołać to kilka razy."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.8.text"
+msgstr "Użyj `range(n)`, aby twoja pętla miała `n` iteracji."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.9.text"
+msgstr "Upewnij się, że używasz wartości zwracanej przez `surround`."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.10.text"
+msgstr ""
+"Pomyśl, jak budujesz łańcuchy znaków z `+=`. Kolejno aktualizuj tę samą zmienną, budując swój wynik."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.11.text"
+msgstr "Czyli napisz `something = surround(something, '!')` w swojej pętli."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.12.text"
+msgstr "Upewnij się, że zwracasz coś na końcu `alert`."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.13.text"
+msgstr ""
+"Upewnij się, że nie `zwracasz` wewnątrz pętli, ale po niej. Sprawdź swoje "
+"wcięcia."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.hints.14.text"
+msgstr ""
+"Upewnij się, że nie wywołujesz `alert` w ciele funkcji `alert`. "
+"Sprawdź swoje wcięcia."
+
+msgid ""
+"pages.TestingFunctions.steps.alert_exercise.messages.catch_return_inside_loop.text"
+msgstr ""
+"W funkcji `alert` umieściłeś swoją instrukcję `return` w złym miejscu!\n"
+"Zwróć uwagę na swoje wcięcia w `alert`. Możesz kończyć pętlę za wcześnie za pomocą `return`."
+
+msgid "pages.TestingFunctions.steps.alert_exercise.messages.used_format.text"
+msgstr ""
+"Nie możesz używać konkatenacji, formatowania, interpolacji ani mnożenia łańcuchów znakowych ani f-stringów w `alert`.\n"
+"Musisz rozwiązać problem, wywołując `surround`."
+
+msgid "pages.TestingFunctions.title"
+msgstr "Testowanie Funkcji"
+
+msgid "pages.TestingFunctions.steps.complete_quadruple_tests.requirements"
+msgstr ""
+"Wpisz program powyżej.\n"
+"Następnie zmień ostatnie dwie linie, dodając po jednym argumencie do każdego wywołania `assert_equal`, aby testy przeszły.\n"
+"Nie dotykaj definicji funkcji."
+
+msgid "pages.TestingFunctions.steps.make_tests_fail.requirements"
+msgstr ""
+"Uruchom program z poprzedniego kroku, zamieniając `x * 2` na `x * 3`. "
+"Resztę zostaw bez zmian."

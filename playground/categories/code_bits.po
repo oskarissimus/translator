@@ -1,0 +1,969 @@
+#
+msgid ""
+msgstr ""
+
+msgid "code_bits.'hello '"
+msgstr "'cześć '"
+
+msgid "code_bits.'world'"
+msgstr "'świat'"
+
+msgid "code_bits.'hello'"
+msgstr "'cześć'"
+
+msgid "code_bits.' world'"
+msgstr "' świat'"
+
+msgid "code_bits.word"
+msgstr "słowo"
+
+msgid "code_bits.'Hello'"
+msgstr "'Witaj'"
+
+msgid "code_bits.__program_indented__"
+msgstr "__program_indented__"
+
+msgid "code_bits.'Goodbye'"
+msgstr "'Żegnaj'"
+
+msgid "code_bits.sentence"
+msgstr "zdanie"
+
+msgid "code_bits.character"
+msgstr "znak"
+
+msgid "code_bits.name"
+msgstr "imię"
+
+msgid "code_bits.'World'"
+msgstr "'Świat'"
+
+msgid "code_bits.temp"
+msgstr "temp"
+
+msgid "code_bits.hello"
+msgstr "cześć"
+
+msgid "code_bits.line"
+msgstr "linia"
+
+msgid "code_bits.char"
+msgstr "char"
+
+msgid "code_bits.'Hello World'"
+msgstr "'Witaj Świat'"
+
+msgid "code_bits.excited"
+msgstr "podekscytowany"
+
+msgid "code_bits.confused"
+msgstr "zdezorientowany"
+
+msgid "code_bits.new_sentence"
+msgstr "nowe_zdanie"
+
+msgid "code_bits.x1"
+msgstr "x1"
+
+msgid "code_bits.'Charlie'"
+msgstr "'Charlie'"
+
+msgid "code_bits.x2"
+msgstr "x2"
+
+msgid "code_bits.'Alice'"
+msgstr "'Alicja'"
+
+msgid "code_bits.x3"
+msgstr "x3"
+
+msgid "code_bits.'Bob'"
+msgstr "'Bob'"
+
+msgid "code_bits.first"
+msgstr "pierwszy"
+
+msgid "code_bits.numbers"
+msgstr "liczby"
+
+msgid "code_bits.new_numbers"
+msgstr "nowe_liczby"
+
+msgid "code_bits.element"
+msgstr "element"
+
+msgid "code_bits.some_list"
+msgstr "jakaś_lista"
+
+msgid "code_bits.found"
+msgstr "znaleziono"
+
+msgid "code_bits.thing"
+msgstr "rzecz"
+
+msgid "code_bits.things"
+msgstr "rzeczy"
+
+msgid "code_bits.thing_to_find"
+msgstr "rzecz_do_znalezienia"
+
+msgid "code_bits.words"
+msgstr "słowa"
+
+msgid "code_bits.char1"
+msgstr "char1"
+
+msgid "code_bits.char2"
+msgstr "char2"
+
+msgid "code_bits.string1"
+msgstr "łańcuch1"
+
+msgid "code_bits.string2"
+msgstr "łańcuch2"
+
+msgid "code_bits.new_value"
+msgstr "nowa_wartość"
+
+msgid "code_bits.index"
+msgstr "indeks"
+
+msgid "code_bits.value"
+msgstr "wartość"
+
+msgid "code_bits.insert_one_line_from_above"
+msgstr "wstaw_jedną_linię_z_góry"
+
+msgid "code_bits.'yes'"
+msgstr "'tak'"
+
+msgid "code_bits.nums"
+msgstr "liczby"
+
+msgid "code_bits.list2"
+msgstr "lista2"
+
+msgid "code_bits.list1"
+msgstr "lista1"
+
+msgid "code_bits.number"
+msgstr "numer"
+
+msgid "code_bits.\"Alice\""
+msgstr "\"Alicja\""
+
+msgid "code_bits.friend"
+msgstr "przyjaciel"
+
+msgid "code_bits.meal"
+msgstr "posiłek"
+
+msgid "code_bits.\"lunch\""
+msgstr "\"lunch\""
+
+msgid "code_bits.\" with \""
+msgstr "\" z \""
+
+msgid "code_bits.\" went to \""
+msgstr "\" poszedł do \""
+
+msgid "code_bits.f\"{name} went to {meal} with {friend}.\""
+msgstr "\"{name} poszedł na {meal} z {friend}.\""
+
+msgid "code_bits.players"
+msgstr "gracze"
+
+msgid "code_bits.\"Bob\""
+msgstr "\"Bob\""
+
+msgid "code_bits.\"Charlie\""
+msgstr "\"Charlie\""
+
+msgid "code_bits.letters"
+msgstr "litery"
+
+msgid "code_bits.\"ABCD\""
+msgstr "\"ABCD\""
+
+msgid "code_bits.size"
+msgstr "rozmiar"
+
+msgid "code_bits.'Dylan'"
+msgstr "'Dylan'"
+
+msgid "code_bits.f'{players[i]} vs {players[j]}'"
+msgstr "'{players[i]} kontra {players[j]}'"
+
+msgid "code_bits.strings"
+msgstr "łańcuchy znaków"
+
+msgid "code_bits.\"abc\""
+msgstr "\"abc\""
+
+msgid "code_bits.\"def\""
+msgstr "\"def\""
+
+msgid "code_bits.\"ghi\""
+msgstr "\"ghi\""
+
+msgid "code_bits.string"
+msgstr "łańcuch znaków"
+
+msgid "code_bits.\"today?\""
+msgstr "\"dziś?\""
+
+msgid "code_bits.sublist"
+msgstr "podlista"
+
+msgid "code_bits.num"
+msgstr "num"
+
+msgid "code_bits.\"hello\""
+msgstr "\"cześć\""
+
+msgid "code_bits.\"hello there\""
+msgstr "\"cześć tam\""
+
+msgid "code_bits.\"how are you\""
+msgstr "\"jak się masz\""
+
+msgid "code_bits.\"goodbye world\""
+msgstr "\"do widzenia świat\""
+
+msgid "code_bits.\"hello world\""
+msgstr "\"cześć świat\""
+
+msgid "code_bits.\"goodbye\""
+msgstr "\"do widzenia\""
+
+msgid "code_bits.\"Python\""
+msgstr "\"Python\""
+
+msgid "code_bits.greet"
+msgstr "powitać"
+
+msgid "code_bits.f\"Hello {name}!\""
+msgstr "\"Witaj {name}!\""
+
+msgid "code_bits.\"How are you?\""
+msgstr "\"Jak się masz?\""
+
+msgid "code_bits.Hello"
+msgstr "Cześć"
+
+msgid "code_bits.\"Hello\""
+msgstr "\"Cześć\""
+
+msgid "code_bits.print_many"
+msgstr "wydrukuj_wiele"
+
+msgid "code_bits.quadruple"
+msgstr "poczwórny"
+
+msgid "code_bits.double"
+msgstr "podwójny"
+
+msgid "code_bits.assert_equal"
+msgstr "zakładaj_równe"
+
+msgid "code_bits.actual"
+msgstr "rzeczywisty"
+
+msgid "code_bits.expected"
+msgstr "oczekiwany"
+
+msgid "code_bits.\"OK\""
+msgstr "\"OK\""
+
+msgid "code_bits.f\"Error! {repr(actual)} != {repr(expected)}\""
+msgstr "\"Błąd! {repr(actual)} != {repr(expected)}\""
+
+msgid "code_bits.\"++more++\""
+msgstr "\"++więcej++\""
+
+msgid "code_bits.\"=the same=\""
+msgstr "\"=takie samo=\""
+
+msgid "code_bits.surround"
+msgstr "otoczyć"
+
+msgid "code_bits.\"more\""
+msgstr "\"więcej\""
+
+msgid "code_bits.\"the same\""
+msgstr "\"takie samo\""
+
+msgid "code_bits.\"!! Warning !!\""
+msgstr "\"!! Ostrzeżenie !!\""
+
+msgid "code_bits.\"!!!! DANGER !!!!\""
+msgstr "\"!!!! NIEBEZPIECZEŃSTWO !!!!\""
+
+msgid "code_bits.alert"
+msgstr "alarm"
+
+msgid "code_bits.\"Warning\""
+msgstr "\"Ostrzeżenie\""
+
+msgid "code_bits.\"DANGER\""
+msgstr "\"NIEBEZPIECZEŃSTWO\""
+
+msgid "code_bits.condition"
+msgstr "warunek"
+
+msgid "code_bits.value1"
+msgstr "wartość1"
+
+msgid "code_bits.value2"
+msgstr "wartość2"
+
+msgid "code_bits.double_numbers"
+msgstr "podwaja_liczby"
+
+msgid "code_bits.doubles"
+msgstr "podwojenia"
+
+msgid "code_bits.is_valid_percentage"
+msgstr "czy_poprawny_procent"
+
+msgid "code_bits.all_equal"
+msgstr "wszystkie_równe"
+
+msgid "code_bits.row"
+msgstr "wiersz"
+
+msgid "code_bits.diagonal_winner"
+msgstr "zwycięzca_na_przekątnej"
+
+msgid "code_bits.board"
+msgstr "plansza"
+
+msgid "code_bits.middle"
+msgstr "środek"
+
+msgid "code_bits.diagonal1"
+msgstr "przekątna1"
+
+msgid "code_bits.diagonal2"
+msgstr "przekątna2"
+
+msgid "code_bits.invalid_image"
+msgstr "niepoprawny_obraz"
+
+msgid "code_bits.\"dog.png\""
+msgstr "\"pies.png\""
+
+msgid "code_bits.\"cat.jpg\""
+msgstr "\"kot.jpg\""
+
+msgid "code_bits.\"invoice.pdf\""
+msgstr "\"faktura.pdf\""
+
+msgid "code_bits.\".png\""
+msgstr "\".png\""
+
+msgid "code_bits.\".jpg\""
+msgstr "\".jpg\""
+
+msgid "code_bits.filename"
+msgstr "nazwa_pliku"
+
+msgid "code_bits.\"I can't process \""
+msgstr "\"Nie mogę przetworzyć \""
+
+msgid "code_bits.row_winner"
+msgstr "zwycięzca_w_rzędzie"
+
+msgid "code_bits.column_winner"
+msgstr "zwycięzca_w_kolumnie"
+
+msgid "code_bits.winner"
+msgstr "zwycięzca"
+
+msgid "code_bits.winning_line"
+msgstr "linia_zwycięska"
+
+msgid "code_bits.piece"
+msgstr "figura"
+
+msgid "code_bits.entry"
+msgstr "wpis"
+
+msgid "code_bits.col"
+msgstr "kolumna"
+
+msgid "code_bits.column"
+msgstr "kolumna"
+
+msgid "code_bits.format_board"
+msgstr "formatuj_planszę"
+
+msgid "code_bits.print_board"
+msgstr "wydrukuj_planszę"
+
+msgid "code_bits.'XOX\\nO  \\n XO'"
+msgstr "'XOX\\nO  \\n XO'"
+
+msgid "code_bits.result"
+msgstr "rezultat"
+
+msgid "code_bits.'\\n'"
+msgstr "'\\n'"
+
+msgid "code_bits.'X|O|X\\n-+-+-\\nO| | \\n-+-+-\\n |X|O'"
+msgstr "'X|O|X\\n-+-+-\\nO| | \\n-+-+-\\n |X|O'"
+
+msgid "code_bits.joined_rows"
+msgstr "połączone_wiersze"
+
+msgid "code_bits.\"\\n\""
+msgstr "\"\\n\""
+
+msgid "code_bits.'Go!'"
+msgstr "'Ruszaj!'"
+
+msgid "code_bits.'Starting... '"
+msgstr "'Rozpoczynanie... '"
+
+msgid "code_bits.' 123\\n1XOX\\n2O  \\n3 XO'"
+msgstr "' 123\\n1XOX\\n2O  \\n3 XO'"
+
+msgid "code_bits.super_secret_number"
+msgstr "super_tajna_liczba"
+
+msgid "code_bits.guess"
+msgstr "zgadnij"
+
+msgid "code_bits.\"What number am I thinking of?\""
+msgstr "\"O jakiej liczbie myślę?\""
+
+msgid "code_bits.\"Amazing! Are you psychic?\""
+msgstr "\"Niesamowite! Jesteś jasnowidzem?\""
+
+msgid "code_bits.\"Nope!\""
+msgstr "\"Nie!\""
+
+msgid "code_bits.play_game"
+msgstr "zagraj_w_grę"
+
+msgid "code_bits.play_move"
+msgstr "wykonaj_ruch"
+
+msgid "code_bits.first_row"
+msgstr "pierwszy_wiersz"
+
+msgid "code_bits.joined_row"
+msgstr "połączony_wiersz"
+
+msgid "code_bits.'\\nX to play:\\n'"
+msgstr "'\\nX do gry:\\n'"
+
+msgid "code_bits.'\\nO to play:\\n'"
+msgstr "'\\nO do gry:\\n'"
+
+msgid "code_bits.player"
+msgstr "gracz"
+
+msgid "code_bits.make_board"
+msgstr "stworz_plansze"
+
+msgid "code_bits.make_cube"
+msgstr "stworz_sześcian"
+
+msgid "code_bits.test"
+msgstr "test"
+
+msgid "code_bits.cube"
+msgstr "sześcian"
+
+msgid "code_bits.main_diagonal_winner"
+msgstr "zwycięzca_na_głównej_przekątnej"
+
+msgid "code_bits.print_winner"
+msgstr "wydrukuj_zwycięzcę"
+
+msgid "code_bits.print_draw"
+msgstr "wydrukuj_remis"
+
+msgid "code_bits.f'\\n  {\"+\".join(\"-\" * size)}\\n'"
+msgstr "f'\\n  {\"+\".join(\"-\" * size)}\\n'"
+
+msgid "code_bits.rows"
+msgstr "wiersze"
+
+msgid ""
+"code_bits.f'  {\" \".join(str(i + 1) for i in "
+"range(size))}\\n{line.join(rows)}'"
+msgstr "f'  {\" \".join(str(i + 1) for i in range(size))}\\n{line.join(wiersze)}'"
+
+msgid "code_bits.f'{i + 1} {\"|\".join(row)}'"
+msgstr "f'{i + 1} {\"|\".join(wiersz)}'"
+
+msgid "code_bits.f'{player} to play:'"
+msgstr "f'{gracz} do gry:'"
+
+msgid "code_bits.f'{player} wins!'"
+msgstr "f'{gracz} wygrywa!'"
+
+msgid "code_bits.\"It's a draw!\""
+msgstr "\"To remis!\""
+
+msgid "code_bits.board_size"
+msgstr "wielkość_planszy"
+
+msgid "code_bits.player1"
+msgstr "gracz1"
+
+msgid "code_bits.player2"
+msgstr "gracz2"
+
+msgid "code_bits.valid_image"
+msgstr "valid_image"
+
+msgid "code_bits.\" years old.\""
+msgstr "\" years old.\""
+
+msgid "code_bits.\". You are \""
+msgstr "\". You are \""
+
+msgid "code_bits.\"ABC\""
+msgstr "\"ABC\""
+
+msgid "code_bits.\"Alice's Diner\""
+msgstr "\"Alice's Diner\""
+
+msgid "code_bits.\"Hello \""
+msgstr "\"Hello \""
+
+msgid "code_bits.\"Python rocks!\""
+msgstr "\"Python rocks!\""
+
+msgid "code_bits.\"Special cases aren't special enough to break the rules.\""
+msgstr "\"Special cases aren't special enough to break the rules.\""
+
+msgid "code_bits.' is cool!'"
+msgstr "' is cool!'"
+
+msgid "code_bits.'\"Talk is cheap. Show me the code.\" - Linus Torvalds'"
+msgstr "'\"Talk is cheap. Show me the code.\" - Linus Torvalds'"
+
+msgid "code_bits.'AB'"
+msgstr "'AB'"
+
+msgid "code_bits.'AGTAGCGTC'"
+msgstr "'AGTAGCGTC'"
+
+msgid "code_bits.'AGTAGCGTCCTTAGTTACAGGATGGCTTAT'"
+msgstr "'AGTAGCGTCCTTAGTTACAGGATGGCTTAT'"
+
+msgid "code_bits.'Alex'"
+msgstr "'Alex'"
+
+msgid "code_bits.'Amazing'"
+msgstr "'Amazing'"
+
+msgid "code_bits.'HELLO THERE'"
+msgstr "'HELLO THERE'"
+
+msgid "code_bits.'Hello '"
+msgstr "'Hello '"
+
+msgid "code_bits.'Hello there'"
+msgstr "'Hello there'"
+
+msgid "code_bits.'No'"
+msgstr "'No'"
+
+msgid "code_bits.'One more exercise, and then you can relax.'"
+msgstr "'One more exercise, and then you can relax.'"
+
+msgid "code_bits.'Python'"
+msgstr "'Python'"
+
+msgid "code_bits.'The e key on my keyboard is broken'"
+msgstr "'The e key on my keyboard is broken'"
+
+msgid "code_bits.'This does not'"
+msgstr "'This does not'"
+
+msgid "code_bits.'This gets printed'"
+msgstr "'This gets printed'"
+
+msgid "code_bits.'This'"
+msgstr "'This'"
+
+msgid "code_bits.'Type your name, then press Enter:'"
+msgstr "'Type your name, then press Enter:'"
+
+msgid "code_bits.'Yes'"
+msgstr "'Yes'"
+
+msgid "code_bits.'a string'"
+msgstr "'a string'"
+
+msgid "code_bits.'ab'"
+msgstr "'ab'"
+
+msgid "code_bits.'abc'"
+msgstr "'abc'"
+
+msgid "code_bits.'abcqwe'"
+msgstr "'abcqwe'"
+
+msgid "code_bits.'aeiou'"
+msgstr "'aeiou'"
+
+msgid "code_bits.'are'"
+msgstr "'are'"
+
+msgid "code_bits.'bc'"
+msgstr "'bc'"
+
+msgid "code_bits.'de'"
+msgstr "'de'"
+
+msgid "code_bits.'def'"
+msgstr "'def'"
+
+msgid "code_bits.'fghi'"
+msgstr "'fghi'"
+
+msgid "code_bits.'ghi'"
+msgstr "'ghi'"
+
+msgid "code_bits.'ghiq'"
+msgstr "'ghiq'"
+
+msgid "code_bits.'goodbye world'"
+msgstr "'goodbye world'"
+
+msgid "code_bits.'goodbye'"
+msgstr "'goodbye'"
+
+msgid "code_bits.'hello there'"
+msgstr "'hello there'"
+
+msgid "code_bits.'hello world'"
+msgstr "'hello world'"
+
+msgid "code_bits.'how are you'"
+msgstr "'how are you'"
+
+msgid "code_bits.'how'"
+msgstr "'how'"
+
+msgid "code_bits.'is'"
+msgstr "'is'"
+
+msgid "code_bits.'jklmn'"
+msgstr "'jklmn'"
+
+msgid "code_bits.'kesha'"
+msgstr "'kesha'"
+
+msgid "code_bits.'list'"
+msgstr "'list'"
+
+msgid "code_bits.'on'"
+msgstr "'on'"
+
+msgid "code_bits.'store'"
+msgstr "'store'"
+
+msgid "code_bits.'the'"
+msgstr "'the'"
+
+msgid "code_bits.'there'"
+msgstr "'there'"
+
+msgid "code_bits.'to'"
+msgstr "'to'"
+
+msgid "code_bits.'way'"
+msgstr "'way'"
+
+msgid "code_bits.'word'"
+msgstr "'word'"
+
+msgid "code_bits.'you'"
+msgstr "'you'"
+
+msgid "code_bits.age"
+msgstr "age"
+
+msgid "code_bits.all_equal1"
+msgstr "all_equal1"
+
+msgid "code_bits.all_equal2"
+msgstr "all_equal2"
+
+msgid "code_bits.all_numbers"
+msgstr "all_numbers"
+
+msgid "code_bits.big_numbers"
+msgstr "big_numbers"
+
+msgid "code_bits.c1"
+msgstr "c1"
+
+msgid "code_bits.c2"
+msgstr "c2"
+
+msgid "code_bits.c3"
+msgstr "c3"
+
+msgid "code_bits.c4"
+msgstr "c4"
+
+msgid "code_bits.consonants"
+msgstr "consonants"
+
+msgid "code_bits.dna"
+msgstr "dna"
+
+msgid "code_bits.f\"2 * 3 + 4 is equal to {2 * 3 + 4}\""
+msgstr "f\"2 * 3 + 4 is equal to {2 * 3 + 4}\""
+
+msgid "code_bits.f\"Hello {person_name}!\""
+msgstr "f\"Hello {person_name}!\""
+
+msgid ""
+"code_bits.f\"There are {len(people)} people waiting, the first one's name is"
+" {people[0]}.\""
+msgstr ""
+"f\"There are {len(people)} people waiting, the first one's name is "
+"{people[0]}.\""
+
+msgid "code_bits.f\"{letter} {number}\""
+msgstr "f\"{letter} {number}\""
+
+msgid "code_bits.f'Hello {name}!'"
+msgstr "f'Hello {name}!'"
+
+msgid "code_bits.f'Hello {name}. You are {age} years old.'"
+msgstr "f'Hello {name}. You are {age} years old.'"
+
+msgid "code_bits.f'\\n{\"+\".join(lines)}\\n'"
+msgstr "f'\\n{\"+\".join(lines)}\\n'"
+
+msgid "code_bits.f'{left} x {right} = {left * right}'"
+msgstr "f'{left} x {right} = {left * right}'"
+
+msgid "code_bits.f'{letter} {number}'"
+msgstr "f'{letter} {number}'"
+
+msgid "code_bits.f'{player1} vs {player2}'"
+msgstr "f'{player1} vs {player2}'"
+
+msgid "code_bits.foo"
+msgstr "foo"
+
+msgid "code_bits.game_board"
+msgstr "game_board"
+
+msgid "code_bits.grade"
+msgstr "grade"
+
+msgid "code_bits.include"
+msgstr "include"
+
+msgid "code_bits.is_friend"
+msgstr "is_friend"
+
+msgid "code_bits.left"
+msgstr "left"
+
+msgid "code_bits.length"
+msgstr "length"
+
+msgid "code_bits.length1"
+msgstr "length1"
+
+msgid "code_bits.length2"
+msgstr "length2"
+
+msgid "code_bits.lengths"
+msgstr "lengths"
+
+msgid "code_bits.letter"
+msgstr "letter"
+
+msgid "code_bits.level"
+msgstr "level"
+
+msgid "code_bits.lines"
+msgstr "lines"
+
+msgid "code_bits.new_name"
+msgstr "new_name"
+
+msgid "code_bits.new_nums"
+msgstr "new_nums"
+
+msgid "code_bits.not_first"
+msgstr "not_first"
+
+msgid "code_bits.opposite_dna"
+msgstr "opposite_dna"
+
+msgid "code_bits.people"
+msgstr "people"
+
+msgid "code_bits.percentage"
+msgstr "percentage"
+
+msgid "code_bits.person_name"
+msgstr "person_name"
+
+msgid "code_bits.present"
+msgstr "present"
+
+msgid "code_bits.print_twice"
+msgstr "print_twice"
+
+msgid "code_bits.printed"
+msgstr "printed"
+
+msgid "code_bits.right"
+msgstr "right"
+
+msgid "code_bits.say_hello"
+msgstr "say_hello"
+
+msgid "code_bits.separator"
+msgstr "separator"
+
+msgid "code_bits.sides"
+msgstr "sides"
+
+msgid "code_bits.small_numbers"
+msgstr "small_numbers"
+
+msgid "code_bits.spaces"
+msgstr "spaces"
+
+msgid "code_bits.sunshine"
+msgstr "sunshine"
+
+msgid "code_bits.to_find"
+msgstr "to_find"
+
+msgid "code_bits.topleft"
+msgstr "topleft"
+
+msgid "code_bits.topright"
+msgstr "topright"
+
+msgid "code_bits.total"
+msgstr "total"
+
+msgid "code_bits.twice"
+msgstr "twice"
+
+msgid "code_bits.upper"
+msgstr "upper"
+
+msgid "code_bits.vowels"
+msgstr "vowels"
+
+msgid "code_bits.your_name"
+msgstr "your_name"
+
+msgid "code_bits.indices"
+msgstr "indices"
+
+msgid "code_bits.\"English: \""
+msgstr "\"English: \""
+
+msgid "code_bits.\"French: \""
+msgstr "\"French: \""
+
+msgid "code_bits.\"German: \""
+msgstr "\"German: \""
+
+msgid "code_bits.'French'"
+msgstr "'French'"
+
+msgid "code_bits.'German'"
+msgstr "'German'"
+
+msgid "code_bits.'TCATCGCAGGAATCAATGTCCTACCGAATA'"
+msgstr "'TCATCGCAGGAATCAATGTCCTACCGAATA'"
+
+msgid "code_bits.'apfel'"
+msgstr "'apfel'"
+
+msgid "code_bits.'apple'"
+msgstr "'apple'"
+
+msgid "code_bits.'boite'"
+msgstr "'boite'"
+
+msgid "code_bits.'box'"
+msgstr "'box'"
+
+msgid "code_bits.'cat'"
+msgstr "'cat'"
+
+msgid "code_bits.'dog'"
+msgstr "'dog'"
+
+msgid "code_bits.'kasten'"
+msgstr "'kasten'"
+
+msgid "code_bits.'pomme'"
+msgstr "'pomme'"
+
+msgid "code_bits.cart"
+msgstr "cart"
+
+msgid "code_bits.f\"---\""
+msgstr "f\"---\""
+
+msgid "code_bits.f\"English: {word}\""
+msgstr "f\"English: {word}\""
+
+msgid "code_bits.f\"{language}: {translations[language]}\""
+msgstr "f\"{language}: {translations[language]}\""
+
+msgid "code_bits.french"
+msgstr "french"
+
+msgid "code_bits.german"
+msgstr "german"
+
+msgid "code_bits.item"
+msgstr "item"
+
+msgid "code_bits.key"
+msgstr "key"
+
+msgid "code_bits.language"
+msgstr "language"
+
+msgid "code_bits.original"
+msgstr "original"
+
+msgid "code_bits.price"
+msgstr "price"
+
+msgid "code_bits.prices"
+msgstr "prices"
+
+msgid "code_bits.print_words"
+msgstr "print_words"
+
+msgid "code_bits.quantities"
+msgstr "quantities"
+
+msgid "code_bits.quantity"
+msgstr "quantity"
+
+msgid "code_bits.substitute"
+msgstr "substitute"
+
+msgid "code_bits.total_cost"
+msgstr "total_cost"
+
+msgid "code_bits.translations"
+msgstr "translations"

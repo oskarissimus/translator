@@ -1,0 +1,28 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.WritingPrograms.steps.editor_hello_world.text"
+msgstr ""
+"Nadszedł czas, aby przestać robić wszystko w konsoli. W prawym górnym rogu można zobaczyć *edytor*. Jest to miejsce, w którym możesz pisać i uruchamiać dłuższe programy. Konsola jest świetna i powinieneś nadal z niej korzystać do eksploracji, ale to w edytorze żyją prawdziwe programy.\n"
+"\n"
+"Wpisz poniższy program do edytora, a następnie kliknij przycisk 'Uruchom':\n"
+"\n"
+"__code0__"
+
+msgid "pages.WritingPrograms.steps.final_text.text"
+msgstr ""
+"Gratulacje, uruchomiłeś swój pierwszy rzeczywisty program!\n"
+"\n"
+"Poświęć trochę czasu, aby zrozumieć ten program. Python wykonuje każdą linię po kolei, od góry do dołu. Powinieneś spróbować symulować ten proces w swojej głowie - zastanów się, co robi każda linia. Zobacz, jak zmieniła się wartość zmiennej 'word' i jaki miało to wpływ. Zauważ, że gdy używane jest wielokrotnie 'print', każda rzecz (w tym przypadku 'Hello World' i 'Goodbye World') jest drukowana na własnej linii.\n"
+"\n"
+"Kilka rzeczy, które warto zauważyć o programach w edytorze:\n"
+"\n"
+"1. Program jest uruchamiany w konsoli, co oznacza, że zmienne zdefiniowane w programie istnieją teraz w konsoli z ostatnimi wartościami, które miały w programie. Pozwala Ci to badać w konsoli po zakończeniu programu. Na przykład 'name' ma teraz wartość 'World' w konsoli.\n"
+"2. Programy uruchamiają się w izolacji - nie zależą od żadnych wcześniej zdefiniowanych zmiennych. Konsola jest resetowana i wszystkie poprzednie zmienne są czyszczone. Więc nawet though 'word' obecnie istnieje w konsoli, jeśli usuniesz pierwszą linię programu i uruchomisz go ponownie, otrzymasz błąd o niezdefiniowanej zmiennej 'word'.\n"
+"3. Jeśli wpiszesz kod w konsoli i ma on wartość, ta wartość zostanie automatycznie wyświetlona. Nie dzieje się tak w przypadku programów w edytorze - musisz wydrukować wartości. Jeśli usuniesz 'print()' z programu, zmieniając dwie linie na po prostu 'word + ' ' + name', nic nie zostanie wyświetlone.\n"
+"\n"
+"Polecam, abyś sam sprawdził wszystkie te rzeczy."
+
+msgid "pages.WritingPrograms.title"
+msgstr "Pisanie programów"

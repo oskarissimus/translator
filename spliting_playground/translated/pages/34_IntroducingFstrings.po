@@ -1,0 +1,159 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingFstrings.steps.introduce_f_strings.text"
+msgstr ""
+"Do tej pory łączyliśmy ciągi znaków, konkatenując je za pomocą `+`, na przykład:\n"
+"\n"
+"    __copyable__\n"
+"__code0__\n"
+"\n"
+"Jednak jest to trochę niewygodne. Możemy napisać to samo w bardziej elegancki sposób, używając *f-stringa*.\n"
+"Zastąp ostatnią linię programu powyżej poniższą linią i uruchom ją.\n"
+"Upewnij się, że uwzględnisz `f` przed ciągiem znaków.\n"
+"\n"
+"__code1__"
+
+msgid "pages.IntroducingFstrings.steps.concatenate_string_number.text"
+msgstr ""
+"Składnia f-stringa zaczyna się od `f` po czym następuje ciąg znaków.\n"
+"F-string może zawierać nazwy zmiennych w nawiasach klamrowych `{}`.\n"
+"Będą one zastępowane wartościami tych zmiennych przekształconymi na ciągi znaków.\n"
+"Zmienne mogą być dowolne: ciągi znaków, liczby, listy i tak dalej.\n"
+"\n"
+"W związku z tym f-stringi pozwalają łatwo łączyć ciągi znaków z liczbami, które nie mogą\n"
+"po prostu zostać dodane do siebie. Na przykład, uruchom poniższy program:\n"
+"\n"
+"    __copyable__\n"
+"__code0__"
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.text"
+msgstr ""
+"Nie powiedzie się, ponieważ nie możemy użyć `+` między ciągiem znaków `\"Cześć Alice. Masz \"` a liczbą `age`.\n"
+"\n"
+"Napraw to, zastępując wszystkie konkatenacje ciągów znaków (+) jednym f-stringiem."
+
+msgid "pages.IntroducingFstrings.steps.eval_expr_inside_f_string.text"
+msgstr ""
+"Ponadto, f-string może zawierać w nawiasach klamrowych dowolne wyrażenie Pythona.\n"
+"Spróbuj tego w konsoli:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.text"
+msgstr ""
+"Jak widać, możemy także zdefiniować f-string używając cudzysłowów, tak jak w przypadku zwykłego ciągu znaków.\n"
+"I podobnie jak w przypadku cudzysłowów, f-stringi są tylko notacją. Po ich wyliczeniu komputer zapomina,\n"
+"że użyto f-stringa, przechowuje tylko końcowy wynik jako zwykły ciąg znaków.\n"
+"\n"
+"Oto bardzo zepsuty program:\n"
+"\n"
+"    __copyable__\n"
+"    ludzie = [\"Alice\", \"Bob\", \"Charlie\"]\n"
+"    print('Jest' + ludzie.length() + 'ludzi w kolejce, pierwszy z nich ma na imię' + ludzie.1 + '.')\n"
+"\n"
+"Napraw to!\n"
+"Twoje rozwiązanie powinno działać dla dowolnej listy ciągów znaków o nazwie `ludzie`.\n"
+"Na przykład w powyższym przypadku powinno wydrukować:\n"
+"\n"
+"    Jest 3 ludzi w kolejce, pierwszy z nich ma na imię Alice."
+
+msgid "pages.IntroducingFstrings.steps.final_text.text"
+msgstr ""
+"Świetnie!\n"
+"\n"
+"Od teraz zachęcamy do używania f-stringów zamiast `+` do budowania ciągów znaków tam, gdzie to możliwe."
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.0.text"
+msgstr "To jest podobne do podanego przykładu f-stringa."
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.1.text"
+msgstr "Czy zapomniałeś o `f`?"
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.2.text"
+msgstr "Ile par nawiasów klamrowych potrzebujesz?"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.0.text"
+msgstr "Są cztery problemy z wyrażeniem wewnątrz `print`."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.1.text"
+msgstr "Jest problem z syntaksem znalezienia liczby ludzi."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.2.text"
+msgstr "Potem jeden z ciągów znaków ma problem z cudzysłowami."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.3.text"
+msgstr ""
+"Jest też problem z syntaksem znalezienia imienia pierwszej osoby."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.4.text"
+msgstr "Nie możesz dodać ciągu znaków do liczby!"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.5.text"
+msgstr "Czy poprawnie użyłeś nawiasów klamrowych w twoim f-stringu?"
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.0"
+msgstr "\"Cześć \" + nazwa + \". Masz \" + wiek + \" lata.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.1"
+msgstr "Cześć nazwa. Masz wiek lata."
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.2"
+msgstr "Cześć Alice. Masz 20 lat."
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.3"
+msgstr "Cześć 'Alice'. Masz 20 lat."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.0"
+msgstr "f\"{nazwa} poszła na {posiłek} z {przyjacielem}.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.1"
+msgstr "\"{nazwa} poszła na {posiłek} z {przyjacielem}.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.2"
+msgstr "{nazwa} poszła na {posiłek} z {przyjacielem}."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.3"
+msgstr "'nazwa' poszła na 'posiłek' z 'przyjacielem'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.4"
+msgstr "nazwa poszła na posiłek z przyjacielem."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.5"
+msgstr "\"Alice\" poszła na \"lunch\" z 'Bobem'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.6"
+msgstr "'Alice' poszła na 'lunch' z 'Bobem'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.7"
+msgstr "\"Alice poszła na lunch z Bobem.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.8"
+msgstr "Alice poszła na lunch z Bobem."
+
+msgid "pages.IntroducingFstrings.title"
+msgstr "f-stringi"
+
+msgid "pages.IntroducingFstrings.steps.introduce_f_strings.requirements"
+msgstr ""
+"Uruchom program powyżej, ale zastąp ten kod wewnątrz `print()`:\n"
+"\n"
+"__code0__\n"
+"\n"
+"przez:\n"
+"\n"
+"__code1__"

@@ -1,0 +1,75 @@
+```
+#
+msgid ""
+msgstr ""
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.text"
+msgstr ""
+"Ćwiczenie: napisz program, który przyjmuje listę i wartość i sprawdza,\n"
+"czy lista zawiera daną wartość. Na przykład, dla:\n"
+"\n"
+"    __no_auto_translate__\n"
+"    things = ['This', 'is', 'a', 'list']\n"
+"    thing_to_find = 'is'\n"
+"\n"
+"powinien wyświetlić `True`, ale dla:\n"
+"\n"
+"    __no_auto_translate__\n"
+"    thing_to_find = 'other'\n"
+"\n"
+"powinien wyświetlić `False`."
+
+msgid "pages.UsingBreak.steps.final_text.text"
+msgstr ""
+"Świetnie!\n"
+"\n"
+"Typowe rozwiązanie wygląda mniej więcej tak:\n"
+"\n"
+"__code0__\n"
+"\n"
+"Twoje rozwiązanie prawdopodobnie jest podobne. Jest w porządku, ale trochę niewydajne.\n"
+"To dlatego, że pętla będzie iterować przez całą listę nawet jeśli znajdzie element na początku.\n"
+"Możesz zatrzymać dowolną pętlę używając instrukcji `break`, na przykład:\n"
+"\n"
+"__code1__\n"
+"\n"
+"To jest równie poprawne, ale pomija niepotrzebne iteracje i sprawdzenia po znalezieniu elementu.\n"
+"Możesz użyć `snoop`, żeby zobaczyć różnicę."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.0.text"
+msgstr "Będziesz potrzebować pętli."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.1.text"
+msgstr "Będziesz potrzebować instrukcji `if`."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.2.text"
+msgstr "Będziesz potrzebować operatora porównania."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.3.text"
+msgstr "Konkretnie `==`."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.4.text"
+msgstr "Potrzebujesz zmiennej logicznej, którą wydrukujesz na końcu."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.5.text"
+msgstr ""
+"Jeśli znajdziesz element na liście, powinieneś ustawić tą zmienną na `True`."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.6.text"
+msgstr "Gdy już znajdziesz element, nie możesz go 'odnaleźć'."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.7.text"
+msgstr ""
+"To oznacza, że raz ustawiona zmienna na `True`, nigdy nie powinna być ustawiona "
+"na coś innego po tym."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.8.text"
+msgstr "Nie używaj `else`."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.9.text"
+msgstr ""
+"Nie ma powodu, aby kiedykolwiek ustawiać zmienną na `False` wewnątrz pętli."
+
+msgid "pages.UsingBreak.title"
+msgstr "Użycie `break` do wcześniejszego zakończenia pętli"
+```

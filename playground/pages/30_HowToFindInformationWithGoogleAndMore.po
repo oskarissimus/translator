@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.HowToFindInformationWithGoogleAndMore.steps.sum_list.text"
+msgstr "max([21, 55, 4, 91, 62, 49])"
+
+msgid "pages.HowToFindInformationWithGoogleAndMore.steps.list_insert.text"
+msgstr "nums.insert(2, 9)"
+
+msgid "pages.HowToFindInformationWithGoogleAndMore.steps.dir_list.text"
+msgstr "help(list)"
+
+msgid "pages.HowToFindInformationWithGoogleAndMore.steps.final_text.text"
+msgstr ""
+"dir() zwraca listę atrybutów argumentu, które w większości są metodami. "
+"Wiele z nich będzie zaczynać się od `__`, które na razie możesz zignorować -"
+" przewiń do końca listy, a zobaczysz kilka znajomych metod."
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.sum_list.hints.0.text"
+msgstr "Use the words 'python' and 'list' in your search query."
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.sum_list.hints.1.text"
+msgstr ""
+"In one word, what's special about `91` in the list `[21, 55, 4, 91, 62, "
+"49]`?"
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.sum_list.hints.2.text"
+msgstr "'biggest' or 'largest'"
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.sum_list.hints.3.text"
+msgstr "'python biggest value in list'"
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.list_insert.hints.0.text"
+msgstr "Use the words 'python' and 'list' in your search query."
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.list_insert.hints.1.text"
+msgstr ""
+"Instead of putting the value at the beginning or end, we want to put it "
+"____________?"
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.list_insert.hints.2.text"
+msgstr "'in the middle' or 'at an index' or 'at a particular position'"
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.list_insert.hints.3.text"
+msgstr "'python add value at index'"
+
+msgid "pages.HowToFindInformationWithGoogleAndMore.title"
+msgstr "How to Find Information with Google, and more"
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.list_insert.requirements"
+msgstr ""
+"Run code similar to the three lines above, but change `nums.append(9)` to the right function/method call\n"
+"to put 9 right after the second element (2 in the example `nums = [1, 2, 3, 4, 5]`) instead of at the end.\n"
+"There's only one correct answer for what the middle line should be.\n"
+"You need to search online to figure out which function/method to use and how to use it."
+
+msgid ""
+"pages.HowToFindInformationWithGoogleAndMore.steps.sum_list.requirements"
+msgstr ""
+"Run code similar to `sum([21, 55, 4, 91, 62, 49])` but replace `sum` with the name of another specific function.\n"
+"There's only one correct answer for which function should be used. You need to search online to figure out which one.\n"
+"It's a commonly used built-in function in Python."

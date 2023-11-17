@@ -1,0 +1,104 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.ReturningValuesFromFunctions.steps.first_return.text"
+msgstr ""
+"Funkcje mogą być szczególnie przydatne, gdy *zwracają* wartości, zamiast je tylko wyświetlać. Wypróbuj ten przykład:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.ReturningValuesFromFunctions.steps.losing_return_value.text"
+msgstr ""
+"Tutaj przekazaliśmy `number` (która ma wartość `5`) jako argument `x` do funkcji `double`, a `double` *zwróciła*\n"
+"`x * 2`, czyli `5 * 2`, czyli `10`, co stało się wartością zmiennej `twice`. Specjalne słowo kluczowe `return` wewnątrz \n"
+"`double` sprawia, że `double(number)` staje się wyrażeniem z wartością - konkretnie z wartością, która została zwrócona.\n"
+"To trochę jak `twice = double(number)` jest równoważne `twice = number * 2`, chociaż to nie\n"
+"dokładnie to, co się dzieje.\n"
+"\n"
+"Zauważ, że `double(number)` *nie zmieniła `number`*. Na końcu `number` wciąż jest `5`. Raczej `double(number)`\n"
+"zwróciła nową wartość. Kluczowe jest, aby program wykorzystał tę zwróconą wartość, w tym przypadku przechowując\n"
+"ją w zmiennej. Natychmiastowe wydrukowanie jej za pomocą `print(double(number))` również działa. Z drugiej strony,\n"
+"spróbuj tego:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.ReturningValuesFromFunctions.steps.quadruple_exercise.text"
+msgstr ""
+"Tutaj `double(number)` nadal zwróciła `10`, ale nie wykorzystaliśmy tego, więc zostało to utracone. `number` wciąż jest `5`.\n"
+"\n"
+"Napisz funkcję `quadruple`, która przyjmuje jeden argument `x` i zwraca ten argument pomnożony przez 4.\n"
+"Musisz użyć wyłącznie funkcji `double` - bezpośrednio w ciele funkcji `quadruple` nie wolno używać liczb ani mnożenia."
+
+msgid "pages.ReturningValuesFromFunctions.steps.final_text.text"
+msgstr ""
+"Dobrze zrobione! Oto dwie możliwe rozwiązania:\n"
+"\n"
+"__code0__"
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.0.text"
+msgstr "To multiply by 4, multiply by 2 twice."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.1.text"
+msgstr "That means you need to call `double` twice."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.2.text"
+msgstr "Make sure you use the returned value from `double` each time."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.3.text"
+msgstr "Make sure you have all the parts of a function definition."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.4.text"
+msgstr "That includes `def`, `()`, and `:`."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.5.text"
+msgstr "Make sure your function is named `quadruple`."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.6.text"
+msgstr ""
+"Make sure it accepts one parameter called `x` in between the parentheses "
+"`()`."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.7.text"
+msgstr "Use the parameter inside the function body."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.8.text"
+msgstr "Make sure the body is indented."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.9.text"
+msgstr "Make sure you `return` something at the end."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.10.text"
+msgstr "Look at the definition of `double` for an example."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.hints.11.text"
+msgstr ""
+"Make sure that you don't call `quadruple` inside the function body of "
+"`quadruple`. Check your indentation."
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.messages.used_multiply.text"
+msgstr ""
+"You cannot use `*`, `+`, or even any numbers inside `quadruple`.\n"
+"You must call `double` to solve the problem."
+
+msgid "pages.ReturningValuesFromFunctions.title"
+msgstr "Returning Values From Functions"
+
+msgid ""
+"pages.ReturningValuesFromFunctions.steps.quadruple_exercise.requirements"
+msgstr ""
+"Write a program which defines a function called `quadruple` as described "
+"above."

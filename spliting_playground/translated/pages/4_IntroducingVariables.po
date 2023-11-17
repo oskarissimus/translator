@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingVariables.steps.word_assign.text"
+msgstr ""
+"Aby tworzyć interesujące programy, nie możemy zawsze manipulować tymi samymi wartościami. Potrzebujemy sposobu na odniesienie się do wartości, które nie są znane z góry i mogą się zmieniać - wartości, które mogą być zmienne. To właśnie są *zmienne*.\n"
+"\n"
+"Uruchom ten kod:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.IntroducingVariables.steps.word_check.text"
+msgstr ""
+"To tworzy zmienną o nazwie `word`, która odnosi się do wartości ciągu znaków `'Hello'`.\n"
+"\n"
+"Teraz zobacz, co się stanie, gdy uruchomisz `__program__` w powłoce samodzielnie."
+
+msgid "pages.IntroducingVariables.steps.word_string_check.text"
+msgstr ""
+"Dobrze. Dla porównania, uruchom `__program__` w powłoce samodzielnie, z "
+"cytatami."
+
+msgid "pages.IntroducingVariables.steps.sunshine_undefined_check.text"
+msgstr ""
+"Jak widać, cytaty robią całą różnicę. `'word'` jest dosłownie tylko `'word'`, stąd technicznie nazywa się to *ciągiem znaków dosłownym*. Z drugiej strony, `word` to zmienna, której wartość może być dowolna.\n"
+"\n"
+"Podobnie, `'sunshine'` to `'sunshine'`, ale co to jest `__program__` bez cytatów?"
+
+msgid "pages.IntroducingVariables.steps.final_text.text"
+msgstr ""
+"Odpowiedź brzmi, że `sunshine` wygląda na zmienną, więc Python próbuje "
+"znaleźć jej wartość, ale ponieważ nigdy nie zdefiniowaliśmy zmiennej o tej nazwie, otrzymujemy "
+"błąd."
+
+msgid ""
+"pages.IntroducingVariables.steps.sunshine_undefined_check.output_prediction_choices.0"
+msgstr "sunshine"
+
+msgid ""
+"pages.IntroducingVariables.steps.sunshine_undefined_check.output_prediction_choices.1"
+msgstr "'sunshine'"
+
+msgid ""
+"pages.IntroducingVariables.steps.sunshine_undefined_check.output_prediction_choices.2"
+msgstr "Hello"
+
+msgid ""
+"pages.IntroducingVariables.steps.sunshine_undefined_check.output_prediction_choices.3"
+msgstr "'Hello'"
+
+msgid ""
+"pages.IntroducingVariables.steps.word_string_check.output_prediction_choices.0"
+msgstr "word"
+
+msgid ""
+"pages.IntroducingVariables.steps.word_string_check.output_prediction_choices.1"
+msgstr "'word'"
+
+msgid ""
+"pages.IntroducingVariables.steps.word_string_check.output_prediction_choices.2"
+msgstr "Hello"
+
+msgid ""
+"pages.IntroducingVariables.steps.word_string_check.output_prediction_choices.3"
+msgstr "'Hello'"
+
+msgid "pages.IntroducingVariables.title"
+msgstr "Wprowadzenie do Zmiennych"
+
+msgid ""
+"pages.IntroducingVariables.steps.word_check.special_messages.bad_word.text"
+msgstr "Ups, musisz ustawić `word = 'Hello'` zanim będziemy mogli kontynuować."

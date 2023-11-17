@@ -1,0 +1,17 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.NavigatingShellHistory.steps.final_text.text"
+msgstr ""
+"Oto wskazówka: często będziesz chciał ponownie uruchomić wcześniej "
+"wprowadzony fragment kodu lub jego nieco zmodyfikowaną wersję. Możesz "
+"skorzystać z kopiowania i wklejania, ale jest to żmudne i utrudnia "
+"eksperymentowanie. Lepszą metodą jest naciśnięcie klawisza ze strzałką w "
+"górę na klawiaturze. Spowoduje to wstawienie poprzedniej linii kodu do "
+"konsoli. Naciskaj go kolejno, aby cofnąć się dalej w historii i jeśli "
+"przejdziesz za daleko, naciśnij klawisz ze strzałką w dół, aby przejść w "
+"drugą stronę. Wypróbuj to teraz."
+
+msgid "pages.NavigatingShellHistory.title"
+msgstr "Navigating Shell History"

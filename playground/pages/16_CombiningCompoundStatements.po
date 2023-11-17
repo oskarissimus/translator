@@ -1,0 +1,62 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.CombiningCompoundStatements.steps.for_inside_if.text"
+msgstr ""
+"Złożone instrukcje takie jak pętle `for` i instrukcje `if` mają ciała, które są listą\n"
+"wewnętrznych instrukcji. Te wewnętrzne instrukcje mogą być czymkolwiek, w tym innymi złożonymi instrukcjami.\n"
+"Wypróbuj ten przykład pętli `for` wewnątrz instrukcji `if`, kiedy chcesz pokazać,\n"
+"że jesteś *naprawdę* podekscytowany:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.CombiningCompoundStatements.steps.final_text.text"
+msgstr ""
+"Zauważ, jak ciało instrukcji `if` (4 linie) jest zazwyczaj wcięte, podczas gdy ciało\n"
+"pętli `for` (1 linia) jest dodatkowo wcięte o 4 spacje w każdej linii, aby pokazać, że\n"
+"te linie znajdują się w pętli `for`. Możesz zobaczyć ogólną strukturę programu\n"
+"tylko poprzez spojrzenie na wcięcia.\n"
+"\n"
+"Alternatywnie, możesz umieścić instrukcję `if` wewnątrz pętli `for`:\n"
+"\n"
+"    __copyable__\n"
+"__code0__\n"
+"\n"
+"Te dwa programy dają dokładnie ten sam rezultat. Jednak pierwszy jest bardziej wydajny, ponieważ\n"
+"iteruje nad łańcuchem znaków tylko wtedy, kiedy jest to konieczne, ponieważ kiedy `excited = False` nic się nie zmienia."
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.0"
+msgstr "Hello World"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.2"
+msgstr "Hello World!!!!!!!!!!!"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.3"
+msgstr "!!!!!!!!!!!Hello World"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.4"
+msgstr "Hello World!"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.5"
+msgstr "!Hello World"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.6"
+msgstr "!Hello World!"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.7"
+msgstr "H!e!l!l!o! !W!o!r!l!d!"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.8"
+msgstr "!H!e!l!l!o! !W!o!r!l!d"
+
+msgid "pages.CombiningCompoundStatements.title"
+msgstr "Combining Compound Statements"

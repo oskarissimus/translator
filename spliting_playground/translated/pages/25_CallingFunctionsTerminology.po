@@ -1,0 +1,58 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.CallingFunctionsTerminology.steps.print_functions.text"
+msgstr ""
+"Nadszedł czas, by poszerzyć twoje słownictwo jeszcze bardziej.\n"
+"\n"
+"`print` i `len` to ***funkcje***. Zobacz sam:\n"
+"\n"
+"__program_wcięty__"
+
+msgid "pages.CallingFunctionsTerminology.steps.introducing_callable.text"
+msgstr ""
+"Wyrażenie takie jak `len(things)` lub `print(things)` to wywołanie funkcji, czyli ***wywołanie*** - gdy to piszesz, ***wywołujesz*** funkcję `len` lub `print`. Fakt, że jest to możliwe, oznacza, że funkcje są ***wywoływalne***:\n"
+"\n"
+"__program_wcięty__"
+
+msgid "pages.CallingFunctionsTerminology.steps.not_callable.text"
+msgstr ""
+"Większość rzeczy nie jest wywoływalna, więc próba ich wywołania spowoduje błąd:\n"
+"\n"
+"__program_wcięty__"
+
+msgid "pages.CallingFunctionsTerminology.steps.print_returns_none.text"
+msgstr ""
+"W wywołaniu `len(things)`, `things` to ***argument***. Czasami spotkasz się też ze słowem ***parametr***, które oznacza w zasadzie to samo co argument. To trochę jakbyś przekazywał argument funkcji - konkretnie mówimy, że argument `things` jest *przekazywany* do `len`, a `len` *akceptuje* lub *odbiera* argument.\n"
+"\n"
+"`len(things)` wyliczy się do liczby, takiej jak 3, w takim przypadku mówimy, że `len` ***zwrócił*** 3.\n"
+"\n"
+"Wszystkie wywołania muszą coś zwrócić... nawet jeśli to nic. Na przykład, zadaniem funkcji `print` jest wyświetlenie czegoś na ekranie, a nie zwracanie użytecznej wartości. Dlatego zwraca coś bezużytecznego zamiast tego:\n"
+"\n"
+"__program_wcięty__"
+
+msgid "pages.CallingFunctionsTerminology.steps.len_of_none.text"
+msgstr ""
+"`None` to specjalna wartość 'null', która nie może zrobić nic ciekawego. To powszechny symbol zastępczy reprezentujący brak realnej, użytecznej wartości. Funkcje, które nie chcą niczego zwracać, domyślnie zwracają `None`. Jeśli widzisz komunikat o błędzie dotyczący `None` lub `NoneType`, często oznacza to, że przypisałeś coś niewłaściwego do zmiennej:\n"
+"\n"
+"__program_wcięty__"
+
+msgid "pages.CallingFunctionsTerminology.steps.methods_of_str.text"
+msgstr ""
+"***Metoda*** to funkcja należąca do typu, którą można wywołać na wszystkich wartościach tego typu, używając `.`. Na przykład `upper` i `lower` to metody ciągów znaków, które są wywoływane z użyciem np. `word.upper()`:\n"
+"\n"
+"__program_wcięty__"
+
+msgid "pages.CallingFunctionsTerminology.steps.no_append_for_str.text"
+msgstr ""
+"Kolejnym przykładem jest to, że `append` to metoda list. Ale nie możesz użyć `.upper` na liście ani `.append` na ciągu znaków:\n"
+"\n"
+"__program_wcięty__"
+
+msgid "pages.CallingFunctionsTerminology.steps.final_text.text"
+msgstr ""
+"Słowo 'atrybut' w komunikacie o błędzie odnosi się do użycia `.` - błąd pochodzi właściwie tylko z `word.append`, nawet bez wywołania."
+
+msgid "pages.CallingFunctionsTerminology.title"
+msgstr "Terminologia: Wywoływanie funkcji i metod"

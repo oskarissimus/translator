@@ -1,0 +1,305 @@
+#
+msgid ""
+msgstr ""
+
+msgid "frontend.are_you_sure"
+msgstr "Jesteś pewien?"
+
+msgid "frontend.ask_for_help"
+msgstr "Poproś o pomoc"
+
+msgid "frontend.cancel"
+msgstr "Anuluj"
+
+msgid "frontend.chat_on_slack"
+msgstr "Czatuj na Slacku"
+
+msgid "frontend.click_for_error_details"
+msgstr "Kliknij, aby zobaczyć szczegóły błędu"
+
+msgid "frontend.contact_directly"
+msgstr "Alternatywnie, możesz skontaktować się z nami bezpośrednio:"
+
+msgid "frontend.copy_warning"
+msgstr ""
+"**STOP!**\n"
+"\n"
+"Staraj się unikać kopiowania kodu. Lepiej zapamiętasz i nauczysz się, jeśli sam wpiszesz kod.\n"
+"\n"
+"Jeśli kopiowanie jest odpowiednie, pojawi się przycisk ułatwiający to. Jeśli nie ma przycisku, spróbuj wpisać kod.\n"
+"\n"
+"Mówiąc to, nie będziemy Cię zmuszać. Skopiuj, jeśli naprawdę chcesz."
+
+msgid "frontend.copying_solution_not_allowed"
+msgstr "Kopiowanie z obszaru podpowiedzi/rozwiązania jest zabronione!"
+
+msgid "frontend.current_page"
+msgstr "(aktualna)"
+
+msgid "frontend.description"
+msgstr "Opis"
+
+msgid "frontend.developer_mode"
+msgstr "Tryb dewelopera"
+
+msgid "frontend.developer_mode_description"
+msgstr "Włącza przyciski \"Cofnij krok\" i \"Pomiń krok\"."
+
+msgid "frontend.did_you_mean"
+msgstr "Czy miałeś na myśli..."
+
+msgid "frontend.error_traceback"
+msgstr "Ślad błędu:"
+
+msgid "frontend.feedback"
+msgstr "Opinia"
+
+msgid "frontend.feedback_email_placeholder"
+msgstr "E-mail (opcjonalnie)"
+
+msgid "frontend.get_another_hint"
+msgstr "Pobierz inną wskazówkę"
+
+msgid "frontend.get_hint"
+msgstr "Pobierz wskazówkę"
+
+msgid "frontend.give_feedback"
+msgstr "Wyślij opinię"
+
+msgid "frontend.give_feedback_instructions"
+msgstr ""
+"Powiedz nam, co Ci się podoba, a co nie! Jeśli zgłaszasz błąd, podaj szczegółowy opis problemu:\n"
+"\n"
+"- Co robiłeś przed wystąpieniem problemu?\n"
+"- Jakie kroki można podjąć, aby go powtórzyć?\n"
+"- Co zauważasz, że się dzieje, a co powinno się zdarzyć?"
+
+msgid "frontend.hidden_solution_instructions"
+msgstr ""
+"Powyżej znajduje się przykładowe rozwiązanie, ale jest ukryte. Kliknij przycisk Odkryj "
+"powtarzając, aby odkryć rozwiązanie krok po kroku. Spróbuj zatrzymać się, gdy uważasz, że "
+"odkryłeś wystarczająco i możesz uzupełnić pozostałe luki samodzielnie. Następnie "
+"wpisz rozwiązanie w edytorze i uruchom je. Twoje rozwiązanie nie musi być "
+"takie samo jak powyżej."
+
+msgid "frontend.hints_progress"
+msgstr "Pokazano ${numHints} z ${totalHints} wskazówek"
+
+msgid "frontend.loading_wait"
+msgstr "Ładowanie..."
+
+msgid "frontend.login_or_sign_up"
+msgstr "Zaloguj się / Zarejestruj się"
+
+msgid "frontend.next"
+msgstr "Dalej"
+
+msgid "frontend.no"
+msgstr "Nie"
+
+msgid "frontend.ok"
+msgstr "OK"
+
+msgid "frontend.open_github_issue"
+msgstr "Otwórz problem na GitHubie"
+
+msgid "frontend.output_prediction_correct"
+msgstr "Poprawne!"
+
+msgid "frontend.output_prediction_error_choice"
+msgstr "Błąd"
+
+msgid "frontend.output_prediction_question"
+msgstr "Jak myślisz, jaki będzie wynik?"
+
+msgid "frontend.output_prediction_wrong_once"
+msgstr "Ups, to nie jest poprawna odpowiedź. Możesz spróbować jeszcze raz!"
+
+msgid "frontend.output_prediction_wrong_twice"
+msgstr "Przepraszamy, to nie jest poprawna odpowiedź. Spróbuj ponownie następnym razem!"
+
+msgid "frontend.parsons_solution_instructions"
+msgstr ""
+"Powyżej znajduje się przykładowe rozwiązanie z liniami w złej kolejności. Możesz je przeciągnąć "
+"i uporządkować. Znalezienie poprawnej kolejności zależy od Ciebie, a my nie powiemy Ci, czy "
+"masz rację. Eksperymentowanie i uruchamianie częściowych rozwiązań w edytorze może pomóc Ci "
+"to zrozumieć. Nadal musisz wpisać poprawne rozwiązanie w edytorze i uruchomić je, aby kontynuować."
+
+msgid "frontend.previous"
+msgstr "Poprzedni"
+
+msgid "frontend.question_wizard"
+msgstr "Kreator pytań"
+
+msgid "frontend.question_wizard_expected_output"
+msgstr ""
+"Dobrze, teraz wpisz oczekiwany/wymagany wynik swojego programu poniżej. Co by się wyświetliło, gdyby działało poprawnie? Jeśli nie ma nic do wyświetlenia, dodaj kilka wywołań `print()` do swojego kodu, aby wyświetlił coś przydatnego.\n"
+"\n"
+"Kiedy skończysz, kliknij ponownie przycisk 'Run', aby wygenerować swoje pytanie."
+
+msgid "frontend.question_wizard_intro"
+msgstr ""
+"Jeśli potrzebujesz pomocy, istnieje wiele stron, takich jak [Stack Overflow](https://stackoverflow.com/) i [reddit](https://www.reddit.com/r/learnpython/), gdzie możesz zadawać pytania. To narzędzie ma pomóc Ci napisać pytanie dobrej jakości, które ma szansę na odpowiedź.\n"
+"\n"
+"Wpisz i uruchom swój kod po prawej stronie. Jeśli nie masz kodu, ponieważ nie wiesz, od czego zacząć, to obawiam się, że to narzędzie Ci nie pomoże. Nadal możesz poprosić o pomoc, ale dobrze byłoby najpierw przeczytać [Jakie rodzaje pytań powinienem unikać zadając?](https://stackoverflow.com/help/dont-ask)\n"
+"\n"
+"Jeśli Twoje pytanie dotyczy serwerów (np. Django lub Flask), żądań sieciowych, baz danych lub pakietu, który nie może być zaimportowany tutaj, to to narzędzie nie zadziała. Jednakże, tylko dlatego, że Twój obecny kod *zawiera* te rzeczy, nie oznacza to, że Twoje pytanie jest o *to*. Jeśli masz problem ogólny z Pythonem/programowaniem/logiką, to wyodrębnij ten problem z innych rzeczy. Python z Django to nadal Python. Jeśli nie możesz tego zrobić, to przeczytaj [Jak stworzyć Minimalny, Reprodukowalny Przykład](https://stackoverflow.com/help/minimal-reproducible-example) przed zadaniem pytania."
+
+msgid "frontend.repeated_frames_description"
+msgstr "${name} w linii ${lineno} (${count} razy)"
+
+msgid "frontend.reveal"
+msgstr "Odkryj"
+
+msgid "frontend.reverse_step"
+msgstr "Cofnij krok"
+
+msgid "frontend.run"
+msgstr "Uruchom"
+
+msgid "frontend.send_email_to"
+msgstr "E-mail"
+
+msgid "frontend.settings"
+msgstr "Ustawienia"
+
+msgid "frontend.show_shuffled_solution"
+msgstr "Pokaż wymieszane rozwiązanie"
+
+msgid "frontend.show_solution"
+msgstr "Pokaż rozwiązanie"
+
+msgid "frontend.show_unscrambled_solution"
+msgstr "Pokaż niezmieszane rozwiązanie"
+
+msgid "frontend.sign_out"
+msgstr "Wyloguj się"
+
+msgid "frontend.similar_frames_skipped"
+msgstr "Pominięto podobne ramki:"
+
+msgid "frontend.skip_step"
+msgstr "Pomiń krok"
+
+msgid "frontend.stop"
+msgstr "Zatrzymaj"
+
+msgid "frontend.submit"
+msgstr "Wyślij"
+
+msgid "frontend.table_of_contents"
+msgstr "Spis treści"
+
+msgid "frontend.title"
+msgstr "Tytuł"
+
+msgid "frontend.toc_instructions"
+msgstr ""
+"Below are links to different pages in the course. You can start anywhere and go in any order, and your progress on each page will be recorded.\n"
+"\n"
+"If you're completely new to programming, or you have doubts, just start at the beginning and click Next as you finish each page."
+
+msgid "frontend.yes"
+msgstr "Yes"
+
+msgid "frontend.click_to_expand"
+msgstr "Click to expand"
+
+msgid "frontend.assessment"
+msgstr "Assessment"
+
+msgid "frontend.assessment_description"
+msgstr ""
+"When you run code that doesn't pass the current step, this section will "
+"*sometimes* explain what's wrong."
+
+msgid "frontend.exercise_requirement"
+msgstr ""
+"This step is an exercise. You need to figure out what code will produce the "
+"correct result. Many different correct answers are possible."
+
+msgid "frontend.exercise_stdin"
+msgstr ""
+"Your program needs to receive input from the user via the `input()` "
+"function. When it's tested for correctness, different user inputs will be "
+"simulated."
+
+msgid "frontend.function_exercise"
+msgstr ""
+"Define a function starting like this:\n"
+"\n"
+"${header}\n"
+"\n"
+"Then fill in the indented body with your implementation.\n"
+"\n"
+"The function will be called with different arguments to test that it works generally. You can also call the function yourself to test it as you work, but it doesn't affect the assessment."
+
+msgid "frontend.function_exercise_goal"
+msgstr "Your function needs to `${print_or_return}` the correct result."
+
+msgid "frontend.hints_and_solution"
+msgstr "Hints and Solution"
+
+msgid "frontend.new"
+msgstr "New"
+
+msgid "frontend.no_hints_available"
+msgstr ""
+"This step doesn't have any hints. Try reading the instructions and "
+"requirements again. You can still check the solution if you're really stuck."
+
+msgid "frontend.no_input_variables"
+msgstr "This exercise has no input variables."
+
+msgid "frontend.non_function_exercise"
+msgstr ""
+"Your code *must* start by assigning value(s) to input variable(s), e.g:\n"
+"\n"
+"${inputs}\n"
+"\n"
+"The values are just examples, you can choose different ones. Your code will be tested automatically with different values to check that it works generally."
+
+msgid "frontend.program_in_text"
+msgstr ""
+"The exact code that you need to run is shown in the text above, in one "
+"piece."
+
+msgid "frontend.requirements"
+msgstr "Requirements"
+
+msgid "frontend.requirements_description"
+msgstr ""
+"You need to run some code according to the instructions above. In case those"
+" aren't clear enough, here's some extra clarification:"
+
+msgid "frontend.verbatim"
+msgstr ""
+"This step has only one correct answer. You must run exactly the correct "
+"code, so check your spelling carefully. Only a few kinds of details (such as"
+" spaces in certain places) will be ignored, as they don't make any "
+"difference to the program."
+
+msgid "frontend.error_has_been_reported"
+msgstr "The error has been reported."
+
+msgid "frontend.give_feedback_from_menu"
+msgstr "Give feedback from the top-left menu."
+
+msgid "frontend.internal_error_start"
+msgstr ""
+"Oops, something went wrong! ${maybeErrorReported} Here's what you can do:"
+
+msgid "frontend.refresh_and_try_again"
+msgstr "Reload/refresh the page and try again."
+
+msgid "frontend.try_running_code_again"
+msgstr "Try running the code again."
+
+msgid "frontend.try_using_different_browser"
+msgstr "Try using a different browser."
+
+msgid "frontend.assessment_lint"
+msgstr "Found the following generic problem(s) in your code:"
+
+msgid "frontend.assessment_passed_tests"
+msgstr "On the bright side, your code passed ${num} test(s)!"

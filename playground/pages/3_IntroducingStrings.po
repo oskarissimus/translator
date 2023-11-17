@@ -1,0 +1,18 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingStrings.steps.hello_string.text"
+msgstr ""
+"Python pozwala na znacznie więcej niż tylko obliczenia. Tak naprawdę przez jakiś czas nie będziemy się zajmować liczbami ani matematyką. Zamiast tego przyjrzymy się *łańcuchom znaków*. Łańcuchy znaków to w zasadzie fragmenty tekstu. Na przykład, wprowadź do konsoli poniższe polecenie, razem z cudzysłowami (`'`):\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.IntroducingStrings.steps.final_text.text"
+msgstr ""
+"Konsola po prostu zwraca to samo, ponieważ nie ma nic więcej do obliczenia. `'hello'` jest po prostu równe `'hello'`.\n"
+"\n"
+"Łańcuch znaków to ciąg znaków. Znak to pojedynczy symbol, taki jak litera, cyfra, znak interpunkcyjny, spacja itp. W tym przypadku łańcuch zawiera 5 znaków `hello`. Cudzysłowy nie są częścią łańcucha - są one umieszczone, aby zarówno ludzie, jak i komputery wiedziały, że jest to łańcuch składający się z jakichkolwiek znaków znajdujących się między cudzysłowami."
+
+msgid "pages.IntroducingStrings.title"
+msgstr "Introducing Strings"

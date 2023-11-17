@@ -1,0 +1,41 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.AddingStrings.steps.hello_world_concat.text"
+msgstr ""
+"Strings can be added together using `+`, although this means something very different from adding numbers. For example, try:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.AddingStrings.steps.hello_world_space.text"
+msgstr ""
+"You can see that `+` combines or joins two strings together end to end. Technically, this is called concatenation.\n"
+"\n"
+"Here's an exercise: change the previous code slightly so that the result is the string `'hello world'`, i.e. with a space between the words.\n"
+"\n"
+"By the way, if you get stuck, you can click the lightbulb icon in the bottom right for a hint."
+
+msgid "pages.AddingStrings.steps.final_text.text"
+msgstr ""
+"Well done! Any of the following are valid solutions:\n"
+"\n"
+"__code0__"
+
+msgid "pages.AddingStrings.steps.hello_world_space.hints.0.text"
+msgstr "A space is a character just like any other, like `o` or `w`."
+
+msgid "pages.AddingStrings.steps.hello_world_space.hints.1.text"
+msgstr "The space character must be somewhere inside quotes."
+
+msgid ""
+"pages.AddingStrings.steps.hello_world_space.messages.literal_answer.text"
+msgstr "You must still add two or more strings together."
+
+msgid "pages.AddingStrings.title"
+msgstr "Adding Strings"
+
+msgid "pages.AddingStrings.steps.hello_world_space.requirements"
+msgstr ""
+"Use `+` to add two or more strings together, so that the result is the "
+"string `'hello world'`."

@@ -1,0 +1,158 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingFstrings.steps.introduce_f_strings.text"
+msgstr ""
+"Do tej pory łączyliśmy łańcuchy znaków poprzez ich konkatenację za pomocą `+`, jak:\n"
+"\n"
+"    __copyable__\n"
+"__code0__\n"
+"\n"
+"Jednakże ta metoda może być trochę uciążliwa. Możemy napisać to samo bardziej elegancko, używając *łańcucha znaków f*.\n"
+"Zastąp ostatnią linię programu powyżej poniższą linią i uruchom ją.\n"
+"Upewnij się, że zawarłeś `f` przed łańcuchem znaków.\n"
+"\n"
+"__code1__"
+
+msgid "pages.IntroducingFstrings.steps.concatenate_string_number.text"
+msgstr ""
+"Składnia łańcucha znaków f zaczyna się od `f`, po którym następuje łańcuch znaków.\n"
+"Łańcuch f-string może zawierać nazwy zmiennych w środku nawiasów klamrowych `{}`.\n"
+"Zostaną one zastąpione wartościami tych zmiennych przekształconymi na łańcuchy znaków.\n"
+"Zmienne mogą być czymkolwiek: łańcuchami znaków, liczbami, listami itd.\n"
+"\n"
+"Dlatego łańcuchy znaków f pozwalają łatwo kombinować łańcuchy znaków i liczby, które\n"
+"nie mogą być po prostu dodane do siebie. Na przykład uruchom następujący program:\n"
+"\n"
+"    __copyable__\n"
+"__code0__"
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.text"
+msgstr ""
+"To nie działa, ponieważ nie możemy użyć `+` między łańcuchem znaków `\"Hello Alice. You are \"` a liczbą `age`.\n"
+"\n"
+"Napraw to, zastępując wszystkie konkatenacje łańcuchów znaków (+) pojedynczym łańcuchem znaków f."
+
+msgid "pages.IntroducingFstrings.steps.eval_expr_inside_f_string.text"
+msgstr ""
+"Oprócz zmiennych, łańcuch znaków f może faktycznie zawierać dowolne wyrażenie Pythona wewnątrz nawiasów klamrowych.\n"
+"Wypróbuj to w konsoli:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.text"
+msgstr ""
+"Jak widzisz, możemy zdefiniować łańcuch znaków f również używając podwójnych cytatów, tak jak w przypadku normalnego łańcucha.\n"
+"I tak jak cytaty, łańcuchy znaków f są tylko notacją. Gdy są wyliczone, komputer zapomina, że użyto łańcucha znaków f, przechowuje tylko końcowy wynik jako normalny łańcuch znaków.\n"
+"\n"
+"Oto bardzo zepsuty program:\n"
+"\n"
+"    __copyable__\n"
+"    people = [\"Alice\", \"Bob\", \"Charlie\"]\n"
+"    print('There are' + people.length() + 'people waiting, the first one's name is' + people.1 + '.')\n"
+"\n"
+"Napraw go!\n"
+"Twoje rozwiązanie powinno działać dla dowolnej listy łańcuchów znaków o nazwie `people`.\n"
+"Na przykład, w powyższym przypadku powinno wydrukować:\n"
+"\n"
+"    There are 3 people waiting, the first one's name is Alice."
+
+msgid "pages.IntroducingFstrings.steps.final_text.text"
+msgstr ""
+"Świetnie!\n"
+"\n"
+"Od teraz zachęcamy do używania łańcuchów znaków f zamiast `+` do budowania twoich łańcuchów znaków, tam gdzie to możliwe."
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.0.text"
+msgstr "This is just like the given f-string example."
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.1.text"
+msgstr "Did you forget the `f`?"
+
+msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.2.text"
+msgstr "How many pairs of curly brackets do you need?"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.0.text"
+msgstr "There are four problems with the expression inside `print`."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.1.text"
+msgstr "There is a problem with the syntax that finds the number of people."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.2.text"
+msgstr "Then one of the strings has a problem with the quotes."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.3.text"
+msgstr ""
+"Also there is a problem with the syntax that finds the first person's name."
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.4.text"
+msgstr "And you can't add strings and numbers together!"
+
+msgid "pages.IntroducingFstrings.steps.fix_broken_program.hints.5.text"
+msgstr "Did you properly use curly brackets in your f-string?"
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.0"
+msgstr "\"Hello \" + name + \". You are \" + age + \" years old.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.1"
+msgstr "Hello name. You are age years old."
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.2"
+msgstr "Hello Alice. You are 20 years old."
+
+msgid ""
+"pages.IntroducingFstrings.steps.concatenate_string_number.output_prediction_choices.3"
+msgstr "Hello 'Alice'. You are 20 years old."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.0"
+msgstr "f\"{name} went to {meal} with {friend}.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.1"
+msgstr "\"{name} went to {meal} with {friend}.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.2"
+msgstr "{name} went to {meal} with {friend}."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.3"
+msgstr "'name' went to 'meal' with 'friend'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.4"
+msgstr "name went to meal with friend."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.5"
+msgstr "\"Alice\" went to \"lunch\" with 'Bob'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.6"
+msgstr "'Alice' went to 'lunch' with 'Bob'."
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.7"
+msgstr "\"Alice went to lunch with Bob.\""
+
+msgid ""
+"pages.IntroducingFstrings.steps.introduce_f_strings.output_prediction_choices.8"
+msgstr "Alice went to lunch with Bob."
+
+msgid "pages.IntroducingFstrings.title"
+msgstr "f-strings"
+
+msgid "pages.IntroducingFstrings.steps.introduce_f_strings.requirements"
+msgstr ""
+"Run the program above, but replace this code inside the `print()`:\n"
+"\n"
+"__code0__\n"
+"\n"
+"with:\n"
+"\n"
+"__code1__"

@@ -1,0 +1,41 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.AddingStrings.steps.hello_world_concat.text"
+msgstr ""
+"Łańcuchy znaków mogą być łączone razem za pomocą `+`, chociaż ma to bardzo odmienne znaczenie niż dodawanie liczb. Na przykład spróbuj:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.AddingStrings.steps.hello_world_space.text"
+msgstr ""
+"Możesz zauważyć, że `+` łączy dwa łańcuchy znaków ze sobą jeden za drugim. Technicznie nazywa się to konkatenacją.\n"
+"\n"
+"Oto ćwiczenie: zmodyfikuj nieco poprzedni kod, tak aby wynikiem było łańcuch znaków `'hello world'`, czyli z odstępem między słowami.\n"
+"\n"
+"A tak przy okazji, jeśli utkniesz, możesz kliknąć ikonę żarówki w prawym dolnym rogu, aby uzyskać wskazówkę."
+
+msgid "pages.AddingStrings.steps.final_text.text"
+msgstr ""
+"Brawo! Wszystkie z poniższych są prawidłowymi rozwiązaniami:\n"
+"\n"
+"__code0__"
+
+msgid "pages.AddingStrings.steps.hello_world_space.hints.0.text"
+msgstr "Spacja jest znakiem tak jak każdy inny, jak `o` lub `w`."
+
+msgid "pages.AddingStrings.steps.hello_world_space.hints.1.text"
+msgstr "Znak spacji musi być umieszczony wewnątrz cudzysłowów."
+
+msgid ""
+"pages.AddingStrings.steps.hello_world_space.messages.literal_answer.text"
+msgstr "You must still add two or more strings together."
+
+msgid "pages.AddingStrings.title"
+msgstr "Adding Strings"
+
+msgid "pages.AddingStrings.steps.hello_world_space.requirements"
+msgstr ""
+"Use `+` to add two or more strings together, so that the result is the "
+"string `'hello world'`."

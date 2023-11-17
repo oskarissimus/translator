@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingTheShell.steps.first_expression.text"
+msgstr ""
+"Po prawej stronie znajduje się *konsola*. To miejsce do uruchamiania małych fragmentów kodu Pythona. Wystarczy wpisać trochę kodu, nacisnąć enter, i już zadziała! Wypróbuj teraz:\n"
+"\n"
+"1. Kliknij gdziekolwiek na konsoli (czarnym obszarze).\n"
+"2. Wpisz `__program__`\n"
+"3. Naciśnij klawisz Enter na klawiaturze."
+
+msgid "pages.IntroducingTheShell.steps.more_calculation.text"
+msgstr ""
+"Świetnie! Python obliczył `1+2` i otrzymał wynik `3`, więc konsola wyświetla ten wynik.\n"
+"\n"
+"Konsola to prawdopodobnie Twoje najważniejsze narzędzie do nauki Pythona i powinieneś spędzić dużo czasu na eksperymentowaniu i eksplorowaniu jej możliwości. Bądź ciekawy! Ciągle zadawaj sobie pytania \"Co by się stało, gdybym uruchomił X?\" i natychmiast odpowiadaj na to pytanie, uruchamiając to. Nigdy nie bój się czegoś wypróbować - jeśli coś pójdzie nie tak, nic złego się nie stanie.\n"
+"\n"
+"Spróbuj teraz wykonać więcej obliczeń. Możesz mnożyć liczby za pomocą `*`, dzielić przy użyciu `/` oraz odejmować za pomocą `-`. Możesz również używać nawiasów, czyli `(` i `)`."
+
+msgid "pages.IntroducingTheShell.steps.final_text.text"
+msgstr ""
+"Doskonale! Kontynuuj eksperymentowanie. Gdy będziesz gotowy, kliknij "
+"'Dalej', aby kontynuować."
+
+msgid ""
+"pages.IntroducingTheShell.steps.first_expression.messages.anything_else.text"
+msgstr ""
+"Awesome, you're trying out your own experiments!\n"
+"That's a great sign. Keep it up.\n"
+"Just letting you know that you do need to eventually type `1+2` for the book to move forward."
+
+msgid "pages.IntroducingTheShell.title"
+msgstr "Introducing The Shell"
+
+msgid ""
+"pages.IntroducingTheShell.steps.more_calculation.special_messages.multiply_with_x.text"
+msgstr ""
+"I see an 'x'. If you're trying to multiply, use an asterisk, e.g:\n"
+"\n"
+"__code0__"
+
+msgid "pages.IntroducingTheShell.steps.more_calculation.requirements"
+msgstr ""
+"Run code in the shell similar to `1 + 2`, but instead of `+`, use `*`, `/`, "
+"or `-`."

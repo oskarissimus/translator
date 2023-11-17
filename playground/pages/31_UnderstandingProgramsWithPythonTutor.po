@@ -1,0 +1,23 @@
+#
+msgid ""
+msgstr ""
+
+msgid ""
+"pages.UnderstandingProgramsWithPythonTutor.steps.run_with_python_tutor.text"
+msgstr ""
+"Czas poznać kolejne narzędzie do eksploracji programów.\n"
+"Skopiuj poniższy kod do edytora, a następnie kliknij nowy przycisk \"Python Tutor\".\n"
+"Przycisk otworzy nową zakładkę z wizualizacją z [pythontutor.com](http://pythontutor.com).\n"
+"Tam możesz przechodzić przez program krok po kroku za pomocą przycisków \"Prev\" i \"Next\", lub przeciągając\n"
+"suwak w lewo lub w prawo. Możesz również zobaczyć wartości zmiennych po prawej stronie.\n"
+"\n"
+"    __copyable__\n"
+"__code0__"
+
+msgid "pages.UnderstandingProgramsWithPythonTutor.steps.final_text.text"
+msgstr ""
+"Zwróć uwagę, że kod zostaje wykonany dwa razy oddzielnie: raz tutaj, raz na stronie pythontutor.com.\n"
+"W zależności od twojego programu, oba wykonywania mogą dać różne wyniki."
+
+msgid "pages.UnderstandingProgramsWithPythonTutor.title"
+msgstr "Understanding Programs With Python Tutor"

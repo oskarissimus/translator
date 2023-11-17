@@ -1,0 +1,101 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.UsingVariables.steps.name_assign.text"
+msgstr ""
+"Wcześniej stworzyliśmy zmienną o nazwie `word` z wartością `'Hello'` za pomocą tego kodu:\n"
+"\n"
+"__code0__\n"
+"\n"
+"Teraz stwórz zmienną o nazwie `your_name`, której wartością będzie inny łańcuch znaków.\n"
+"\n"
+"(Znak `_` w `your_name` nazywany jest *podkreśleniem (underscore)*. Używaj go do oddzielania słów, kiedy chcesz stworzyć nazwę zmiennej składającą się z wielu słów. Można go wpisać na większości klawiatur, naciskając jednocześnie klawisz Shift i myślnik/kreskę/minus (`-`).)"
+
+msgid "pages.UsingVariables.steps.hello_plus_name.text"
+msgstr ""
+"Możesz używać zmiennych w obliczeniach tak samo, jak używałbyś dosłownych wartości. Na przykład, spróbuj:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.UsingVariables.steps.word_plus_name.text"
+msgstr ""
+"Albo po prostu możesz dodawać do siebie zmienne. Spróbuj:\n"
+"\n"
+"__code0__"
+
+msgid "pages.UsingVariables.steps.word_plus_name_with_space.text"
+msgstr ""
+"Ups... to nie wygląda ładnie. Czy możesz zmodyfikować powyższy kod, tak aby "
+"między słowem a twoim imieniem była spacja?"
+
+msgid "pages.UsingVariables.steps.word_assign_goodbye.text"
+msgstr ""
+"Doskonale!\n"
+"\n"
+"Zmienne mogą również zmieniać swoje wartości z czasem. Obecnie `word` ma wartość `'Hello'`. Możesz zmienić jej wartość w ten sam sposób, w jaki ustawiałeś ją po raz pierwszy. Uruchom to:\n"
+"\n"
+"__code0__"
+
+msgid "pages.UsingVariables.steps.goodbye_plus_name.text"
+msgstr ""
+"Teraz zaobserwuj efekt tej zmiany, uruchamiając ponownie `__program__`."
+
+msgid "pages.UsingVariables.steps.first_print.text"
+msgstr ""
+"Te cudzysłowy wokół łańcuchów znaków zaczynają być irytujące. Spróbuj uruchomić to:\n"
+"\n"
+"__code0__"
+
+msgid "pages.UsingVariables.steps.final_text.text"
+msgstr ""
+"Hura! Już więcej bez cudzysłowów! Wyjaśnimy, co dzieje się w tym kodzie "
+"później. Na razie wystarczy wiedzieć, że `print(<coś>)` wyświetla `<coś>` w "
+"konsoli. W szczególności pokazuje faktyczną zawartość łańcuchów znaków, na "
+"której zazwyczaj nam zależy, zamiast reprezentacji łańcuchów znaków "
+"odpowiednich dla kodu, gdzie występują takie rzeczy jak cudzysłowy. Słowo "
+"`print` tutaj nie ma nic wspólnego z drukowaniem tuszem na papierze."
+
+msgid "pages.UsingVariables.steps.word_plus_name_with_space.hints.0.text"
+msgstr "Będziesz musiał użyć `+` dwa razy, tak jak w 1+2+3."
+
+msgid "pages.UsingVariables.steps.word_plus_name_with_space.hints.1.text"
+msgstr ""
+"Twoja odpowiedź powinna zawierać mieszaninę zmiennych (bez cudzysłowów) i "
+"literałów napisowych (w cudzysłowach)."
+
+msgid "pages.UsingVariables.steps.word_plus_name_with_space.hints.2.text"
+msgstr "Będziesz musiał mieć znak spacji wewnątrz cudzysłowów."
+
+msgid ""
+"pages.UsingVariables.steps.name_assign.messages.assigned_something_else.text"
+msgstr ""
+"Put `your_name` before the `=` to create a variable called `your_name`."
+
+msgid "pages.UsingVariables.steps.name_assign.messages.empty_string.text"
+msgstr "For this exercise, choose a non-empty string"
+
+msgid ""
+"pages.UsingVariables.steps.name_assign.messages.name_equals_something_else.text"
+msgstr ""
+"You've got the `your_name = ` part right, now put a string (use quotes) on "
+"the right of the `=`."
+
+msgid "pages.UsingVariables.steps.name_assign.messages.starts_with_space.text"
+msgstr "For this exercise, choose a name that doesn't start with a space."
+
+msgid "pages.UsingVariables.title"
+msgstr "Using Variables and `print()`"
+
+msgid ""
+"pages.UsingVariables.steps.word_plus_name.special_messages.bad_word.text"
+msgstr "Oops, you need to set `word = 'Hello'` before we can continue."
+
+msgid ""
+"pages.UsingVariables.steps.word_plus_name_with_space.special_messages.bad_word.text"
+msgstr "Oops, you need to set `word = 'Hello'` before we can continue."
+
+msgid "pages.UsingVariables.steps.name_assign.requirements"
+msgstr ""
+"Run something similar to `word = 'Hello'`, but replace `word` with "
+"`your_name`."
