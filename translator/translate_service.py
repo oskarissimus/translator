@@ -2,10 +2,17 @@ from decimal import Decimal
 from openai import OpenAI
 from translator.const import PERSONALITY
 from translator.enums import ModelName
-from translator.logger import log_messages_tokens, log_response_tokens
+from translator.logger import log_messages_tokens, log_response_tokens, log_total_cost
 from translator.models import Message, get_messages_dicts
 from translator.pricing import calculate_response_cost
 from translator.util import get_latest_messages, sum_tokens
+from openai.types.chat import ChatCompletion
+
+
+def calculate_last_message_token_count(
+    input_tokens: int, messages: list[Message]
+) -> int:
+    return input_tokens - sum_tokens(messages)
 
 
 class TranslateService:
@@ -23,14 +30,32 @@ class TranslateService:
         ]
 
     def translate(self, text: str) -> str:
+        self.append_user_message(text)
+        response = self.create_chat_completion()
+        self.update_last_message_token_count(response)
+        self.append_response_message(response)
+        self.log_and_calculate_costs(response)
+
+        return response.choices[0].message.content
+
+    def append_user_message(self, text: str) -> None:
         self.messages.append(Message(content=text, role="user"))
+
+    def create_chat_completion(self) -> ChatCompletion:
         latest_messages = get_latest_messages(self.messages)
-        response = self.client.chat.completions.create(
+        return self.client.chat.completions.create(
             model=self.model, messages=get_messages_dicts(latest_messages)
         )
-        input_tokens = response.usage.prompt_tokens
-        self.messages[-1].token_count = input_tokens - sum_tokens(latest_messages)
 
+    def update_last_message_token_count(self, response: ChatCompletion) -> None:
+        input_tokens = response.usage.prompt_tokens
+        latest_messages = get_latest_messages(self.messages)
+        last_message_token_count = calculate_last_message_token_count(
+            input_tokens, latest_messages
+        )
+        self.messages[-1].token_count = last_message_token_count
+
+    def append_response_message(self, response: ChatCompletion) -> None:
         message = response.choices[0].message
         self.messages.append(
             Message(
@@ -39,12 +64,13 @@ class TranslateService:
                 token_count=response.usage.completion_tokens,
             )
         )
-        translated = response.choices[0].message.content
-        calculate_response_cost(response, self.model)
+
+    def log_and_calculate_costs(self, response: ChatCompletion) -> None:
+        cost = calculate_response_cost(response, self.model)
+        self.total_cost += cost
+        log_total_cost(self.total_cost)
         log_response_tokens(response)
         log_messages_tokens(self.messages)
-
-        return translated
 
     def check_system_message_token_count(self) -> int:
         response = self.client.chat.completions.create(
