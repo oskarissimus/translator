@@ -3,7 +3,7 @@ import logging
 from openai import OpenAI
 from translator.const import PERSONALITY
 from translator.pricing import calculate_cost
-from openai.types.chat import ChatCompletion, ChatCompletionMessage
+from openai.types.chat import ChatCompletion
 import logging
 
 from pydantic import BaseModel, Field
@@ -27,8 +27,15 @@ class TranslateService:
     def __init__(self, client: OpenAI):
         self.client = client
         self.total_cost = Decimal("0.00")
-        self.messages = [Message(content=PERSONALITY, role="system")]
         self.model = "gpt-3.5-turbo-1106"
+        system_message_token_count = self.check_system_message_token_count()
+        self.messages = [
+            Message(
+                content=PERSONALITY,
+                role="system",
+                token_count=system_message_token_count,
+            )
+        ]
 
     def get_messages_dicts(self) -> list[dict[str, str]]:
         return [message.model_dump() for message in self.messages]
@@ -66,7 +73,15 @@ class TranslateService:
     def report_tokens(self, response: ChatCompletion) -> None:
         input_tokens = response.usage.prompt_tokens
         output_tokens = response.usage.completion_tokens
-        logging.info(f"Tokens: {input_tokens} input, {output_tokens} output")
+        total_tokens = response.usage.total_tokens
+        logging.info(f"{input_tokens=}, {output_tokens=}, {total_tokens=}")
 
         for message in self.messages:
             logging.info(f"Tokens: {message.token_count} {message.role}")
+
+    def check_system_message_token_count(self) -> int:
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[Message(content=PERSONALITY, role="system").model_dump()],
+        )
+        return response.usage.prompt_tokens
