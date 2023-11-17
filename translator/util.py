@@ -1,4 +1,18 @@
-def format_log(input, log_type):
-    space_padded_log_type = f" {log_type} "
-    formatted_log = f"{space_padded_log_type.center(90, '=')}\n{input}\n{'=' * 90}\n\n"
-    return formatted_log
+from translator.models import Message
+
+
+def sum_tokens(messages: list[Message]) -> int:
+    return sum([message.token_count for message in messages])
+
+
+def get_latest_messages(messages: list[Message], threshold: int = 4000):
+    total_tokens = sum_tokens(messages)
+    if total_tokens <= threshold:
+        return messages
+
+    messages_copy = messages.copy()
+
+    while sum_tokens(messages_copy) > threshold:
+        messages_copy.pop(1)
+
+    return messages_copy

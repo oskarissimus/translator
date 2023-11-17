@@ -1,4 +1,3 @@
-from decimal import Decimal
 import logging
 import polib
 from openai import OpenAI
@@ -6,7 +5,7 @@ from openai import OpenAI
 import logging
 from translator.translate_service import TranslateService
 
-from translator.util import format_log
+from translator.logger import format_log
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 logging.getLogger("httpx").setLevel(logging.WARNING)

@@ -1,26 +1,10 @@
 from decimal import Decimal
-import logging
 from openai import OpenAI
 from translator.const import PERSONALITY
-from translator.pricing import calculate_cost
-from openai.types.chat import ChatCompletion
-import logging
-
-from pydantic import BaseModel, Field
-
-
-class Message(BaseModel):
-    content: str
-    role: str
-    token_count: int = Field(default=0, exclude=True)
-
-
-def create_message(text):
-    return Message(content=text, role="user")
-
-
-def sum_tokens(messages: list[Message]) -> int:
-    return sum([message.token_count for message in messages])
+from translator.logger import log_messages_tokens, log_response_tokens
+from translator.models import Message, get_messages_dicts
+from translator.pricing import calculate_response_cost
+from translator.util import get_latest_messages, sum_tokens
 
 
 class TranslateService:
@@ -37,16 +21,14 @@ class TranslateService:
             )
         ]
 
-    def get_messages_dicts(self) -> list[dict[str, str]]:
-        return [message.model_dump() for message in self.messages]
-
     def translate(self, text: str) -> str:
-        self.messages.append(create_message(text))
+        self.messages.append(Message(content=text, role="user"))
+        latest_messages = get_latest_messages(self.messages)
         response = self.client.chat.completions.create(
-            model=self.model, messages=self.get_messages_dicts()
+            model=self.model, messages=get_messages_dicts(latest_messages)
         )
         input_tokens = response.usage.prompt_tokens
-        self.messages[-1].token_count = input_tokens - sum_tokens(self.messages)
+        self.messages[-1].token_count = input_tokens - sum_tokens(latest_messages)
 
         message = response.choices[0].message
         self.messages.append(
@@ -57,27 +39,11 @@ class TranslateService:
             )
         )
         translated = response.choices[0].message.content
-        self.report_tokens(response)
-        self.report_cost(response)
+        calculate_response_cost(response, self.model)
+        log_response_tokens(response)
+        log_messages_tokens(self.messages)
 
         return translated
-
-    def report_cost(self, response: ChatCompletion) -> None:
-        input_tokens = response.usage.prompt_tokens
-        output_tokens = response.usage.completion_tokens
-        cost = calculate_cost(self.model, input_tokens, output_tokens)
-        self.total_cost += cost
-        logging.info(f"Cost: {cost}")
-        logging.info(f"Total cost: {self.total_cost}")
-
-    def report_tokens(self, response: ChatCompletion) -> None:
-        input_tokens = response.usage.prompt_tokens
-        output_tokens = response.usage.completion_tokens
-        total_tokens = response.usage.total_tokens
-        logging.info(f"{input_tokens=}, {output_tokens=}, {total_tokens=}")
-
-        for message in self.messages:
-            logging.info(f"Tokens: {message.token_count} {message.role}")
 
     def check_system_message_token_count(self) -> int:
         response = self.client.chat.completions.create(

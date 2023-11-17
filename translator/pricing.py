@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 from decimal import Decimal
+from openai.types.chat import ChatCompletion
+import logging
 
 
 @dataclass
@@ -18,8 +20,16 @@ model_pricing_dict = {
 }
 
 
-def calculate_cost(model: str, input_tokens: int, output_tokens: int) -> Decimal:
+def calculate_tokens_cost(model: str, input_tokens: int, output_tokens: int) -> Decimal:
     model_pricing = model_pricing_dict[model]
     input_cost = model_pricing.input_cost * input_tokens
     output_cost = model_pricing.output_cost * output_tokens
     return (input_cost + output_cost) / 1000
+
+
+def calculate_response_cost(response: ChatCompletion, model: str) -> Decimal:
+    input_tokens = response.usage.prompt_tokens
+    output_tokens = response.usage.completion_tokens
+    cost = calculate_tokens_cost(model, input_tokens, output_tokens)
+    logging.info(f"Cost: {cost}")
+    return cost
