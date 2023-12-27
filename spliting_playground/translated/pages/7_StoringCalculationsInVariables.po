@@ -2,44 +2,73 @@
 msgid ""
 msgstr ""
 
-msgid "pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.text"
-msgstr "Często będziesz używać zmiennych, aby przechowywać wyniki obliczeń. Pomoże to budować bardziej złożone programy. Na przykład, wypróbuj ten program:\n\n__code0__"
+msgid "pages.StoringCalculationsInVariables.steps.final_text.text"
+msgstr ""
+"W przeciwieństwie do arkusza kalkulacyjnego, gdzie formuły aktualizują się "
+"automatycznie, zmienna taka jak `sentence` nie pamięta, jak została "
+"obliczona i nie zmieni się, jeśli zmienione zostaną wartości leżące u "
+"podstawy `word` lub `name`."
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.0"
+msgstr ""
+"Hello World\n"
+"Hello World"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.1"
+msgstr ""
+"Hello World\n"
+"Goodbye World"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.2"
+msgstr ""
+"Goodbye World\n"
+"Goodbye World"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.requirements"
+msgstr ""
+"Uruchom program składający się z czterech linii z poprzedniego kroku, a "
+"następnie z dwóch linii tutaj."
 
 msgid "pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.text"
-msgstr "Teraz `sentence` ma wartość `'Hello World'`, której można używać wielokrotnie. Zauważ, że będzie ona kontynuowała posiadanie tej wartości aż do jej bezpośredniego przypisania, np. za pomocą innego polecenia takiego jak `sentence = <something>`. Na przykład, dodaj te dwie linie na końcu programu:\n\n__code0__"
+msgstr ""
+"Teraz `sentence` ma wartość `'Hello World'`, której można używać wielokrotnie. Zauważ, że będzie ona kontynuowała posiadanie tej wartości aż do jej bezpośredniego przypisania, np. za pomocą innego polecenia takiego jak `sentence = <something>`. Na przykład, dodaj te dwie linie na końcu programu:\n"
+"\n"
+"__code0__"
 
-msgid "pages.StoringCalculationsInVariables.steps.final_text.text"
-msgstr "W przeciwieństwie do arkusza kalkulacyjnego, gdzie formuły aktualizują się automatycznie, zmienna taka jak `sentence` nie pamięta, jak została obliczona i nie zmieni się, jeśli zmienione zostaną wartości leżące u podstawy `word` lub `name`."
-
-msgid "pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.0"
-msgstr "Hello World\nHello World"
-
-msgid "pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.1"
-msgstr "Hello World\nGoodbye World"
-
-msgid "pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.2"
-msgstr "Goodbye World\nGoodbye World"
-
-msgid "pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.0"
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.0"
 msgstr "sentence"
 
-msgid "pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.1"
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.1"
 msgstr "word + ' ' + name"
 
-msgid "pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.2"
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.2"
 msgstr "Hello + ' ' + World"
 
-msgid "pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.3"
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.3"
 msgstr "'Hello' + ' ' + 'World'"
 
-msgid "pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.4"
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.4"
 msgstr "Hello World"
 
-msgid "pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.5"
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.5"
 msgstr "'Hello World'"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.text"
+msgstr ""
+"Często będziesz używać zmiennych, aby przechowywać wyniki obliczeń. Pomoże to budować bardziej złożone programy. Na przykład, wypróbuj ten program:\n"
+"\n"
+"__code0__"
 
 msgid "pages.StoringCalculationsInVariables.title"
 msgstr "Przechowywanie Obliczeń w Zmiennych"
-
-msgid "pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.requirements"
-msgstr "Uruchom program składający się z czterech linii z poprzedniego kroku, a następnie z dwóch linii tutaj."

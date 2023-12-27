@@ -8,6 +8,20 @@ msgstr "Jesteś pewien?"
 msgid "frontend.ask_for_help"
 msgstr "Poproś o pomoc"
 
+msgid "frontend.assessment"
+msgstr "Ocena"
+
+msgid "frontend.assessment_description"
+msgstr ""
+"Gdy uruchomisz kod, który nie przechodzi obecnego kroku, ta sekcja *czasami*"
+" wyjaśni co jest nie tak."
+
+msgid "frontend.assessment_lint"
+msgstr "Znaleziono następujące ogólne problemy w twoim kodzie:"
+
+msgid "frontend.assessment_passed_tests"
+msgstr "Z jasnej strony, twój kod przeszedł ${num} testy/ów!"
+
 msgid "frontend.cancel"
 msgstr "Anuluj"
 
@@ -16,6 +30,9 @@ msgstr "Czatuj na Slacku"
 
 msgid "frontend.click_for_error_details"
 msgstr "Kliknij, aby zobaczyć szczegóły błędu"
+
+msgid "frontend.click_to_expand"
+msgstr "Kliknij, aby rozwinąć"
 
 msgid "frontend.contact_directly"
 msgstr "Alternatywnie możesz skontaktować się z nami bezpośrednio:"
@@ -48,14 +65,41 @@ msgstr "Aktywuje przyciski „Cofnij krok” i „Pomiń krok”."
 msgid "frontend.did_you_mean"
 msgstr "Czy miałeś na myśli..."
 
+msgid "frontend.error_has_been_reported"
+msgstr "Błąd został zgłoszony."
+
 msgid "frontend.error_traceback"
 msgstr "Ślad błędu:"
+
+msgid "frontend.exercise_requirement"
+msgstr ""
+"Ten krok to ćwiczenie. Musisz wymyślić kod, który da poprawny wynik. Możliwe"
+" są wiele różnych poprawnych odpowiedzi."
+
+msgid "frontend.exercise_stdin"
+msgstr ""
+"Twój program musi otrzymać dane wejściowe od użytkownika poprzez funkcję "
+"„input()”. Podczas testowania poprawności różne dane wejściowe użytkownika "
+"zostaną zasymulowane."
 
 msgid "frontend.feedback"
 msgstr "Opinia"
 
 msgid "frontend.feedback_email_placeholder"
 msgstr "Email (opcjonalnie)"
+
+msgid "frontend.function_exercise"
+msgstr ""
+"Zdefiniuj funkcję, zaczynając od:\n"
+"\n"
+"${header}\n"
+"\n"
+"Następnie wypełnij wcięte ciało własną implementacją.\n"
+"\n"
+"Funkcja będzie wywołana z różnymi argumentami, aby przetestować, czy działa ogólnie. Możesz także sam wywołać funkcję, aby ją przetestować podczas pracy, ale nie wpłynie to na ocenę."
+
+msgid "frontend.function_exercise_goal"
+msgstr "Twoja funkcja musi „${print_or_return}” poprawny wynik."
 
 msgid "frontend.get_another_hint"
 msgstr "Uzyskaj kolejną podpowiedź"
@@ -65,6 +109,9 @@ msgstr "Uzyskaj podpowiedź"
 
 msgid "frontend.give_feedback"
 msgstr "Przekaż opinię"
+
+msgid "frontend.give_feedback_from_menu"
+msgstr "Przekaż opinię z menu w lewym górnym rogu."
 
 msgid "frontend.give_feedback_instructions"
 msgstr ""
@@ -76,10 +123,21 @@ msgstr ""
 
 msgid "frontend.hidden_solution_instructions"
 msgstr ""
-"Powyżej znajduje się przykładowe rozwiązanie, ale jest ukryte. Klikaj przycisk „Odsłoń” wielokrotnie, aby odsłaniać rozwiązanie kawałek po kawałku. Postaraj się zatrzymać, kiedy pomyślisz, że odsłoniłeś wystarczająco i możesz sam uzupełnić pozostałe luki. Następnie wpisz rozwiązanie w edytorze i uruchom je. Twoje rozwiązanie nie musi być takie samo jak powyżej."
+"Powyżej znajduje się przykładowe rozwiązanie, ale jest ukryte. Klikaj "
+"przycisk „Odsłoń” wielokrotnie, aby odsłaniać rozwiązanie kawałek po "
+"kawałku. Postaraj się zatrzymać, kiedy pomyślisz, że odsłoniłeś "
+"wystarczająco i możesz sam uzupełnić pozostałe luki. Następnie wpisz "
+"rozwiązanie w edytorze i uruchom je. Twoje rozwiązanie nie musi być takie "
+"samo jak powyżej."
+
+msgid "frontend.hints_and_solution"
+msgstr "Podpowiedzi i Rozwiązanie"
 
 msgid "frontend.hints_progress"
 msgstr "Pokazane ${numHints} z ${totalHints} podpowiedzi"
+
+msgid "frontend.internal_error_start"
+msgstr "Ups, coś poszło nie tak! ${maybeErrorReported} Oto co możesz zrobić:"
 
 msgid "frontend.loading_wait"
 msgstr "Ładowanie..."
@@ -87,11 +145,31 @@ msgstr "Ładowanie..."
 msgid "frontend.login_or_sign_up"
 msgstr "Zaloguj się / Zarejestruj"
 
+msgid "frontend.new"
+msgstr "Nowy"
+
 msgid "frontend.next"
 msgstr "Następny"
 
 msgid "frontend.no"
 msgstr "Nie"
+
+msgid "frontend.no_hints_available"
+msgstr ""
+"Do tego kroku nie ma żadnych podpowiedzi. Spróbuj ponownie przeczytać "
+"instrukcje i wymagania. Nadal możesz sprawdzić rozwiązanie, jeśli jesteś "
+"naprawdę zablokowany."
+
+msgid "frontend.no_input_variables"
+msgstr "To ćwiczenie nie ma zmiennych wejściowych."
+
+msgid "frontend.non_function_exercise"
+msgstr ""
+"Twój kod *musi* zacząć się od przypisania wartości do zmiennych wejściowych, np:\n"
+"\n"
+"${inputs}\n"
+"\n"
+"Wartości to tylko przykłady, możesz wybrać inne. Twój kod zostanie automatycznie przetestowany z różnymi wartościami, aby sprawdzić, czy działa ogólnie."
 
 msgid "frontend.ok"
 msgstr "OK"
@@ -116,10 +194,20 @@ msgstr "Niestety, zła odpowiedź. Spróbuj ponownie następnym razem!"
 
 msgid "frontend.parsons_solution_instructions"
 msgstr ""
-"Powyżej znajduje się przykładowe rozwiązanie z nieuporządkowanymi liniami. Możesz je przeciągać, aby je posortować. Znalezienie poprawnej kolejności zależy od ciebie, nie powiemy ci, czy masz rację. Eksperymentowanie i uruchamianie częściowych rozwiązań w edytorze może ci pomóc to rozgryźć. Nadal musisz wpisać poprawne rozwiązanie w edytorze i uruchomić je, aby kontynuować."
+"Powyżej znajduje się przykładowe rozwiązanie z nieuporządkowanymi liniami. "
+"Możesz je przeciągać, aby je posortować. Znalezienie poprawnej kolejności "
+"zależy od ciebie, nie powiemy ci, czy masz rację. Eksperymentowanie i "
+"uruchamianie częściowych rozwiązań w edytorze może ci pomóc to rozgryźć. "
+"Nadal musisz wpisać poprawne rozwiązanie w edytorze i uruchomić je, aby "
+"kontynuować."
 
 msgid "frontend.previous"
 msgstr "Poprzedni"
+
+msgid "frontend.program_in_text"
+msgstr ""
+"Dokładny kod, który musisz uruchomić, jest pokazany w tekście powyżej, "
+"jednym fragmentem."
 
 msgid "frontend.question_wizard"
 msgstr "Kreator Pytań"
@@ -138,8 +226,19 @@ msgstr ""
 "\n"
 "Jeśli twoje pytanie dotyczy serwerów (np. Django lub Flask), żądań sieciowych, baz danych lub pakietu, który nie może być zaimportowany tutaj, to narzędzie nie będzie działać. Jednak tylko dlatego, że twój obecny kod *obejmuje* te rzeczy, nie oznacza, że o to chodzi w twoim pytaniu. Jeśli masz ogólny problem z Pythonem/programowaniem/logiką, odszukaj ten problem poza innymi rzeczami. Python z Django to wciąż Python. Jeśli nie możesz tego zrobić, przeczytaj [Jak stworzyć Minimalny, Powtarzalny Przykład](https://stackoverflow.com/help/minimal-reproducible-example) przed zadaniem pytania."
 
+msgid "frontend.refresh_and_try_again"
+msgstr "Odśwież stronę i spróbuj ponownie."
+
 msgid "frontend.repeated_frames_description"
 msgstr "${name} w linii ${lineno} (${count} razy)"
+
+msgid "frontend.requirements"
+msgstr "Wymagania"
+
+msgid "frontend.requirements_description"
+msgstr ""
+"Musisz uruchomić kod zgodnie z instrukcjami powyżej. Na wypadek, gdyby te "
+"nie były wystarczająco jasne, oto pewne dodatkowe wyjaśnienia:"
 
 msgid "frontend.reveal"
 msgstr "Odsłoń"
@@ -192,97 +291,18 @@ msgstr ""
 "\n"
 "Jeśli jesteś całkowicie nowy w programowaniu, lub masz wątpliwości, po prostu zacznij od początku i klikaj „Następny”, gdy skończysz każdą stronę."
 
-msgid "frontend.yes"
-msgstr "Tak"
-
-msgid "frontend.click_to_expand"
-msgstr "Kliknij, aby rozwinąć"
-
-msgid "frontend.assessment"
-msgstr "Ocena"
-
-msgid "frontend.assessment_description"
-msgstr ""
-"Gdy uruchomisz kod, który nie przechodzi obecnego kroku, ta sekcja *czasami* wyjaśni co jest nie tak."
-
-msgid "frontend.exercise_requirement"
-msgstr ""
-"Ten krok to ćwiczenie. Musisz wymyślić kod, który da poprawny wynik. Możliwe są wiele różnych poprawnych odpowiedzi."
-
-msgid "frontend.exercise_stdin"
-msgstr ""
-"Twój program musi otrzymać dane wejściowe od użytkownika poprzez funkcję „input()”. Podczas testowania poprawności różne dane wejściowe użytkownika zostaną zasymulowane."
-
-msgid "frontend.function_exercise"
-msgstr ""
-"Zdefiniuj funkcję, zaczynając od:\n"
-"\n"
-"${header}\n"
-"\n"
-"Następnie wypełnij wcięte ciało własną implementacją.\n"
-"\n"
-"Funkcja będzie wywołana z różnymi argumentami, aby przetestować, czy działa ogólnie. Możesz także sam wywołać funkcję, aby ją przetestować podczas pracy, ale nie wpłynie to na ocenę."
-
-msgid "frontend.function_exercise_goal"
-msgstr "Twoja funkcja musi „${print_or_return}” poprawny wynik."
-
-msgid "frontend.hints_and_solution"
-msgstr "Podpowiedzi i Rozwiązanie"
-
-msgid "frontend.new"
-msgstr "Nowy"
-
-msgid "frontend.no_hints_available"
-msgstr ""
-"Do tego kroku nie ma żadnych podpowiedzi. Spróbuj ponownie przeczytać instrukcje i wymagania. Nadal możesz sprawdzić rozwiązanie, jeśli jesteś naprawdę zablokowany."
-
-msgid "frontend.no_input_variables"
-msgstr "To ćwiczenie nie ma zmiennych wejściowych."
-
-msgid "frontend.non_function_exercise"
-msgstr ""
-"Twój kod *musi* zacząć się od przypisania wartości do zmiennych wejściowych, np:\n"
-"\n"
-"${inputs}\n"
-"\n"
-"Wartości to tylko przykłady, możesz wybrać inne. Twój kod zostanie automatycznie przetestowany z różnymi wartościami, aby sprawdzić, czy działa ogólnie."
-
-msgid "frontend.program_in_text"
-msgstr ""
-"Dokładny kod, który musisz uruchomić, jest pokazany w tekście powyżej, jednym fragmentem."
-
-msgid "frontend.requirements"
-msgstr "Wymagania"
-
-msgid "frontend.requirements_description"
-msgstr ""
-"Musisz uruchomić kod zgodnie z instrukcjami powyżej. Na wypadek, gdyby te nie były wystarczająco jasne, oto pewne dodatkowe wyjaśnienia:"
-
-msgid "frontend.verbatim"
-msgstr ""
-"Ten krok ma tylko jedną poprawną odpowiedź. Musisz uruchomić dokładnie poprawny kod, więc sprawdź dokładnie swoją pisownię. Tylko kilka rodzajów szczegółów (takich jak spacje w niektórych miejscach) zostanie zignorowanych, ponieważ nie robią one różnicy dla programu."
-
-msgid "frontend.error_has_been_reported"
-msgstr "Błąd został zgłoszony."
-
-msgid "frontend.give_feedback_from_menu"
-msgstr "Przekaż opinię z menu w lewym górnym rogu."
-
-msgid "frontend.internal_error_start"
-msgstr ""
-"Ups, coś poszło nie tak! ${maybeErrorReported} Oto co możesz zrobić:"
-
-msgid "frontend.refresh_and_try_again"
-msgstr "Odśwież stronę i spróbuj ponownie."
-
 msgid "frontend.try_running_code_again"
 msgstr "Spróbuj uruchomić kod ponownie."
 
 msgid "frontend.try_using_different_browser"
 msgstr "Spróbuj użyć innej przeglądarki."
 
-msgid "frontend.assessment_lint"
-msgstr "Znaleziono następujące ogólne problemy w twoim kodzie:"
+msgid "frontend.verbatim"
+msgstr ""
+"Ten krok ma tylko jedną poprawną odpowiedź. Musisz uruchomić dokładnie "
+"poprawny kod, więc sprawdź dokładnie swoją pisownię. Tylko kilka rodzajów "
+"szczegółów (takich jak spacje w niektórych miejscach) zostanie "
+"zignorowanych, ponieważ nie robią one różnicy dla programu."
 
-msgid "frontend.assessment_passed_tests"
-msgstr "Z jasnej strony, twój kod przeszedł ${num} testy/ów!"
+msgid "frontend.yes"
+msgstr "Tak"

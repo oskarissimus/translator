@@ -2,6 +2,11 @@
 msgid ""
 msgstr ""
 
+msgid "pages.UnderstandingProgramsWithPythonTutor.steps.final_text.text"
+msgstr ""
+"Zwróć uwagę, że kod wykonuje się dwukrotnie oddzielnie: raz tutaj, a raz na stronie pythontutor.com.\n"
+"W zależności od Twojego programu, oba uruchomienia mogą dać różne wyniki."
+
 msgid ""
 "pages.UnderstandingProgramsWithPythonTutor.steps.run_with_python_tutor.text"
 msgstr ""
@@ -13,11 +18,6 @@ msgstr ""
 "\n"
 "    __copyable__\n"
 "__code0__"
-
-msgid "pages.UnderstandingProgramsWithPythonTutor.steps.final_text.text"
-msgstr ""
-"Zwróć uwagę, że kod wykonuje się dwukrotnie oddzielnie: raz tutaj, a raz na stronie pythontutor.com.\n"
-"W zależności od Twojego programu, oba uruchomienia mogą dać różne wyniki."
 
 msgid "pages.UnderstandingProgramsWithPythonTutor.title"
 msgstr "Zrozumienie programów z Python Tutor"

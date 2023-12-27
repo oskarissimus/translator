@@ -1,5 +1,4 @@
 #
-
 msgid ""
 msgstr ""
 
@@ -8,9 +7,10 @@ msgstr "<nic>"
 
 msgid "misc_terms.case_sensitive"
 msgstr ""
-"Python jest uwrażliwiony na wielkość liter! Oznacza to, że małe i duże litery są ważne "
-"i ich zmiana zmienia znaczenie programu. Ciągi znaków `'hello'` "
-"i `'Hello'` są różne, podobnie jak nazwy zmiennych `word` i `Word`."
+"Python jest uwrażliwiony na wielkość liter! Oznacza to, że małe i duże "
+"litery są ważne i ich zmiana zmienia znaczenie programu. Ciągi znaków "
+"`'hello'` i `'Hello'` są różne, podobnie jak nazwy zmiennych `word` i "
+"`Word`."
 
 msgid "misc_terms.code_should_start_like"
 msgstr ""
@@ -46,13 +46,16 @@ msgstr "Kod jest poprawny, ale nie został uruchomiony zgodnie z instrukcją."
 
 msgid "misc_terms.invalid_inputs"
 msgstr ""
-"Wartości twoich zmiennych wejściowych są niepoprawne, spróbuj użyć wartości podobnych do przykładu."
+"Wartości twoich zmiennych wejściowych są niepoprawne, spróbuj użyć wartości "
+"podobnych do przykładu."
 
 msgid "misc_terms.must_define_function"
 msgstr "Musisz zdefiniować funkcję `{function_name}`"
 
 msgid "misc_terms.no_more_test_inputs"
-msgstr "Brak więcej testowych danych wejściowych - rozwiązanie powinno się już zakończyć"
+msgstr ""
+"Brak więcej testowych danych wejściowych - rozwiązanie powinno się już "
+"zakończyć"
 
 msgid "misc_terms.not_a_function"
 msgstr "`{function_name}` nie jest funkcją."
@@ -103,9 +106,9 @@ msgstr ""
 
 msgid "misc_terms.q_wiz_input_message_start"
 msgstr ""
-"`input()` utrudnia zadawanie pytań i udzielanie odpowiedzi dotyczących kodu. Zastąp "
-"wywołania funkcji input łańcuchami znaków, tak aby każdy mógł natychmiast uruchomić kod "
-"oraz otrzymać te same wyniki."
+"`input()` utrudnia zadawanie pytań i udzielanie odpowiedzi dotyczących kodu."
+" Zastąp wywołania funkcji input łańcuchami znaków, tak aby każdy mógł "
+"natychmiast uruchomić kod oraz otrzymać te same wyniki."
 
 msgid "misc_terms.q_wiz_input_replace_with"
 msgstr ""
@@ -120,12 +123,15 @@ msgstr ""
 msgid "misc_terms.q_wiz_no_output"
 msgstr ""
 "Twój kod nic nie wyświetlił. Dodaj kilka wywołań `print()`, tak aby chociaż "
-"coś zostało wyświetlone. Użyj kodu, aby pokazać czytelnikom dokładnie, gdzie jest problem."
+"coś zostało wyświetlone. Użyj kodu, aby pokazać czytelnikom dokładnie, gdzie"
+" jest problem."
 
 msgid "misc_terms.q_wiz_same_as_expected_output"
 msgstr ""
-"Twój wynik jest taki sam jak oczekiwany! Jeśli problem nadal istnieje, dopasuj swój kod i/lub oczekiwany wynik, "
-"tak aby te dwa wyniki się nie zgadzały. Wyraźnie pokaż, co by było inaczej, gdyby kod działał tak, jak chcesz."
+"Twój wynik jest taki sam jak oczekiwany! Jeśli problem nadal istnieje, "
+"dopasuj swój kod i/lub oczekiwany wynik, tak aby te dwa wyniki się nie "
+"zgadzały. Wyraźnie pokaż, co by było inaczej, gdyby kod działał tak, jak "
+"chcesz."
 
 msgid "misc_terms.signature_should_be"
 msgstr ""
@@ -137,11 +143,19 @@ msgstr ""
 "\n"
 "    def {function_name}{actual_signature}:"
 
+msgid "misc_terms.string_spaces_differ"
+msgstr ""
+"Sprawdź, czy ciągi znaków w twoim kodzie mają poprawne spacje. Na przykład, "
+"`'Hello'` różni się od `'Hello '` ze względu na spację na końcu."
+
 msgid "misc_terms.syntax_error_at_line"
 msgstr "w linii"
 
 msgid "misc_terms.when_it_should_output"
 msgstr "gdy powinno wyświetlić:"
+
+msgid "misc_terms.which_is_correct"
+msgstr "co jest poprawne!"
 
 msgid "misc_terms.your_code_outputs"
 msgstr "Twój kod wypisuje:"
@@ -153,11 +167,3 @@ msgstr ""
 "{given_values}\n"
 "\n"
 "twój kod wypisuje:"
-
-msgid "misc_terms.string_spaces_differ"
-msgstr ""
-"Sprawdź, czy ciągi znaków w twoim kodzie mają poprawne spacje. Na przykład, "
-"`'Hello'` różni się od `'Hello '` ze względu na spację na końcu."
-
-msgid "misc_terms.which_is_correct"
-msgstr "co jest poprawne!"

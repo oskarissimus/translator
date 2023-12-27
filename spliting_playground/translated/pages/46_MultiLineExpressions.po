@@ -2,6 +2,16 @@
 msgid ""
 msgstr ""
 
+msgid "pages.MultiLineExpressions.steps.final_text.text"
+msgstr ""
+"Więc jeśli dostaniesz tajemniczy `SyntaxError`, upewnij się, że nie "
+"podzieliłeś linii w niewłaściwy sposób!"
+
+msgid "pages.MultiLineExpressions.steps.invalid_multiline.program"
+msgstr ""
+"is_friend = name == \"Alice\" lub\n"
+"            name == \"Bob\""
+
 msgid "pages.MultiLineExpressions.steps.invalid_multiline.text"
 msgstr ""
 "Nasze linie kodu zaczynają być dość długie.\n"
@@ -28,16 +38,6 @@ msgstr ""
 "\n"
 "    __copyable__\n"
 "__code0__"
-
-msgid "pages.MultiLineExpressions.steps.final_text.text"
-msgstr ""
-"Więc jeśli dostaniesz tajemniczy `SyntaxError`, upewnij się, że nie "
-"podzieliłeś linii w niewłaściwy sposób!"
-
-msgid "pages.MultiLineExpressions.steps.invalid_multiline.program"
-msgstr ""
-"is_friend = name == \"Alice\" lub\n"
-"            name == \"Bob\""
 
 msgid "pages.MultiLineExpressions.title"
 msgstr "Wieloliniowe instrukcje"

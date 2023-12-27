@@ -2,6 +2,28 @@
 msgid ""
 msgstr ""
 
+msgid "pages.BuildingNewLists.steps.double_numbers.hints.0.text"
+msgstr "Pamiętaj, że możesz mnożyć liczby używając `*`."
+
+msgid "pages.BuildingNewLists.steps.double_numbers.hints.1.text"
+msgstr ""
+"Ten program jest strukturalnie bardzo podobny do programów, które pisałeś, "
+"budując łańcuchy znaków znak po znaku."
+
+msgid "pages.BuildingNewLists.steps.double_numbers.hints.2.text"
+msgstr ""
+"Utwórz nową listę, a następnie zbuduj ją element po elemencie w pętli for."
+
+msgid "pages.BuildingNewLists.steps.double_numbers.hints.3.text"
+msgstr "Zacznij od pustej listy."
+
+msgid "pages.BuildingNewLists.steps.double_numbers.hints.4.text"
+msgstr "Możesz utworzyć listę z jednym elementem `x`, po prostu pisząc `[x]`."
+
+msgid "pages.BuildingNewLists.steps.double_numbers.hints.5.text"
+msgstr ""
+"Możesz dodać element do listy, dodając listę zawierającą jeden element."
+
 msgid "pages.BuildingNewLists.steps.double_numbers.text"
 msgstr ""
 "Listy i łańcuchy znaków mają wiele wspólnego.\n"
@@ -20,6 +42,26 @@ msgstr ""
 "wydrukowałby:\n"
 "\n"
 "__code2__"
+
+msgid "pages.BuildingNewLists.steps.filter_numbers.disallowed.0.message"
+msgstr ""
+"Brawo, to jest poprawne! Jednak powinieneś użyć `.append()` zamiast `+=`."
+
+msgid "pages.BuildingNewLists.steps.filter_numbers.hints.0.text"
+msgstr "To jest bardzo podobne do poprzedniego ćwiczenia."
+
+msgid "pages.BuildingNewLists.steps.filter_numbers.hints.1.text"
+msgstr ""
+"Różnica polega na tym, że czasami powinieneś pominąć dodawanie do nowej "
+"listy."
+
+msgid "pages.BuildingNewLists.steps.filter_numbers.hints.2.text"
+msgstr "Użyj instrukcji `if`."
+
+msgid "pages.BuildingNewLists.steps.filter_numbers.hints.3.text"
+msgstr ""
+"Użyj operatora porównania, aby przetestować, czy liczba jest wystarczająco "
+"duża, aby ją dodać."
 
 msgid "pages.BuildingNewLists.steps.filter_numbers.text"
 msgstr ""
@@ -50,46 +92,5 @@ msgstr ""
 msgid "pages.BuildingNewLists.steps.final_text.text"
 msgstr "Fantastycznie! Robimy duże postępy."
 
-msgid "pages.BuildingNewLists.steps.double_numbers.hints.0.text"
-msgstr "Pamiętaj, że możesz mnożyć liczby używając `*`."
-
-msgid "pages.BuildingNewLists.steps.double_numbers.hints.1.text"
-msgstr ""
-"Ten program jest strukturalnie bardzo podobny do programów, które pisałeś, "
-"budując łańcuchy znaków znak po znaku."
-
-msgid "pages.BuildingNewLists.steps.double_numbers.hints.2.text"
-msgstr ""
-"Utwórz nową listę, a następnie zbuduj ją element po elemencie w pętli for."
-
-msgid "pages.BuildingNewLists.steps.double_numbers.hints.3.text"
-msgstr "Zacznij od pustej listy."
-
-msgid "pages.BuildingNewLists.steps.double_numbers.hints.4.text"
-msgstr ""
-"Możesz utworzyć listę z jednym elementem `x`, po prostu pisząc `[x]`."
-
-msgid "pages.BuildingNewLists.steps.double_numbers.hints.5.text"
-msgstr ""
-"Możesz dodać element do listy, dodając listę zawierającą jeden element."
-
-msgid "pages.BuildingNewLists.steps.filter_numbers.hints.0.text"
-msgstr "To jest bardzo podobne do poprzedniego ćwiczenia."
-
-msgid "pages.BuildingNewLists.steps.filter_numbers.hints.1.text"
-msgstr ""
-"Różnica polega na tym, że czasami powinieneś pominąć dodawanie do nowej listy."
-
-msgid "pages.BuildingNewLists.steps.filter_numbers.hints.2.text"
-msgstr "Użyj instrukcji `if`."
-
-msgid "pages.BuildingNewLists.steps.filter_numbers.hints.3.text"
-msgstr "Użyj operatora porównania, aby przetestować, czy liczba jest wystarczająco duża, aby ją dodać."
-
 msgid "pages.BuildingNewLists.title"
 msgstr "Budowanie Nowych List"
-
-msgid "pages.BuildingNewLists.steps.filter_numbers.disallowed.0.message"
-msgstr ""
-"Brawo, to jest poprawne! Jednak powinieneś użyć `.append()` zamiast "
-"`+=`."

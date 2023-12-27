@@ -1,8 +1,15 @@
+#
+msgid ""
+msgstr ""
+
 msgid "chapters.a_bit_more_about_strings.title"
 msgstr "Trochę więcej o łańcuchach znaków"
 
 msgid "chapters.boolean operators.title"
 msgstr "Operatory logiczne"
+
+msgid "chapters.dictionaries.title"
+msgstr "Słowniki"
 
 msgid "chapters.for_loops.title"
 msgstr "Pętle for"
@@ -30,6 +37,3 @@ msgstr "Projekt gry w kółko i krzyżyk"
 
 msgid "chapters.variables.title"
 msgstr "Zmienne"
-
-msgid "chapters.dictionaries.title"
-msgstr "Słowniki"

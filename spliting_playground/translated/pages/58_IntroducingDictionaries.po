@@ -38,6 +38,11 @@ msgstr ""
 "\n"
 "__program_indented__"
 
+msgid "pages.IntroducingDictionaries.steps.dict_access3.requirements"
+msgstr ""
+"Uruchom ten sam kod co w poprzednim kroku (`french['apple']`) w konsoli, ale"
+" zamień `'apple'` na `'box'`."
+
 msgid ""
 "pages.IntroducingDictionaries.steps.dict_access3.special_messages.bad_french_value.text"
 msgstr ""
@@ -93,8 +98,3 @@ msgstr ""
 
 msgid "pages.IntroducingDictionaries.title"
 msgstr "Wprowadzenie do Słowników"
-
-msgid "pages.IntroducingDictionaries.steps.dict_access3.requirements"
-msgstr ""
-"Uruchom ten sam kod co w poprzednim kroku (`french['apple']`) w konsoli, ale "
-"zamień `'apple'` na `'box'`."

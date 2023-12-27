@@ -17,11 +17,42 @@ msgstr ""
 "\n"
 "__program_indented__"
 
-msgid "pages.IntroducingNotPage.steps.NotTrueOrTrue.text"
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.0.text"
 msgstr ""
-"Jaki jest priorytet `not` w porównaniu z `and` i `or`? Spróbuj następującego w `birdseye`:\n"
+"Co by było, gdybyś miał za zadanie uproszczenie tej powiązanej, ale przeciwnej funkcji?\n"
 "\n"
 "__code0__"
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.1.text"
+msgstr ""
+"W takim przypadku jest standardowy trik upraszczający, który omówiliśmy "
+"kilka stron temu."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.2.text"
+msgstr ""
+"Ogólnie rzecz ujmując, `returns` są zbędne, bo `filename.endswith(\".png\") "
+"or filename.endswith(\".jpg\")` jest już pożądaną wartością boolowską."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.3.text"
+msgstr ""
+"Więc możesz po prostu napisać:\n"
+"\n"
+"__code0__"
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.4.text"
+msgstr "Dla prawdziwego ćwiczenia możesz zrobić coś podobnego."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.5.text"
+msgstr ""
+"Różnica w prawdziwym ćwiczeniu polega na tym, że wynik jest odwrócony."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.6.text"
+msgstr ""
+"To znaczy, że `invalid_image` zwraca `True` kiedy `valid_image` zwraca "
+"`False` i na odwrót."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.7.text"
+msgstr "Pamiętasz, co robi `not`?"
 
 msgid "pages.IntroducingNotPage.steps.NotPriority.text"
 msgstr ""
@@ -67,6 +98,12 @@ msgstr ""
 "To jest dłuższe niż potrzeba. Przepisz funkcję `invalid_image`, aby treść była jednoliniowa `return <expression>`,\n"
 "tzn. bez instrukcji `if`. Powinna przejść te same testy."
 
+msgid "pages.IntroducingNotPage.steps.NotTrueOrTrue.text"
+msgstr ""
+"Jaki jest priorytet `not` w porównaniu z `and` i `or`? Spróbuj następującego w `birdseye`:\n"
+"\n"
+"__code0__"
+
 msgid "pages.IntroducingNotPage.steps.final_text.text"
 msgstr ""
 "Brawo! Oto dwie poprawne rozwiązania:\n"
@@ -82,42 +119,6 @@ msgstr ""
 "gdzie `x` sam w sobie jest wartością boolowską, wówczas można go uprościć do:\n"
 "\n"
 "__code2__"
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.0.text"
-msgstr ""
-"Co by było, gdybyś miał za zadanie uproszczenie tej powiązanej, ale przeciwnej funkcji?\n"
-"\n"
-"__code0__"
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.1.text"
-msgstr ""
-"W takim przypadku jest standardowy trik upraszczający, który omówiliśmy kilka stron temu."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.2.text"
-msgstr ""
-"Ogólnie rzecz ujmując, `returns` są zbędne, bo "
-"`filename.endswith(\".png\") or filename.endswith(\".jpg\")` jest już "
-"pożądaną wartością boolowską."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.3.text"
-msgstr ""
-"Więc możesz po prostu napisać:\n"
-"\n"
-"__code0__"
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.4.text"
-msgstr "Dla prawdziwego ćwiczenia możesz zrobić coś podobnego."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.5.text"
-msgstr "Różnica w prawdziwym ćwiczeniu polega na tym, że wynik jest odwrócony."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.6.text"
-msgstr ""
-"To znaczy, że `invalid_image` zwraca `True` kiedy `valid_image` zwraca `False` "
-"i na odwrót."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.7.text"
-msgstr "Pamiętasz, co robi `not`?"
 
 msgid "pages.IntroducingNotPage.title"
 msgstr "Wprowadzenie do `not`"

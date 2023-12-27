@@ -30,8 +30,7 @@ msgid "pages.UsingDictionaries.steps.dna_part2.hints.2.text"
 msgstr "Musisz uzyskać poprawne wartości, aby zbudować zwracany ciąg znaków."
 
 msgid "pages.UsingDictionaries.steps.dna_part2.hints.3.text"
-msgstr ""
-"Możesz zasadniczo zastąpić cały łańcuch `if/elif` jedną linią."
+msgstr "Możesz zasadniczo zastąpić cały łańcuch `if/elif` jedną linią."
 
 msgid "pages.UsingDictionaries.steps.dna_part2.hints.4.text"
 msgstr "Ta linia po prostu musi użyć `d` do uzyskania poprawnej wartości."
@@ -128,11 +127,11 @@ msgid "pages.UsingDictionaries.steps.shopping_cart4.hints.0.text"
 msgstr "Pamiętaj, że klucze `prices` i `quantities` są takie same."
 
 msgid "pages.UsingDictionaries.steps.shopping_cart4.hints.1.text"
-msgstr "To jest bardzo podobne do poprzedniego ćwiczenia, po prostu trenujemy."
+msgstr ""
+"To jest bardzo podobne do poprzedniego ćwiczenia, po prostu trenujemy."
 
 msgid "pages.UsingDictionaries.steps.shopping_cart4.hints.2.text"
-msgstr ""
-"`price` powinno być wartością z `prices`, podobnie jak `quantity`."
+msgstr "`price` powinno być wartością z `prices`, podobnie jak `quantity`."
 
 msgid "pages.UsingDictionaries.steps.shopping_cart4.hints.3.text"
 msgstr "Jakiego klucza należy użyć do uzyskania każdej wartości?"

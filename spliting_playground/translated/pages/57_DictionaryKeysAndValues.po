@@ -4,8 +4,8 @@ msgstr ""
 
 msgid "pages.DictionaryKeysAndValues.steps.cleanup_shopping_cart.hints.0.text"
 msgstr ""
-"Pamiętaj, że wcześniej mieliśmy `for item in cart` w funkcji, ale "
-"`cart` już nie jest argumentem."
+"Pamiętaj, że wcześniej mieliśmy `for item in cart` w funkcji, ale `cart` już"
+" nie jest argumentem."
 
 msgid "pages.DictionaryKeysAndValues.steps.cleanup_shopping_cart.hints.1.text"
 msgstr ""
@@ -13,7 +13,8 @@ msgstr ""
 
 msgid "pages.DictionaryKeysAndValues.steps.cleanup_shopping_cart.hints.2.text"
 msgstr ""
-"Musisz teraz iterować po kluczach `quantities`. Pamiętaj, że tutaj 'iterować' oznacza 'przechodzić przez' za pomocą pętli `for`."
+"Musisz teraz iterować po kluczach `quantities`. Pamiętaj, że tutaj "
+"'iterować' oznacza 'przechodzić przez' za pomocą pętli `for`."
 
 msgid "pages.DictionaryKeysAndValues.steps.cleanup_shopping_cart.hints.3.text"
 msgstr "Możesz użyć `.keys()`, ale nie musisz."
@@ -30,7 +31,8 @@ msgstr "Będziesz musiał iterować (pętlić) po słowniku."
 
 msgid "pages.DictionaryKeysAndValues.steps.english_to_french.hints.1.text"
 msgstr ""
-"Musisz wypisać zarówno klucz (angielskie słowo), jak i wartość (francuskie słowo) każdego wpisu w słowniku."
+"Musisz wypisać zarówno klucz (angielskie słowo), jak i wartość (francuskie "
+"słowo) każdego wpisu w słowniku."
 
 msgid "pages.DictionaryKeysAndValues.steps.english_to_french.hints.2.text"
 msgstr "Możesz uzyskać wartość używając klucza jak zwykle."
@@ -57,11 +59,13 @@ msgstr ""
 
 msgid "pages.DictionaryKeysAndValues.steps.english_to_german.hints.0.text"
 msgstr ""
-"To jest nadal bardzo podobne do poprzedniego ćwiczenia, nic specjalnego jeszcze."
+"To jest nadal bardzo podobne do poprzedniego ćwiczenia, nic specjalnego "
+"jeszcze."
 
 msgid "pages.DictionaryKeysAndValues.steps.english_to_german.hints.1.text"
 msgstr ""
-"Możesz wykorzystać poprzednie rozwiązanie, dodając tylko kolejny argument i odrobinę kodu w środku."
+"Możesz wykorzystać poprzednie rozwiązanie, dodając tylko kolejny argument i "
+"odrobinę kodu w środku."
 
 msgid "pages.DictionaryKeysAndValues.steps.english_to_german.hints.2.text"
 msgstr "Teraz musisz wypisać jeden klucz słownika i dwie wartości słownika."
@@ -87,8 +91,11 @@ msgstr ""
 "Oba słowniki zawsze będą mieć te same klucze, tylko różne wartości."
 
 msgid "pages.DictionaryKeysAndValues.steps.final_text.text"
+msgstr "Gratulacje! Dotarłeś do końca kursu na razie. Więcej treści w drodze!"
+
+msgid "pages.DictionaryKeysAndValues.steps.introducing_keys.requirements"
 msgstr ""
-"Gratulacje! Dotarłeś do końca kursu na razie. Więcej treści w drodze!"
+"Uruchom `print(quantities.keys())`, gdzie `quantities` jest słownikiem."
 
 msgid "pages.DictionaryKeysAndValues.steps.introducing_keys.text"
 msgstr ""
@@ -107,6 +114,11 @@ msgstr ""
 "    __copyable__\n"
 "__code0__"
 
+msgid "pages.DictionaryKeysAndValues.steps.keys_are_iterable2.requirements"
+msgstr ""
+"Uruchom ten sam kod co w poprzednim kroku, ale bez `.keys()` po "
+"`quantities`, więc środkowa linia będzie `for key in quantities:`"
+
 msgid "pages.DictionaryKeysAndValues.steps.keys_are_iterable2.text"
 msgstr ""
 "Właściwie nie potrzebujesz `.keys()`. Bezpośrednia iteracja nad słownikiem automatycznie iteruje po jego kluczach.\n"
@@ -122,11 +134,3 @@ msgstr ""
 
 msgid "pages.DictionaryKeysAndValues.title"
 msgstr "Iterowanie po kluczach słownika"
-
-msgid "pages.DictionaryKeysAndValues.steps.introducing_keys.requirements"
-msgstr "Uruchom `print(quantities.keys())`, gdzie `quantities` jest słownikiem."
-
-msgid "pages.DictionaryKeysAndValues.steps.keys_are_iterable2.requirements"
-msgstr ""
-"Uruchom ten sam kod co w poprzednim kroku, ale bez `.keys()` po "
-"`quantities`, więc środkowa linia będzie `for key in quantities:`"

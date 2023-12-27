@@ -2,15 +2,37 @@
 msgid ""
 msgstr ""
 
-msgid "pages.CombiningAndAndOr.steps.CombiningAndOr.text"
+msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.0.text"
+msgstr "Ile przekątnych jest na planszy?"
+
+msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.1.text"
 msgstr ""
-"Jeśli używasz operatów `and` (i) oraz `or` (lub) w jednym wyrażeniu, jest to całkiem jak łączenie `*` oraz `+`.\n"
-"Operatory są wykonywane w określonej kolejności.\n"
-"\n"
-"Na przykład, wypróbuj poniższy kod w konsoli.\n"
-"Czego się spodziewasz?\n"
-"\n"
-"__program_indented__"
+"Które wpisy z trzech sublist tworzą każdą przekątną? Jak możesz uzyskać "
+"dostęp do tych wpisów?"
+
+msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.2.text"
+msgstr "Każda lista zawsze ma 3 wpisy, więc nie ma potrzeby użycia pętli."
+
+msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.3.text"
+msgstr ""
+"Są dwa problemy do rozwiązania tutaj: sprawdzenie wygranej na konkretnej "
+"przekątnej oraz połączenie sprawdzeń dla każdej przekątnej."
+
+msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.4.text"
+msgstr "Jeden problem można rozwiązać używając `and`, inny używając `or`."
+
+msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.5.text"
+msgstr ""
+"Wiele podobieństw ma funkcja `all_equal`. Możesz nawet użyć tej funkcji do "
+"pomocy! Ale wtedy musisz zawrzeć jej definicję."
+
+msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.6.text"
+msgstr ""
+"Podobnie jak `all_equal`, sprawdź, czy 3 wpisy na przekątnej są równoważne "
+"sobie, np. używając `and`."
+
+msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.7.text"
+msgstr "Sprawdź obie przekątne razem, używając `or`."
 
 msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.text"
 msgstr ""
@@ -52,6 +74,16 @@ msgstr ""
 "    __copyable__\n"
 "__code4__"
 
+msgid "pages.CombiningAndAndOr.steps.CombiningAndOr.text"
+msgstr ""
+"Jeśli używasz operatów `and` (i) oraz `or` (lub) w jednym wyrażeniu, jest to całkiem jak łączenie `*` oraz `+`.\n"
+"Operatory są wykonywane w określonej kolejności.\n"
+"\n"
+"Na przykład, wypróbuj poniższy kod w konsoli.\n"
+"Czego się spodziewasz?\n"
+"\n"
+"__program_indented__"
+
 msgid "pages.CombiningAndAndOr.steps.final_text.text"
 msgstr ""
 "Brawo! To było trudne. Oto kilka możliwych rozwiązań:\n"
@@ -61,36 +93,6 @@ msgstr ""
 "lub:\n"
 "\n"
 "__code1__"
-
-msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.0.text"
-msgstr "Ile przekątnych jest na planszy?"
-
-msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.1.text"
-msgstr ""
-"Które wpisy z trzech sublist tworzą każdą przekątną? Jak możesz uzyskać dostęp do tych wpisów?"
-
-msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.2.text"
-msgstr "Każda lista zawsze ma 3 wpisy, więc nie ma potrzeby użycia pętli."
-
-msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.3.text"
-msgstr ""
-"Są dwa problemy do rozwiązania tutaj: sprawdzenie wygranej na konkretnej "
-"przekątnej oraz połączenie sprawdzeń dla każdej przekątnej."
-
-msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.4.text"
-msgstr "Jeden problem można rozwiązać używając `and`, inny używając `or`."
-
-msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.5.text"
-msgstr ""
-"Wiele podobieństw ma funkcja `all_equal`. Możesz nawet użyć tej funkcji do pomocy! Ale wtedy musisz zawrzeć jej definicję."
-
-msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.6.text"
-msgstr ""
-"Podobnie jak `all_equal`, sprawdź, czy 3 wpisy na przekątnej są równoważne "
-"sobie, np. używając `and`."
-
-msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.7.text"
-msgstr "Sprawdź obie przekątne razem, używając `or`."
 
 msgid "pages.CombiningAndAndOr.title"
 msgstr "Łączenie `and` i `or`"
