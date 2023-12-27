@@ -2,6 +2,11 @@
 msgid ""
 msgstr ""
 
+msgid "pages.UnderstandingProgramsWithPythonTutor.steps.final_text.text"
+msgstr ""
+"Note that the code runs twice separately: once here, once on pythontutor.com.\n"
+"Depending on your program, the two runs may produce different results."
+
 msgid ""
 "pages.UnderstandingProgramsWithPythonTutor.steps.run_with_python_tutor.text"
 msgstr ""
@@ -13,11 +18,6 @@ msgstr ""
 "\n"
 "    __copyable__\n"
 "__code0__"
-
-msgid "pages.UnderstandingProgramsWithPythonTutor.steps.final_text.text"
-msgstr ""
-"Note that the code runs twice separately: once here, once on pythontutor.com.\n"
-"Depending on your program, the two runs may produce different results."
 
 msgid "pages.UnderstandingProgramsWithPythonTutor.title"
 msgstr "Understanding Programs With Python Tutor"

@@ -2,12 +2,6 @@
 msgid ""
 msgstr ""
 
-msgid "pages.IntroducingForLoops.steps.first_for_loop.text"
-msgstr ""
-"Good news! You've made it past the boring basics. We can start to write some interesting programs and have a bit of fun. One of the most powerful concepts in programming is the *loop*, which lets you repeat the same code over and over. Python has two kinds of loop: `for` loops and `while` loops. Here is an example of a for loop, try running this program:\n"
-"\n"
-"__program_indented__"
-
 msgid "pages.IntroducingForLoops.steps.final_text.text"
 msgstr ""
 "You can read the code almost like normal English:\n"
@@ -41,6 +35,12 @@ msgstr ""
 "    for <variable> in <collection>: <code to repeat>\n"
 "\n"
 "The `for`, `in`, and `:` are all essential."
+
+msgid "pages.IntroducingForLoops.steps.first_for_loop.text"
+msgstr ""
+"Good news! You've made it past the boring basics. We can start to write some interesting programs and have a bit of fun. One of the most powerful concepts in programming is the *loop*, which lets you repeat the same code over and over. Python has two kinds of loop: `for` loops and `while` loops. Here is an example of a for loop, try running this program:\n"
+"\n"
+"__program_indented__"
 
 msgid "pages.IntroducingForLoops.title"
 msgstr "Introducing For Loops"

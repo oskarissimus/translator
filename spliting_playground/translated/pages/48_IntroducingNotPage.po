@@ -17,11 +17,42 @@ msgstr ""
 "\n"
 "__program_indented__"
 
-msgid "pages.IntroducingNotPage.steps.NotTrueOrTrue.text"
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.0.text"
 msgstr ""
-"What is the priority of `not` compared to `and` and `or`? Try the following in `birdseye`:\n"
+"What if you were instead asked to simplify this related but opposite function?\n"
 "\n"
 "__code0__"
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.1.text"
+msgstr ""
+"In that case there is a standard simplification trick you can apply that we "
+"discussed a few pages ago."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.2.text"
+msgstr ""
+"In particular the `returns` are redundant because "
+"`filename.endswith(\".png\") or filename.endswith(\".jpg\")` is already the "
+"desired boolean."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.3.text"
+msgstr ""
+"So you can just write:\n"
+"\n"
+"__code0__"
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.4.text"
+msgstr "For the real exercise, you can do something similar."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.5.text"
+msgstr "The difference in the real exercise is that the result is reversed."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.6.text"
+msgstr ""
+"That is, `invalid_image` returns `True` when `valid_image` returns `False` "
+"and vice versa."
+
+msgid "pages.IntroducingNotPage.steps.NotPriority.hints.7.text"
+msgstr "Remember what `not` does?"
 
 msgid "pages.IntroducingNotPage.steps.NotPriority.text"
 msgstr ""
@@ -67,6 +98,12 @@ msgstr ""
 "This is longer than it needs to be. Rewrite `invalid_image` so that the body is a single line `return <expression>`,\n"
 "i.e. no `if` statement. It should pass the same tests."
 
+msgid "pages.IntroducingNotPage.steps.NotTrueOrTrue.text"
+msgstr ""
+"What is the priority of `not` compared to `and` and `or`? Try the following in `birdseye`:\n"
+"\n"
+"__code0__"
+
 msgid "pages.IntroducingNotPage.steps.final_text.text"
 msgstr ""
 "Well done! Here are two valid solutions:\n"
@@ -82,43 +119,6 @@ msgstr ""
 "where `x` itself is a boolean, then it can be simplified to:\n"
 "\n"
 "__code2__"
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.0.text"
-msgstr ""
-"What if you were instead asked to simplify this related but opposite function?\n"
-"\n"
-"__code0__"
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.1.text"
-msgstr ""
-"In that case there is a standard simplification trick you can apply that we "
-"discussed a few pages ago."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.2.text"
-msgstr ""
-"In particular the `returns` are redundant because "
-"`filename.endswith(\".png\") or filename.endswith(\".jpg\")` is already the "
-"desired boolean."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.3.text"
-msgstr ""
-"So you can just write:\n"
-"\n"
-"__code0__"
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.4.text"
-msgstr "For the real exercise, you can do something similar."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.5.text"
-msgstr "The difference in the real exercise is that the result is reversed."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.6.text"
-msgstr ""
-"That is, `invalid_image` returns `True` when `valid_image` returns `False` "
-"and vice versa."
-
-msgid "pages.IntroducingNotPage.steps.NotPriority.hints.7.text"
-msgstr "Remember what `not` does?"
 
 msgid "pages.IntroducingNotPage.title"
 msgstr "Introducing `not`"

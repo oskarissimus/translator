@@ -95,6 +95,9 @@ msgstr ""
 "Congratulations! You've reached the end of the course so far. More is on the"
 " way!"
 
+msgid "pages.DictionaryKeysAndValues.steps.introducing_keys.requirements"
+msgstr "Run `print(quantities.keys())` where `quantities` is a dictionary."
+
 msgid "pages.DictionaryKeysAndValues.steps.introducing_keys.text"
 msgstr ""
 "Copy this code into the editor:\n"
@@ -112,6 +115,11 @@ msgstr ""
 "    __copyable__\n"
 "__code0__"
 
+msgid "pages.DictionaryKeysAndValues.steps.keys_are_iterable2.requirements"
+msgstr ""
+"Run the same code as the previous step, but without `.keys()`. after "
+"`quantities`, so the middle line is `for key in quantities:`"
+
 msgid "pages.DictionaryKeysAndValues.steps.keys_are_iterable2.text"
 msgstr ""
 "Actually, you don't even need `.keys()`. Iterating directly over a dictionary automatically iterates over its keys.\n"
@@ -127,11 +135,3 @@ msgstr ""
 
 msgid "pages.DictionaryKeysAndValues.title"
 msgstr "Iterating over Dictionary Keys"
-
-msgid "pages.DictionaryKeysAndValues.steps.introducing_keys.requirements"
-msgstr "Run `print(quantities.keys())` where `quantities` is a dictionary."
-
-msgid "pages.DictionaryKeysAndValues.steps.keys_are_iterable2.requirements"
-msgstr ""
-"Run the same code as the previous step, but without `.keys()`. after "
-"`quantities`, so the middle line is `for key in quantities:`"

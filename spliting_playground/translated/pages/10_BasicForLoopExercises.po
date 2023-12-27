@@ -2,6 +2,19 @@
 msgid ""
 msgstr ""
 
+msgid "pages.BasicForLoopExercises.steps.final_text.text"
+msgstr ""
+"We're making really good progress! You're solving problems and writing new code!\n"
+"Let's keep making things more interesting."
+
+msgid "pages.BasicForLoopExercises.steps.loop_exercise_1.hints.0.text"
+msgstr ""
+"You should only use one `print`, since each print outputs on a different "
+"line."
+
+msgid "pages.BasicForLoopExercises.steps.loop_exercise_1.hints.1.text"
+msgstr "You will need to use `+`."
+
 msgid "pages.BasicForLoopExercises.steps.loop_exercise_1.text"
 msgstr ""
 "Time for some exercises! Modify this program:\n"
@@ -16,6 +29,21 @@ msgstr ""
 "    ---r\n"
 "    ---l\n"
 "    ---d"
+
+msgid "pages.BasicForLoopExercises.steps.loop_exercise_2.hints.0.text"
+msgstr ""
+"Forget loops for a moment. How would you write a program which prints `name`"
+" 3 times?"
+
+msgid "pages.BasicForLoopExercises.steps.loop_exercise_2.hints.1.text"
+msgstr ""
+"The solution looks very similar to the other programs we've seen in this "
+"section."
+
+msgid "pages.BasicForLoopExercises.steps.loop_exercise_2.hints.2.text"
+msgstr ""
+"The for loop will create a variable such as `character`, but the program "
+"doesn't need to use it."
 
 msgid "pages.BasicForLoopExercises.steps.loop_exercise_2.text"
 msgstr ""
@@ -36,34 +64,6 @@ msgstr ""
 "    World\n"
 "\n"
 "By the way, you can set `name` to anything in the first line. Only the rest of the program after that will be checked."
-
-msgid "pages.BasicForLoopExercises.steps.final_text.text"
-msgstr ""
-"We're making really good progress! You're solving problems and writing new code!\n"
-"Let's keep making things more interesting."
-
-msgid "pages.BasicForLoopExercises.steps.loop_exercise_1.hints.0.text"
-msgstr ""
-"You should only use one `print`, since each print outputs on a different "
-"line."
-
-msgid "pages.BasicForLoopExercises.steps.loop_exercise_1.hints.1.text"
-msgstr "You will need to use `+`."
-
-msgid "pages.BasicForLoopExercises.steps.loop_exercise_2.hints.0.text"
-msgstr ""
-"Forget loops for a moment. How would you write a program which prints `name`"
-" 3 times?"
-
-msgid "pages.BasicForLoopExercises.steps.loop_exercise_2.hints.1.text"
-msgstr ""
-"The solution looks very similar to the other programs we've seen in this "
-"section."
-
-msgid "pages.BasicForLoopExercises.steps.loop_exercise_2.hints.2.text"
-msgstr ""
-"The for loop will create a variable such as `character`, but the program "
-"doesn't need to use it."
 
 msgid "pages.BasicForLoopExercises.title"
 msgstr "Basic For Loop Exercises"

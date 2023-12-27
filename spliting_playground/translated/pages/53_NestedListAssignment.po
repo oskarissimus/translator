@@ -2,6 +2,9 @@
 msgid ""
 msgstr ""
 
+msgid "pages.NestedListAssignment.steps.final_text.text"
+msgstr "Brilliant! You're almost ready to put it all together, keep going!"
+
 msgid "pages.NestedListAssignment.steps.modify_list_in_function.text"
 msgstr ""
 "We've seen how to get input from the user, now let's use that to actually put pieces\n"
@@ -10,21 +13,59 @@ msgstr ""
 "    __copyable__\n"
 "__code0__"
 
-msgid "pages.NestedListAssignment.steps.nested_assignment_two_lines.text"
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.0.text"
 msgstr ""
-"Note how calling `play_move(game_board, 'X')` actually *modifies* `game_board` directly.\n"
-"The variable `board` inside the call to `play_move` and\n"
-"the variable `game_board` inside the call to `play_game` point to the same list object.\n"
-"There's no copying. Python Tutor is good at showing this with arrows.\n"
-"\n"
-"This also means that in this case there's no need for `play_move` to return anything,\n"
-"it can just modify `board` and the caller (`play_game` in this case) will see the effect.\n"
-"\n"
-"However, our board is two dimensional, represented by a nested list.\n"
-"So we need to assign `player` to an element of an inner list, something like this:\n"
-"\n"
-"    __copyable__\n"
-"__code0__"
+"Your function needs to call `input()` twice. Input isn't passed to "
+"`play_move` as an argument."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.1.text"
+msgstr "`input()` always returns a string."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.10.text"
+msgstr ""
+"Once you've got two numbers, you need to modify the nested list `board` with"
+" them."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.11.text"
+msgstr "The code for this has been shown to you above."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.12.text"
+msgstr ""
+"You just need to use the numbers from user input instead of the hardcoded 1 "
+"and 0."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.13.text"
+msgstr "You can use nested subscripting in one line, or do it in two steps."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.2.text"
+msgstr "A string that looks like a number is still a string, not a number."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.3.text"
+msgstr "List indices have to be numbers, not strings."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.4.text"
+msgstr ""
+"If the board is 3x3, the user might input 1, 2, or 3 for each coordinate."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.5.text"
+msgstr "What are the valid indices of a list of length 3?"
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.6.text"
+msgstr "You need to take the input of 1, 2, or 3 and turn it into 0, 1, or 2."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.7.text"
+msgstr "You also need to be able to handle bigger boards, like 9x9 or beyond."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.8.text"
+msgstr "You can't do maths with strings, only numbers."
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.9.text"
+msgstr "How can you convert a string to a number?"
+
+msgid "pages.NestedListAssignment.steps.nested_assignment_input.requirements"
+msgstr ""
+"Your function should modify the `board` argument. It doesn't need to "
+"`return` or `print` anything."
 
 msgid "pages.NestedListAssignment.steps.nested_assignment_input.text"
 msgstr ""
@@ -92,62 +133,21 @@ msgstr ""
 "You can assume that the user will always enter valid numbers. Later we will learn how to deal\n"
 "with invalid inputs, like numbers out of range or inputs that aren't numbers at all."
 
-msgid "pages.NestedListAssignment.steps.final_text.text"
-msgstr "Brilliant! You're almost ready to put it all together, keep going!"
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.0.text"
+msgid "pages.NestedListAssignment.steps.nested_assignment_two_lines.text"
 msgstr ""
-"Your function needs to call `input()` twice. Input isn't passed to "
-"`play_move` as an argument."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.1.text"
-msgstr "`input()` always returns a string."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.2.text"
-msgstr "A string that looks like a number is still a string, not a number."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.3.text"
-msgstr "List indices have to be numbers, not strings."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.4.text"
-msgstr ""
-"If the board is 3x3, the user might input 1, 2, or 3 for each coordinate."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.5.text"
-msgstr "What are the valid indices of a list of length 3?"
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.6.text"
-msgstr "You need to take the input of 1, 2, or 3 and turn it into 0, 1, or 2."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.7.text"
-msgstr "You also need to be able to handle bigger boards, like 9x9 or beyond."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.8.text"
-msgstr "You can't do maths with strings, only numbers."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.9.text"
-msgstr "How can you convert a string to a number?"
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.10.text"
-msgstr ""
-"Once you've got two numbers, you need to modify the nested list `board` with"
-" them."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.11.text"
-msgstr "The code for this has been shown to you above."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.12.text"
-msgstr ""
-"You just need to use the numbers from user input instead of the hardcoded 1 "
-"and 0."
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.hints.13.text"
-msgstr "You can use nested subscripting in one line, or do it in two steps."
+"Note how calling `play_move(game_board, 'X')` actually *modifies* `game_board` directly.\n"
+"The variable `board` inside the call to `play_move` and\n"
+"the variable `game_board` inside the call to `play_game` point to the same list object.\n"
+"There's no copying. Python Tutor is good at showing this with arrows.\n"
+"\n"
+"This also means that in this case there's no need for `play_move` to return anything,\n"
+"it can just modify `board` and the caller (`play_game` in this case) will see the effect.\n"
+"\n"
+"However, our board is two dimensional, represented by a nested list.\n"
+"So we need to assign `player` to an element of an inner list, something like this:\n"
+"\n"
+"    __copyable__\n"
+"__code0__"
 
 msgid "pages.NestedListAssignment.title"
 msgstr "Nested List Assignment: Playing Moves on the Board"
-
-msgid "pages.NestedListAssignment.steps.nested_assignment_input.requirements"
-msgstr ""
-"Your function should modify the `board` argument. It doesn't need to "
-"`return` or `print` anything."

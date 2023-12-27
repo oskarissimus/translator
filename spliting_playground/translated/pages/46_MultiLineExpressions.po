@@ -2,6 +2,16 @@
 msgid ""
 msgstr ""
 
+msgid "pages.MultiLineExpressions.steps.final_text.text"
+msgstr ""
+"So if you get a mysterious `SyntaxError`, make sure that you haven't "
+"improperly broken up any lines!"
+
+msgid "pages.MultiLineExpressions.steps.invalid_multiline.program"
+msgstr ""
+"is_friend = name == \"Alice\" or\n"
+"            name == \"Bob\""
+
 msgid "pages.MultiLineExpressions.steps.invalid_multiline.text"
 msgstr ""
 "Our code lines are starting to get quite long.\n"
@@ -28,16 +38,6 @@ msgstr ""
 "\n"
 "    __copyable__\n"
 "__code0__"
-
-msgid "pages.MultiLineExpressions.steps.final_text.text"
-msgstr ""
-"So if you get a mysterious `SyntaxError`, make sure that you haven't "
-"improperly broken up any lines!"
-
-msgid "pages.MultiLineExpressions.steps.invalid_multiline.program"
-msgstr ""
-"is_friend = name == \"Alice\" or\n"
-"            name == \"Bob\""
 
 msgid "pages.MultiLineExpressions.title"
 msgstr "Multi-line statements"
