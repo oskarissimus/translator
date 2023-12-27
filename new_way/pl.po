@@ -574,7 +574,6 @@ msgstr ""
 "\n"
 "twój kod wypisuje:"
 
-
 msgid "output_predictions.Error"
 msgstr "Błąd"
 
