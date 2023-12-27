@@ -5,40 +5,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "chapters.a_bit_more_about_strings.title"
-msgstr "A Bit More About Strings"
+msgstr "Trochę więcej o łańcuchach znaków"
 
 msgid "chapters.boolean operators.title"
-msgstr "Boolean Operators"
+msgstr "Operatory logiczne"
 
 msgid "chapters.dictionaries.title"
-msgstr "Dictionaries"
+msgstr "Słowniki"
 
 msgid "chapters.for_loops.title"
-msgstr "For Loops"
+msgstr "Pętle for"
 
 msgid "chapters.functions.title"
-msgstr "Functions"
+msgstr "Funkcje"
 
 msgid "chapters.if_statements.title"
-msgstr "If Statements"
+msgstr "Instrukcje warunkowe"
 
 msgid "chapters.lists.title"
-msgstr "Lists"
+msgstr "Listy"
 
 msgid "chapters.nested_loops.title"
-msgstr "Nested Loops"
+msgstr "Zagnieżdżone pętle"
 
 msgid "chapters.string_basics.title"
-msgstr "String Basics"
+msgstr "Podstawy łańcuchów znaków"
 
 msgid "chapters.the_shell.title"
-msgstr "The Shell"
+msgstr "Powłoka systemowa"
 
 msgid "chapters.tic_tac_toe_project.title"
-msgstr "Tic Tac Toe Project"
+msgstr "Projekt gry w kółko i krzyżyk"
 
 msgid "chapters.variables.title"
-msgstr "Variables"
+msgstr "Zmienne"
 
 msgid "frontend.are_you_sure"
 msgstr "Are you sure?"
