@@ -1,0 +1,28 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.WritingPrograms.steps.editor_hello_world.text"
+msgstr ""
+"It's time to stop doing everything in the shell. In the top right you can see the *editor*. This is a place where you can write and run longer programs. The shell is great and you should keep using it to explore, but the editor is where real programs live.\n"
+"\n"
+"Type the program below into the editor, then click the 'Run' button:\n"
+"\n"
+"__code0__"
+
+msgid "pages.WritingPrograms.steps.final_text.text"
+msgstr ""
+"Congratulations, you have run your first actual program!\n"
+"\n"
+"Take some time to understand this program. Python runs each line one at a time from top to bottom. You should try simulating this process in your head - think about what each line does. See how the value of `word` was changed and what effect this had. Note that when `print` is used multiple times, each thing (`Hello World` and `Goodbye World` in this case) is printed on its own line.\n"
+"\n"
+"Some things to note about programs in the editor:\n"
+"\n"
+"1. The program runs in the shell, meaning that the variables defined in the program now exist in the shell with the last values they had in the program. This lets you explore in the shell after the program completes. For example, `name` now has the value `'World'` in the shell.\n"
+"2. Programs run in isolation - they don't depend on any previously defined variables. The shell is reset and all previous variables are cleared. So even though `word` currently exists in the shell, if you delete the first line of the program and run it again, you'll get an error about `word` being undefined.\n"
+"3. If you enter code in the shell and it has a value, that value will automatically be displayed. That doesn't happen for programs in the editor - you have to print values. If you remove `print()` from the program, changing the two lines to just `word + ' ' + name`, nothing will be displayed.\n"
+"\n"
+"I recommend that you check all of these things for yourself."
+
+msgid "pages.WritingPrograms.title"
+msgstr "Writing Programs"

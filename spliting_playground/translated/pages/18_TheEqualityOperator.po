@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.TheEqualityOperator.steps.introducing_equality.text"
+msgstr ""
+"There are several ways to obtain booleans without assigning them directly,\n"
+"which allows you to construct very useful `if` statements. In particular there\n"
+"are many *comparison operators* which compare the values of two expressions.\n"
+"The most common is the equality operator which checks if two values are equal.\n"
+"It's denoted by two equals signs: `==`. Try running this:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.TheEqualityOperator.steps.equality_vs_assignment.text"
+msgstr ""
+"As you can see, if the values are equal, the equality expression evaluates to `True`,\n"
+"otherwise it's `False`.\n"
+"\n"
+"Note the difference between the equality operator `==` and a single `=` which has different meanings,\n"
+"particularly in assignment statements as you've seen them so far. What happens if you try\n"
+"removing a single `=` from the previous program?"
+
+msgid "pages.TheEqualityOperator.steps.if_equals_replacing_characters.text"
+msgstr ""
+"Let's use `==` in an `if` statement. In this program, the `if` body runs only when `c` is the character `'s'`. See for yourself.\n"
+"\n"
+"    __copyable__\n"
+"__code0__"
+
+msgid ""
+"pages.TheEqualityOperator.steps.if_equals_replacing_characters_exercise.text"
+msgstr "Now extend the program to also replace `e` with `3` and `a` with `@`."
+
+msgid "pages.TheEqualityOperator.steps.final_text.text"
+msgstr "Well done!"
+
+msgid ""
+"pages.TheEqualityOperator.steps.if_equals_replacing_characters_exercise.hints.0.text"
+msgstr ""
+"You just need to add a few lines of code that are very similar to existing "
+"ones."
+
+msgid "pages.TheEqualityOperator.steps.equality_vs_assignment.program"
+msgstr "print(1 + 2 = 3)"
+
+msgid "pages.TheEqualityOperator.title"
+msgstr "The Equality Operator"
+
+msgid "pages.TheEqualityOperator.steps.equality_vs_assignment.requirements"
+msgstr ""
+"Run the program from the previous step, but replace any of the `==` with "
+"just `=`."

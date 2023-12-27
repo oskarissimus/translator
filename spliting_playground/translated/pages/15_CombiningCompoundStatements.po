@@ -1,0 +1,62 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.CombiningCompoundStatements.steps.for_inside_if.text"
+msgstr ""
+"Compound statements like `for` loops and `if` statements have bodies which are a list\n"
+"of inner statements. Those inner statements can be anything, including other compound statements.\n"
+"Try this example of a `for` loop inside an `if` statement for when you want to show\n"
+"that you're *really* excited:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.CombiningCompoundStatements.steps.final_text.text"
+msgstr ""
+"Note how the body of the `if` statement (4 lines) is indented as usual, while the body\n"
+"of the `for` loop (1 line) is indented by an additional 4 spaces in each line to show that\n"
+"those lines are within the `for` loop. You can see the overall structure of the program\n"
+"just by looking at the indentation.\n"
+"\n"
+"Alternatively, you can put an `if` inside a `for`:\n"
+"\n"
+"    __copyable__\n"
+"__code0__\n"
+"\n"
+"These two programs have the exact same result. However the first one is more efficient as it\n"
+"only iterates over the string if it needs to, since when `excited = False` nothing changes."
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.0"
+msgstr "Hello World"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.2"
+msgstr "Hello World!!!!!!!!!!!"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.3"
+msgstr "!!!!!!!!!!!Hello World"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.4"
+msgstr "Hello World!"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.5"
+msgstr "!Hello World"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.6"
+msgstr "!Hello World!"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.7"
+msgstr "H!e!l!l!o! !W!o!r!l!d!"
+
+msgid ""
+"pages.CombiningCompoundStatements.steps.for_inside_if.output_prediction_choices.8"
+msgstr "!H!e!l!l!o! !W!o!r!l!d"
+
+msgid "pages.CombiningCompoundStatements.title"
+msgstr "Combining Compound Statements"

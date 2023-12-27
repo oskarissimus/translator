@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.text"
+msgstr ""
+"Exercise: write a program which takes a list and a value and checks\n"
+"if the list contains the value. For example, given:\n"
+"\n"
+"    __no_auto_translate__\n"
+"    things = ['This', 'is', 'a', 'list']\n"
+"    thing_to_find = 'is'\n"
+"\n"
+"it should print `True`, but for\n"
+"\n"
+"    __no_auto_translate__\n"
+"    thing_to_find = 'other'\n"
+"\n"
+"it should print `False`."
+
+msgid "pages.UsingBreak.steps.final_text.text"
+msgstr ""
+"Nice!\n"
+"\n"
+"A typical solution looks something like this:\n"
+"\n"
+"__code0__\n"
+"\n"
+"Your solution is probably similar. It's fine, but it's a bit inefficient.\n"
+"That's because it'll loop over the entire list even if it finds the element at the beginning.\n"
+"You can stop any loop using a `break` statement, like so:\n"
+"\n"
+"__code1__\n"
+"\n"
+"This is just as correct but skips unnecessary iterations and checks once it finds the element.\n"
+"You can use `snoop` to see the difference."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.0.text"
+msgstr "You will need a loop."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.1.text"
+msgstr "You will need an `if` statement."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.2.text"
+msgstr "You will need a comparison operator."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.3.text"
+msgstr "Specifically `==`."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.4.text"
+msgstr "You need a boolean variable that you print at the end."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.5.text"
+msgstr ""
+"If you find the element in the list you should set that variable to `True`."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.6.text"
+msgstr "Once you've found the element, you can't unfind it."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.7.text"
+msgstr ""
+"That means that once you set the variable to `True`, it should never be set "
+"to anything else after that."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.8.text"
+msgstr "Don't use an `else`."
+
+msgid "pages.UsingBreak.steps.list_contains_exercise.hints.9.text"
+msgstr ""
+"There is no reason to ever set the variable to `False` inside the loop."
+
+msgid "pages.UsingBreak.title"
+msgstr "Using `break` to end a loop early"

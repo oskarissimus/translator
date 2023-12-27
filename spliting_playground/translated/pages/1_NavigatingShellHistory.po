@@ -1,0 +1,16 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.NavigatingShellHistory.steps.final_text.text"
+msgstr ""
+"Here's a tip: often you will want to re-run a previously entered bit of "
+"code, or a slightly modified version of it. You can copy and paste, but "
+"that's tedious and gets in the way of experimenting. A better method is to "
+"press the Up Arrow key on your keyboard. This will insert the previous line "
+"of code into the shell. Keep pressing it to go further back in your history,"
+" and if you go too far, press the Down Arrow key to go the other way. Try "
+"using it now."
+
+msgid "pages.NavigatingShellHistory.title"
+msgstr "Navigating Shell History"

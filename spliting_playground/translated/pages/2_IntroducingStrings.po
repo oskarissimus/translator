@@ -1,0 +1,18 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.IntroducingStrings.steps.hello_string.text"
+msgstr ""
+"Python lets you do much more than calculate. In fact, we're not going to touch numbers or maths for a while. Instead, we're going to look at *strings*. Strings are essentially snippets of text. For example, enter the following into the shell, quotes (`'`) included:\n"
+"\n"
+"__program_indented__"
+
+msgid "pages.IntroducingStrings.steps.final_text.text"
+msgstr ""
+"The shell simply gives the same thing back because there's nothing further to calculate. `'hello'` is simply equal to `'hello'`.\n"
+"\n"
+"A string is a sequence of characters. A character is a single symbol such as a letter, number, punctuation, space, etc. In this case the string contains the 5 characters `hello`. The quotes are not part of the string - they are there to tell both humans and computers that this is a string consisting of whatever characters are between the quotes."
+
+msgid "pages.IntroducingStrings.title"
+msgstr "Introducing Strings"

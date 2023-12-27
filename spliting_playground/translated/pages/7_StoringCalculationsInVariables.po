@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr ""
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.text"
+msgstr ""
+"Often you will use variables to store the results of calculations. This will help to build more complex programs. For example, try this program:\n"
+"\n"
+"__code0__"
+
+msgid "pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.text"
+msgstr ""
+"Now `sentence` has the value `'Hello World'` which can be used multiple times. Note that it will continue to have this value until it is directly reassigned, e.g. with another statement like `sentence = <something>`. For example, add these two lines to the end of the program:\n"
+"\n"
+"__code0__"
+
+msgid "pages.StoringCalculationsInVariables.steps.final_text.text"
+msgstr ""
+"Unlike a spreadsheet where formulas update automatically, a variable like "
+"`sentence` doesn't remember how it was calculated and won't change if the "
+"underlying values `word` or `name` are changed."
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.0"
+msgstr ""
+"Hello World\n"
+"Hello World"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.1"
+msgstr ""
+"Hello World\n"
+"Goodbye World"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.output_prediction_choices.2"
+msgstr ""
+"Goodbye World\n"
+"Goodbye World"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.0"
+msgstr "sentence"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.1"
+msgstr "word + ' ' + name"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.2"
+msgstr "Hello + ' ' + World"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.3"
+msgstr "'Hello' + ' ' + 'World'"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.4"
+msgstr "Hello World"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_equals_word_plus_name.output_prediction_choices.5"
+msgstr "'Hello World'"
+
+msgid "pages.StoringCalculationsInVariables.title"
+msgstr "Storing Calculations In Variables"
+
+msgid ""
+"pages.StoringCalculationsInVariables.steps.sentence_doesnt_change.requirements"
+msgstr ""
+"Run a program consisting of the four lines in the previous step followed by "
+"the two lines here."

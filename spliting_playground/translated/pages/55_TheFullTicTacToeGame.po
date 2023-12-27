@@ -1,0 +1,151 @@
+#
+msgid ""
+msgstr ""
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.text"
+msgstr ""
+"It's time to put it all together! Below is some code to get started.\n"
+"\n"
+"It includes implementations of the various functions we defined in previous pages for solving parts\n"
+"of the problem, using some tricks you haven't learned yet to make them shorter. Don't change them.\n"
+"\n"
+"Your task is to implement `play_game` correctly. The current implementation shows what\n"
+"should happen at the start of the game, but it's obviously incomplete.\n"
+"The solution should work for any board size and continue the game until it's finished.\n"
+"The last thing that `play_game` should do is either call `print_winner(player)`\n"
+"if `winner(board)` is true, or call `print_draw()` if the board is filled up with no winner.\n"
+"\n"
+"You can assume that the user will only enter valid inputs,\n"
+"i.e. numbers from 1 to `board_size` to choose a cell on the board that isn't already taken.\n"
+"\n"
+"    __copyable__\n"
+"__code0__"
+
+msgid "pages.TheFullTicTacToeGame.steps.final_text.text"
+msgstr ""
+"### ***CONGRATULATIONS!!!***\n"
+"\n"
+"You did it!"
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.0.text"
+msgstr ""
+"You should use all of the functions `winner`, `format_board` (not counting "
+"its use in `play_move`), `play_move`, `make_board`, `print_winner`, and "
+"`print_draw` somewhere."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.1.text"
+msgstr ""
+"You only need to mention each of those functions once in your code, although"
+" some of them will be called several times as the program runs."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.2.text"
+msgstr "You will need a for loop to repeatedly play moves."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.3.text"
+msgstr ""
+"You don't need to check if the board has been filled up, because you can "
+"always calculate how many moves it takes to fill up the board."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.4.text"
+msgstr ""
+"So you can just use a loop that will run a fixed number of iterations, and "
+"inside the loop check if the loop needs to be ended early."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.5.text"
+msgstr ""
+"What's the maximum number of moves that can be played in a 3x3 board? 4x4?"
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.6.text"
+msgstr ""
+"A loop over a `range` is an easy way to iterate a fixed number of times."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.7.text"
+msgstr "So you can use `for _ in range(N):` to play at most `N` moves."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.8.text"
+msgstr "Once there's a winner, you need to end the loop and the game."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.9.text"
+msgstr "Either `print_winner` or `print_draw` should be called, not both."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.10.text"
+msgstr "Whichever function is called, it must be called exactly once."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.11.text"
+msgstr ""
+"One easy way to make sure you don't call a function multiple times is to "
+"call it outside of any loop."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.12.text"
+msgstr "We've learned about two ways to make a loop stop."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.13.text"
+msgstr "One way is `break`, which specifically ends one loop and no more."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.14.text"
+msgstr "The second way ends not just the loop but the whole function call."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.15.text"
+msgstr "The second way is `return`."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.16.text"
+msgstr ""
+"Don't play moves in pairs like `play_move(board, player1)` and "
+"`play_move(board, player2)` in the sample code."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.17.text"
+msgstr "Instead, each loop iteration should play one move."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.18.text"
+msgstr "You need a variable to keep track of which player's turn it is."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.19.text"
+msgstr "The player should be switched in each loop iteration."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.20.text"
+msgstr "An `if` statement is a good way to do this."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.21.text"
+msgstr "Especially combined with an `else`."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.22.text"
+msgstr "Make sure `player1` plays the first move."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.23.text"
+msgstr ""
+"Only call `print_winner` after checking `winner` with an `if` statement."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.24.text"
+msgstr ""
+"You need to check for the winner inside the loop since you don't know when a"
+" player might win."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.25.text"
+msgstr ""
+"Once you call `print_winner`, you can use `return` to end the function."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.26.text"
+msgstr ""
+"Just `return` by itself is fine, `play_game` isn't meant to return a value."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.27.text"
+msgstr ""
+"Don't use `else` after checking for a winner to call `print_draw` if there "
+"isn't a winner. Just because no one has won yet doesn't mean it's a draw "
+"already."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.28.text"
+msgstr ""
+"`print_draw` should only be called after all moves have been played and "
+"there's still no winner."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.29.text"
+msgstr "So it should be called after the loop, outside of it."
+
+msgid "pages.TheFullTicTacToeGame.steps.the_full_game.hints.30.text"
+msgstr ""
+"Check the indentation to make sure `print_draw` isn't in the body of the for"
+" loop."
+
+msgid "pages.TheFullTicTacToeGame.title"
+msgstr "The Full Tic-Tac-Toe Game"
