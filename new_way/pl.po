@@ -4978,18 +4978,18 @@ msgstr "Introducing `or`"
 
 msgid "pages.IntroducingStrings.steps.final_text.text"
 msgstr ""
-"The shell simply gives the same thing back because there's nothing further to calculate. `'hello'` is simply equal to `'hello'`.\n"
+"Shell zwraca dokładnie to samo, ponieważ nie ma nic więcej do obliczenia. `'hello'` po prostu równa się `'hello'`.\n"
 "\n"
-"A string is a sequence of characters. A character is a single symbol such as a letter, number, punctuation, space, etc. In this case the string contains the 5 characters `hello`. The quotes are not part of the string - they are there to tell both humans and computers that this is a string consisting of whatever characters are between the quotes."
+"Znak to pojedynczy symbol taki jak litera, cyfra, znak interpunkcyjny, spacja itd. W tym przypadku łańcuch `hello` zawiera 5 znaków. Apostrofy nie są częścią łańcucha - są tam, żeby pokazać zarówno ludziom, jak i komputerom, że jest to łańcuch składający się z jakichkolwiek znaków pomiędzy apostrofami."
 
 msgid "pages.IntroducingStrings.steps.hello_string.text"
 msgstr ""
-"Python lets you do much more than calculate. In fact, we're not going to touch numbers or maths for a while. Instead, we're going to look at *strings*. Strings are essentially snippets of text. For example, enter the following into the shell, quotes (`'`) included:\n"
+"Python pozwala na dużo więcej niż tylko obliczenia. W rzeczywistości, nie będziemy zajmować się liczbami czy matematyką przez jakiś czas. Zamiast tego przyjrzymy się *łańcuchom znaków* (ang. strings). Łańcuchy znaków to w zasadzie fragmenty tekstu. Na przykład, wprowadź następujący kod do konsoli, razem z apostrofami (`'`):\n"
 "\n"
 "__program_indented__"
 
 msgid "pages.IntroducingStrings.title"
-msgstr "Introducing Strings"
+msgstr "Wprowadzenie do łańcuchów znaków (ang. Strings)"
 
 msgid "pages.IntroducingTheShell.steps.final_text.text"
 msgstr ""
