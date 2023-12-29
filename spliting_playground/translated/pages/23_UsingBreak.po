@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.UsingBreak.steps.final_text.text"
 msgstr ""
 "Świetnie!\n"

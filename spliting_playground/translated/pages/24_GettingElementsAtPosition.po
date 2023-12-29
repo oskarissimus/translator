@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.GettingElementsAtPosition.steps.final_text.text"
 msgstr ""
 "Jeśli nadal nie czujesz się komfortowo z funkcją `range` i/lub `len`, poćwicz i eksperymentuj z nimi przez chwilę.\n"

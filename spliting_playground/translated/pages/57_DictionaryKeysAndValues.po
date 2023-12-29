@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.DictionaryKeysAndValues.steps.cleanup_shopping_cart.hints.0.text"
 msgstr ""
 "Pamiętaj, że wcześniej mieliśmy `for item in cart` w funkcji, ale `cart` już"

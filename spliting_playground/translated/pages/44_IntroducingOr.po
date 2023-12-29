@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingOr.steps.ACommonMistake.requirements"
 msgstr ""
 "Uruchom program z poprzedniego kroku, ale zamień:\n"

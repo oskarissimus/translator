@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.CallingFunctionsWithinFunctions.steps.final_text.text"
 msgstr ""
 "`birdseye` pokazuje tylko jedną ramkę (wywołanie funkcji) na raz. Najpierw widać ramkę globalną.\n"

@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingElif.steps.dna_example.text"
 msgstr ""
 "Szybka lekcja biologii! Większość komórek w twoim ciele zawiera pełny kod genetyczny w DNA.\n"

@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "linting_messages.pyflakes.ImportShadowedByLoopVar.message_format"
 msgstr ""
 "**Import `{0}`, który jest przesłonięty przez zmienną pętli**\n"

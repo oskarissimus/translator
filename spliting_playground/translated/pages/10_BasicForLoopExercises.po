@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.BasicForLoopExercises.steps.final_text.text"
 msgstr ""
 "Robimy naprawdę duże postępy! Rozwiązujesz problemy i piszesz nowy kod!\n"

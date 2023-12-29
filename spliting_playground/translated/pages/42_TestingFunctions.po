@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.TestingFunctions.steps.alert_exercise.hints.0.text"
 msgstr ""
 "`string` powinien być otoczony jedną spacją i `level` wykrzyknikami (`!`) z "

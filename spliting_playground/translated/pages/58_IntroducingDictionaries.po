@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid ""
 "pages.IntroducingDictionaries.steps.dict_access.special_messages.bad_french_value.text"
 msgstr ""

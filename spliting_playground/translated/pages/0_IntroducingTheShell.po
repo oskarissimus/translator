@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingTheShell.steps.final_text.text"
 msgstr ""
 "Doskonale! Kontynuuj eksperymentowanie. Gdy będziesz gotowy, kliknij "

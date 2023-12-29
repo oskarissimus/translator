@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "chapters.a_bit_more_about_strings.title"
 msgstr "Trochę więcej o łańcuchach znaków"
 

@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.GettingElementsAtPositionExercises.steps.final_text.text"
 msgstr "Fantastycznie! Zrób sobie przerwę, na to zasłużyłeś!"
 

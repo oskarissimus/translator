@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.FunctionsAndMethodsForLists.steps.append_vs_concatenate.text"
 msgstr ""
 "Przyjrzyjmy się, jak pracować z listami. Załóżmy, że mamy listę `nums = [1, 2, 3]`. Możemy użyć:\n"

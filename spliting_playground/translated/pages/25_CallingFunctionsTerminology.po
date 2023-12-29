@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.CallingFunctionsTerminology.steps.final_text.text"
 msgstr ""
 "Słowo 'atrybut' w komunikacie o błędzie odnosi się do użycia `.` - błąd "

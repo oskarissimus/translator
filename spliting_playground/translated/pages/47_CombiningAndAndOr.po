@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.CombiningAndAndOr.steps.AndHasHigherPriority.hints.0.text"
 msgstr "Ile przekątnych jest na planszy?"
 

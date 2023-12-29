@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.ModifyingWhileIterating.steps.final_text.text"
 msgstr ""
 "Żeby powtórzyć, ***nigdy nie modyfikuj czegoś podczas iteracji nad tym***. Twoje opcje to:\n"

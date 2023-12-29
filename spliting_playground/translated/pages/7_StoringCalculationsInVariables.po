@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.StoringCalculationsInVariables.steps.final_text.text"
 msgstr ""
 "W przeciwieństwie do arkusza kalkulacyjnego, gdzie formuły aktualizują się "

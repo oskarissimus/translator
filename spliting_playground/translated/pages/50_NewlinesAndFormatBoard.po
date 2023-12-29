@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid ""
 "pages.NewlinesAndFormatBoard.steps.discovering_newline.special_messages.bad_string.text"
 msgstr ""

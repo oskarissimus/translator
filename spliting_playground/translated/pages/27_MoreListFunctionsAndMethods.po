@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.MoreListFunctionsAndMethods.steps.average_exercise.hints.0.text"
 msgstr ""
 "Twoje rozwiązanie powinno zawierać dokładnie trzy instrukcje: `x = [15, 12, "

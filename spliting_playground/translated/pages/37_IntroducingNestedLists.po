@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingNestedLists.steps.double_subscripting.requirements"
 msgstr ""
 "Uruchom `print(strings[1][0])` lub coś podobnego używając `birdseye`, aby "

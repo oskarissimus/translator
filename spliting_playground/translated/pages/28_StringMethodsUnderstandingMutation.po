@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.StringMethodsUnderstandingMutation.steps.final_text.text"
 msgstr ""
 "Zauważ, że `sentence.upper()` nie zmienia oryginalnego `sentence`.\n"

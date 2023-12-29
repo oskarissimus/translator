@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.UsingDictionaries.steps.dna_part1.text"
 msgstr ""
 "Nieźle! Ale mogłeś zauważyć, że wygląda to trochę niezgrabnie. Dlaczego musimy określać `'dog'` i `'box'` zarówno w `cart` jak i `quantities`?\n"

@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.Types.steps.check_type_manually.text"
 msgstr ""
 "Python informuje najpierw, że `type('Hello World')` to `<class 'str'>`. Nie martw się teraz o `class`.\n"

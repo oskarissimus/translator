@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IfAndElse.steps.capitalise.hints.0.text"
 msgstr ""
 "Nauczyłeś się wszystkich narzędzi, których potrzebujesz. Wierzę w Ciebie! "

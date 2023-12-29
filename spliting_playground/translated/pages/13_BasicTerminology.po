@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.BasicTerminology.steps.final_text.text"
 msgstr ""
 "Oto słowa, które powinieneś znać:\n"

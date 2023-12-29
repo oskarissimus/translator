@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.HowToFindInformationWithGoogleAndMore.steps.dir_list.text"
 msgstr ""
 "Świetnie!\n"

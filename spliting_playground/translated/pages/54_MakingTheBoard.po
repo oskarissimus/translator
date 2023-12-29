@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.MakingTheBoard.steps.final_text.text"
 msgstr ""
 "Brawo!\n"

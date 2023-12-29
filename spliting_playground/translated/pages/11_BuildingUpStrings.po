@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.BuildingUpStrings.steps.empty_string.text"
 msgstr ""
 "Ostatni znak w `name` jest dodawany do `line` tylko na końcu pętli, po tym jak `print(line)` już zostało wykonane po raz ostatni. Więc ten znak i pełna `name` nigdy nie zostają wydrukowane na dole trójkąta. Jeśli jesteś zdezorientowany, spróbuj umieścić `print(line)` zarówno przed, jak i po `line = line + char`.\n"

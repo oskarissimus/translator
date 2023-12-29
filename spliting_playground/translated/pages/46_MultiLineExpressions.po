@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.MultiLineExpressions.steps.final_text.text"
 msgstr ""
 "Więc jeśli dostaniesz tajemniczy `SyntaxError`, upewnij się, że nie "

@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.AddingStrings.steps.final_text.text"
 msgstr ""
 "Brawo! Każde z poniższych rozwiązań jest poprawne:\n"

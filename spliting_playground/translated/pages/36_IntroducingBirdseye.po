@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingBirdseye.steps.birdseye_loop_example.text"
 msgstr ""
 "Inne narzędzia pokazują, jak kod wykonuje się linia po linii oraz jakie są wartości zmiennych, `birdseye` pokazuje wartość każdego wyrażenia w programie. Pozwala to zobaczyć, jak skomplikowane wyrażenie jest rozbijane na mniejsze podwyrażenia\n"

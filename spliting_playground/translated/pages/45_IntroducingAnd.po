@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingAnd.steps.AndExercise.hints.0.text"
 msgstr ""
 "Jeśli masz coś takiego jak `x < 0 and x > 100`, to jesteś na złym tropie. To"

@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.Indentation.steps.final_text.text"
 msgstr ""
 "Kiedy używasz wcięć, powinieneś zawsze wciąć o 4 spacje. Wprawdzie każde "

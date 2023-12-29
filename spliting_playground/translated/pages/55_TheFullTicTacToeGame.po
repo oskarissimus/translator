@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.TheFullTicTacToeGame.steps.final_text.text"
 msgstr ""
 "### ***GRATULACJE!!!***\n"

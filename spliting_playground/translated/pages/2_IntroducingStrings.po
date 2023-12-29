@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingStrings.steps.final_text.text"
 msgstr ""
 "Konsola zwraca dokładnie to samo, ponieważ nie ma nic więcej do obliczenia. `'hello'` po prostu równa się `'hello'`.\n"

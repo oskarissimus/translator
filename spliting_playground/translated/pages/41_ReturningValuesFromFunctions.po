@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.ReturningValuesFromFunctions.steps.final_text.text"
 msgstr ""
 "Brawo! Oto dwie możliwe rozwiązania:\n"

@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.UsingVariables.steps.final_text.text"
 msgstr ""
 "Hurra! Już bez cudzysłowów! Wyjaśnimy, co dzieje się w tym kodzie później. "

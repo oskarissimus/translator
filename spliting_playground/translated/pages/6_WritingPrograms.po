@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.WritingPrograms.steps.editor_hello_world.text"
 msgstr ""
 "Nadszedł czas, aby przestać robić wszystko w konsoli. W prawym górnym rogu można zobaczyć *edytor*. Jest to miejsce, w którym możesz pisać i uruchamiać dłuższe programy. Konsola jest świetna i powinieneś nadal z niej korzystać do eksploracji, ale to w edytorze żyją prawdziwe programy.\n"

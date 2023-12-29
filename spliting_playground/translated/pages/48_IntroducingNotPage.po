@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingNotPage.steps.IntroducingNot.text"
 msgstr ""
 "W przeciwieństwie do dwóch innych operatorów boolowskich `and` i `or`,\n"

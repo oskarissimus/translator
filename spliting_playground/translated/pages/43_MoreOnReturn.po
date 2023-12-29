@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.MoreOnReturn.steps.break_vs_return.requirements"
 msgstr ""
 "Uruchom ten sam kod co w poprzednim kroku, ale zastąp całą ostatnią linię "

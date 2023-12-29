@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingFstrings.steps.basic_f_string_exercise.hints.0.text"
 msgstr "To jest podobne do podanego przykładu f-stringa."
 

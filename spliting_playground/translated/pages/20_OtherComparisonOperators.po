@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.OtherComparisonOperators.steps.brokn_kyboard.text"
 msgstr ""
 "Oto uroczy mały programik używający `!=`:\n"

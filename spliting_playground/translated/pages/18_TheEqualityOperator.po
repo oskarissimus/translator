@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.TheEqualityOperator.steps.equality_vs_assignment.program"
 msgstr "print(1 + 2 = 3)"
 

@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid ""
 "pages.BuildingUpStringsExercises.steps.diagonal_name_bonus_challenge.hints.0.text"
 msgstr ""

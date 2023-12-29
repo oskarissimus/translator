@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid "pages.IntroducingLists.steps.can_contain_anything.text"
 msgstr ""
 "Lista jest *sekwencją* (uporządkowanym zbiorem/kontenerem) dowolnej liczby wartości.\n"

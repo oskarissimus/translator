@@ -1,7 +1,3 @@
-#
-msgid ""
-msgstr ""
-
 msgid ""
 "pages.InteractiveProgramsWithInput.steps.convert_input_to_int.hints.0.text"
 msgstr "`input()` zawsze zwraca string."
